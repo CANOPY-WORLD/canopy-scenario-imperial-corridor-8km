@@ -2,7 +2,7 @@
 
 Public geometry and recorded physics for London's nominal 8 km × 8 km Imperial Corridor Scenario.
 
-**[Open the Scenario in Canopy](https://acse-yl222.github.io/canopy/viewer/3d/?scene=imperial_corridor_8km)** · [Data website](https://acse-yl222.github.io/canopy-scenario-imperial-corridor-8km/) · [Canopy framework](https://github.com/acse-yl222/canopy)
+**[Open the Scenario in Canopy](https://canopy-world.github.io/canopy/viewer/3d/?scene=imperial_corridor_8km)** · [Data website](https://canopy-world.github.io/canopy-scenario-imperial-corridor-8km/) · [Canopy framework](https://github.com/CANOPY-WORLD/canopy) · [CANOPY-WORLD organization](https://github.com/CANOPY-WORLD)
 
 This repository owns the approved presentation data. Canopy owns the shared Models, Viewer, scientific contracts and Scenario configuration. The Viewer reads these files over HTTPS; they are not copied into Canopy's Pages artifact. Opening the Scenario uses the shared Viewer, without a second renderer or solver implementation here.
 
@@ -36,7 +36,7 @@ Private research bundles, solver intermediates, credentials and recovery histori
 
 ## Update and publish
 
-1. Follow the [Canopy publication standard](https://github.com/acse-yl222/canopy/blob/main/visualizer/docs/publishing.md). Select only data explicitly approved for publication.
+1. Follow the [Canopy publication standard](https://github.com/CANOPY-WORLD/canopy/blob/main/visualizer/docs/publishing.md). Select only data explicitly approved for publication.
 2. Create a **new** `snapshots/<snapshot_id>/` for changed data. Never modify or silently replace a published snapshot. Preserve all versions referenced by Canopy.
 3. Record every payload's relative path, compatibility route, byte count and SHA-256 in its manifest. Add the snapshot and manifest hash to `catalog.json`.
 4. Run `python3 tools/check_data.py` with Python 3.11 or newer. Keep the entire Pages site below 1 GB; this checker reserves a 950 MB payload budget. Each ordinary Git file must stay below 100 MiB. If another snapshot will not fit, choose a larger data host before publishing it.

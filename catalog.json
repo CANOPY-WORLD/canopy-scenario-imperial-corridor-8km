@@ -3,8 +3,8 @@
   "kind": "canopy.scenario-data",
   "scenario_id": "imperial_corridor_8km",
   "title": "Imperial Corridor, London — 8 km × 8 km",
-  "canopy": "https://github.com/acse-yl222/canopy",
-  "viewer_url": "https://acse-yl222.github.io/canopy/viewer/3d/?scene=imperial_corridor_8km",
+  "canopy": "https://github.com/CANOPY-WORLD/canopy",
+  "viewer_url": "https://canopy-world.github.io/canopy/viewer/3d/?scene=imperial_corridor_8km",
   "snapshots": [
     {
       "id": "london-public-20261118",

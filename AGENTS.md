@@ -1,6 +1,6 @@
 # Scenario data maintenance
 
-Write documentation in English. This repository contains approved public presentation data for `imperial_corridor_8km` only. Shared Models, solvers, the Viewer and scientific contracts belong to [Canopy](https://github.com/acse-yl222/canopy).
+Write documentation in English. This repository contains approved public presentation data for `imperial_corridor_8km` only. Shared Models, solvers, the Viewer and scientific contracts belong to [Canopy](https://github.com/CANOPY-WORLD/canopy).
 
 Read `README.md` and the linked Canopy publication standard. Preserve the exact bytes, coordinates, timestamp semantics, missing masks, source notices and provenance. New exports receive new snapshot IDs; never overwrite a published snapshot or remove one referenced by Canopy. Never manufacture missing samples or claim that relocating a file reruns a simulation.
 
