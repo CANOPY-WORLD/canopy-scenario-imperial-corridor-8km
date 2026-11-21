@@ -40,7 +40,15 @@ Private research bundles, solver intermediates, credentials and recovery histori
 2. Create a **new** `snapshots/<snapshot_id>/` for changed data. Never modify or silently replace a published snapshot. Preserve all versions referenced by Canopy.
 3. Record every payload's relative path, compatibility route, byte count and SHA-256 in its manifest. Add the snapshot and manifest hash to `catalog.json`.
 4. Run `python3 tools/check_data.py` with Python 3.11 or newer. Keep the entire Pages site below 1 GB; this checker reserves a 950 MB payload budget. Each ordinary Git file must stay below 100 MiB. If another snapshot will not fit, choose a larger data host before publishing it.
-5. Commit and push to `main`. GitHub Pages publishes from **main / (root)**, using `.nojekyll`. Check the successful Pages build and actual served checksums.
+5. Commit on a feature branch, open a pull request, review the diff and wait for explicit merge approval. After approval, merge through the protected `main` branch. GitHub Pages publishes from **main / (root)**, using `.nojekyll`. Check the successful Pages build and actual served checksums.
 6. Only then update Canopy's `scenario/imperial_corridor_8km/publication.json`, pinned repository revision and locked manifest. Run Canopy's remote verification and browser checks before publishing its updated link.
 
 GitHub Pages URLs are versioned by the snapshot directory. The reference in Canopy also pins the source commit and manifest hash. Repository history is preserved; large binary edits can grow Git history even when the latest working tree is small. This per-Scenario site is bounded by [GitHub Pages limits](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits).
+
+## Compact snapshot candidate
+
+`london-compact-20261122` contains 1297 payloads totalling 228,692,784 bytes (about 59% less than the original). The original snapshot remains immutable and available. This reduces the selected viewer download, not repository history or the combined Pages footprint.
+
+The candidate keeps all building details resident, uses lossless Meshopt geometry encoding and half-size ordinary building textures, retains landmark texture quality, selects 47 summer shadow frames and all 47 winter frames at unchanged 8 m / 10 minute sampling, and omits irradiance, static wind, bird replay and unused context copies. Traffic recordings are unchanged. Added zebra crossing paths retain OpenStreetMap identities and attribution; displayed stripe dimensions are illustrative. See [derivation report](snapshots/london-compact-20261122/derivation.json) for original hashes, omissions and compression evidence.
+
+This snapshot must be merged, deployed and verified before Canopy switches its active publication reference.

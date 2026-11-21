@@ -1,0 +1,3885 @@
+{
+  "created_at": "2026-10-30T03:35:33.789579+00:00",
+  "frame": "viewer: x east, y up, z = -north (scene ENU, corridor frame, true north)",
+  "source": {
+    "glb": "buildings_landmarks.glb",
+    "sha256": "fdb3201fe816ca6716861c0118b6d873b5d6e2788e67626ac28aafea2218afd1",
+    "exporter": "export_corridor.cjs (corridor page copy, three r185 GLTFExporter, 267 high-detail landmarks)"
+  },
+  "flattening": "vertex height minus corridor terrain.json (10 m) at the vertex position",
+  "affine_corridor_to_scene": {
+    "A": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "b": [
+      0.0,
+      0.0
+    ],
+    "max_residual_m": 0.0
+  },
+  "quantization": "KHR_mesh_quantization: int16 positions, int8 normals, uint8 colours, float uvs",
+  "tiles": [
+    {
+      "id": "b_0_0",
+      "cell": [
+        0,
+        0
+      ],
+      "file": "tiles/b_0_0.glb",
+      "bytes": 1377060,
+      "triangles": 57727,
+      "landmarks": [],
+      "centre_xz": [
+        -3500.0,
+        3500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1377060
+    },
+    {
+      "id": "b_0_1",
+      "cell": [
+        0,
+        1
+      ],
+      "file": "tiles/b_0_1.glb",
+      "bytes": 414468,
+      "triangles": 15064,
+      "landmarks": [],
+      "centre_xz": [
+        -3500.0,
+        2500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 414468
+    },
+    {
+      "id": "b_0_2",
+      "cell": [
+        0,
+        2
+      ],
+      "file": "tiles/b_0_2.glb",
+      "bytes": 780400,
+      "triangles": 31944,
+      "landmarks": [],
+      "centre_xz": [
+        -3500.0,
+        1500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 780400
+    },
+    {
+      "id": "b_0_3",
+      "cell": [
+        0,
+        3
+      ],
+      "file": "tiles/b_0_3.glb",
+      "bytes": 1215824,
+      "triangles": 51597,
+      "landmarks": [],
+      "centre_xz": [
+        -3500.0,
+        500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1215824
+    },
+    {
+      "id": "b_0_4",
+      "cell": [
+        0,
+        4
+      ],
+      "file": "tiles/b_0_4.glb",
+      "bytes": 551244,
+      "triangles": 22255,
+      "landmarks": [],
+      "centre_xz": [
+        -3500.0,
+        -500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 551244
+    },
+    {
+      "id": "b_0_5",
+      "cell": [
+        0,
+        5
+      ],
+      "file": "tiles/b_0_5.glb",
+      "bytes": 601512,
+      "triangles": 23699,
+      "landmarks": [],
+      "centre_xz": [
+        -3500.0,
+        -1500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 601512
+    },
+    {
+      "id": "b_0_6",
+      "cell": [
+        0,
+        6
+      ],
+      "file": "tiles/b_0_6.glb",
+      "bytes": 383332,
+      "triangles": 14250,
+      "landmarks": [],
+      "centre_xz": [
+        -3500.0,
+        -2500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 383332
+    },
+    {
+      "id": "b_0_7",
+      "cell": [
+        0,
+        7
+      ],
+      "file": "tiles/b_0_7.glb",
+      "bytes": 937804,
+      "triangles": 39685,
+      "landmarks": [],
+      "centre_xz": [
+        -3500.0,
+        -3500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 937804
+    },
+    {
+      "id": "b_1_0",
+      "cell": [
+        1,
+        0
+      ],
+      "file": "tiles/b_1_0.glb",
+      "bytes": 1033404,
+      "triangles": 43426,
+      "landmarks": [],
+      "centre_xz": [
+        -2500.0,
+        3500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1033404
+    },
+    {
+      "id": "b_1_1",
+      "cell": [
+        1,
+        1
+      ],
+      "file": "tiles/b_1_1.glb",
+      "bytes": 1876932,
+      "triangles": 80647,
+      "landmarks": [],
+      "centre_xz": [
+        -2500.0,
+        2500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1876932
+    },
+    {
+      "id": "b_1_2",
+      "cell": [
+        1,
+        2
+      ],
+      "file": "tiles/b_1_2.glb",
+      "bytes": 782316,
+      "triangles": 31893,
+      "landmarks": [
+        {
+          "id": "hammersmith_town_hall",
+          "file": "landmarks/hammersmith_town_hall.glb",
+          "bytes": 959980,
+          "triangles": 54790,
+          "cell": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "latymer_upper_school",
+          "file": "landmarks/latymer_upper_school.glb",
+          "bytes": 689924,
+          "triangles": 41245,
+          "cell": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": "ravenscourt_park_station",
+          "file": "landmarks/ravenscourt_park_station.glb",
+          "bytes": 74180,
+          "triangles": 2962,
+          "cell": [
+            1,
+            2
+          ]
+        }
+      ],
+      "centre_xz": [
+        -2500.0,
+        1500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 2506400
+    },
+    {
+      "id": "b_1_3",
+      "cell": [
+        1,
+        3
+      ],
+      "file": "tiles/b_1_3.glb",
+      "bytes": 1473536,
+      "triangles": 64374,
+      "landmarks": [],
+      "centre_xz": [
+        -2500.0,
+        500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1473536
+    },
+    {
+      "id": "b_1_4",
+      "cell": [
+        1,
+        4
+      ],
+      "file": "tiles/b_1_4.glb",
+      "bytes": 786532,
+      "triangles": 33996,
+      "landmarks": [
+        {
+          "id": "loftus_road",
+          "file": "landmarks/loftus_road.glb",
+          "bytes": 865164,
+          "triangles": 66164,
+          "cell": [
+            1,
+            4
+          ]
+        },
+        {
+          "id": "wormwood_scrubs_gatehouse",
+          "file": "landmarks/wormwood_scrubs_gatehouse.glb",
+          "bytes": 253548,
+          "triangles": 17518,
+          "cell": [
+            1,
+            4
+          ]
+        }
+      ],
+      "centre_xz": [
+        -2500.0,
+        -500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1905244
+    },
+    {
+      "id": "b_1_5",
+      "cell": [
+        1,
+        5
+      ],
+      "file": "tiles/b_1_5.glb",
+      "bytes": 201120,
+      "triangles": 5928,
+      "landmarks": [
+        {
+          "id": "catherine_lewis_centre",
+          "file": "landmarks/catherine_lewis_centre.glb",
+          "bytes": 84104,
+          "triangles": 3940,
+          "cell": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "garry_weston_centre",
+          "file": "landmarks/garry_weston_centre.glb",
+          "bytes": 94696,
+          "triangles": 4332,
+          "cell": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "hammersmith_administration_blocks",
+          "file": "landmarks/hammersmith_administration_blocks.glb",
+          "bytes": 350328,
+          "triangles": 20217,
+          "cell": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "hammersmith_block_a",
+          "file": "landmarks/hammersmith_block_a.glb",
+          "bytes": 628412,
+          "triangles": 35068,
+          "cell": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "hammersmith_house",
+          "file": "landmarks/hammersmith_house.glb",
+          "bytes": 214888,
+          "triangles": 11535,
+          "cell": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "hammersmith_infirmary_wards_east",
+          "file": "landmarks/hammersmith_infirmary_wards_east.glb",
+          "bytes": 648332,
+          "triangles": 36029,
+          "cell": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "hammersmith_infirmary_wards_west",
+          "file": "landmarks/hammersmith_infirmary_wards_west.glb",
+          "bytes": 1333156,
+          "triangles": 78433,
+          "cell": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "hammersmith_renal_building",
+          "file": "landmarks/hammersmith_renal_building.glb",
+          "bytes": 254580,
+          "triangles": 13802,
+          "cell": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "linford_christie_stadium",
+          "file": "landmarks/linford_christie_stadium.glb",
+          "bytes": 285616,
+          "triangles": 15738,
+          "cell": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "mrc_clinical_sciences_centre",
+          "file": "landmarks/mrc_clinical_sciences_centre.glb",
+          "bytes": 160204,
+          "triangles": 7782,
+          "cell": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "mrc_lms_hammersmith",
+          "file": "landmarks/mrc_lms_hammersmith.glb",
+          "bytes": 156812,
+          "triangles": 7952,
+          "cell": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "queen_charlottes_chelsea_hospital",
+          "file": "landmarks/queen_charlottes_chelsea_hospital.glb",
+          "bytes": 181732,
+          "triangles": 9308,
+          "cell": [
+            1,
+            5
+          ]
+        },
+        {
+          "id": "sainsbury_wing_hammersmith",
+          "file": "landmarks/sainsbury_wing_hammersmith.glb",
+          "bytes": 107868,
+          "triangles": 5028,
+          "cell": [
+            1,
+            5
+          ]
+        }
+      ],
+      "centre_xz": [
+        -2500.0,
+        -1500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 4701848
+    },
+    {
+      "id": "b_1_6",
+      "cell": [
+        1,
+        6
+      ],
+      "file": "tiles/b_1_6.glb",
+      "bytes": 687140,
+      "triangles": 26794,
+      "landmarks": [],
+      "centre_xz": [
+        -2500.0,
+        -2500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 687140
+    },
+    {
+      "id": "b_1_7",
+      "cell": [
+        1,
+        7
+      ],
+      "file": "tiles/b_1_7.glb",
+      "bytes": 1398404,
+      "triangles": 54812,
+      "landmarks": [],
+      "centre_xz": [
+        -2500.0,
+        -3500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1398404
+    },
+    {
+      "id": "b_2_0",
+      "cell": [
+        2,
+        0
+      ],
+      "file": "tiles/b_2_0.glb",
+      "bytes": 245180,
+      "triangles": 8242,
+      "landmarks": [
+        {
+          "id": "craven_cottage",
+          "file": "landmarks/craven_cottage.glb",
+          "bytes": 328932,
+          "triangles": 16446,
+          "cell": [
+            2,
+            0
+          ]
+        },
+        {
+          "id": "craven_cottage_riverside_stand",
+          "file": "landmarks/craven_cottage_riverside_stand.glb",
+          "bytes": 510236,
+          "triangles": 26617,
+          "cell": [
+            2,
+            0
+          ]
+        },
+        {
+          "id": "fulham_palace",
+          "file": "landmarks/fulham_palace.glb",
+          "bytes": 502820,
+          "triangles": 26250,
+          "cell": [
+            2,
+            0
+          ]
+        }
+      ],
+      "centre_xz": [
+        -1500.0,
+        3500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1587168
+    },
+    {
+      "id": "b_2_1",
+      "cell": [
+        2,
+        1
+      ],
+      "file": "tiles/b_2_1.glb",
+      "bytes": 638028,
+      "triangles": 25499,
+      "landmarks": [],
+      "centre_xz": [
+        -1500.0,
+        2500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 638028
+    },
+    {
+      "id": "b_2_2",
+      "cell": [
+        2,
+        2
+      ],
+      "file": "tiles/b_2_2.glb",
+      "bytes": 759808,
+      "triangles": 30749,
+      "landmarks": [
+        {
+          "id": "charing_cross_hospital",
+          "file": "landmarks/charing_cross_hospital.glb",
+          "bytes": 1344164,
+          "triangles": 97866,
+          "cell": [
+            2,
+            2
+          ]
+        },
+        {
+          "id": "hammersmith_apollo",
+          "file": "landmarks/hammersmith_apollo.glb",
+          "bytes": 228428,
+          "triangles": 15058,
+          "cell": [
+            2,
+            2
+          ]
+        },
+        {
+          "id": "hammersmith_broadway_centre",
+          "file": "landmarks/hammersmith_broadway_centre.glb",
+          "bytes": 444564,
+          "triangles": 32627,
+          "cell": [
+            2,
+            2
+          ]
+        },
+        {
+          "id": "hammersmith_hc_station",
+          "file": "landmarks/hammersmith_hc_station.glb",
+          "bytes": 189300,
+          "triangles": 9674,
+          "cell": [
+            2,
+            2
+          ]
+        },
+        {
+          "id": "livat_hammersmith",
+          "file": "landmarks/livat_hammersmith.glb",
+          "bytes": 1381992,
+          "triangles": 85986,
+          "cell": [
+            2,
+            2
+          ]
+        },
+        {
+          "id": "novotel_london_west",
+          "file": "landmarks/novotel_london_west.glb",
+          "bytes": 571532,
+          "triangles": 35260,
+          "cell": [
+            2,
+            2
+          ]
+        },
+        {
+          "id": "riverside_studios",
+          "file": "landmarks/riverside_studios.glb",
+          "bytes": 886660,
+          "triangles": 47720,
+          "cell": [
+            2,
+            2
+          ]
+        },
+        {
+          "id": "st_pauls_hammersmith",
+          "file": "landmarks/st_pauls_hammersmith.glb",
+          "bytes": 454032,
+          "triangles": 26218,
+          "cell": [
+            2,
+            2
+          ]
+        },
+        {
+          "id": "the_ark",
+          "file": "landmarks/the_ark.glb",
+          "bytes": 502172,
+          "triangles": 26532,
+          "cell": [
+            2,
+            2
+          ]
+        }
+      ],
+      "centre_xz": [
+        -1500.0,
+        1500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 6762652
+    },
+    {
+      "id": "b_2_3",
+      "cell": [
+        2,
+        3
+      ],
+      "file": "tiles/b_2_3.glb",
+      "bytes": 1106744,
+      "triangles": 47952,
+      "landmarks": [
+        {
+          "id": "bush_theatre",
+          "file": "landmarks/bush_theatre.glb",
+          "bytes": 103920,
+          "triangles": 4788,
+          "cell": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "shepherds_bush_empire",
+          "file": "landmarks/shepherds_bush_empire.glb",
+          "bytes": 275772,
+          "triangles": 19101,
+          "cell": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "shepherds_bush_market",
+          "file": "landmarks/shepherds_bush_market.glb",
+          "bytes": 304824,
+          "triangles": 15178,
+          "cell": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": "west_12_shopping_centre",
+          "file": "landmarks/west_12_shopping_centre.glb",
+          "bytes": 145636,
+          "triangles": 9066,
+          "cell": [
+            2,
+            3
+          ]
+        }
+      ],
+      "centre_xz": [
+        -1500.0,
+        500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1936896
+    },
+    {
+      "id": "b_2_4",
+      "cell": [
+        2,
+        4
+      ],
+      "file": "tiles/b_2_4.glb",
+      "bytes": 407944,
+      "triangles": 15236,
+      "landmarks": [
+        {
+          "id": "bbc_studios_stage_6",
+          "file": "landmarks/bbc_studios_stage_6.glb",
+          "bytes": 259276,
+          "triangles": 12301,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "bbc_television_centre",
+          "file": "landmarks/bbc_television_centre.glb",
+          "bytes": 1723920,
+          "triangles": 122363,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "broadcast_centre",
+          "file": "landmarks/broadcast_centre.glb",
+          "bytes": 536092,
+          "triangles": 28865,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "cassini_tower",
+          "file": "landmarks/cassini_tower.glb",
+          "bytes": 1034684,
+          "triangles": 76165,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "eighty_eight_wood_lane",
+          "file": "landmarks/eighty_eight_wood_lane.glb",
+          "bytes": 749572,
+          "triangles": 34064,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "exhibition_white_city",
+          "file": "landmarks/exhibition_white_city.glb",
+          "bytes": 294192,
+          "triangles": 16426,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "gateway_central",
+          "file": "landmarks/gateway_central.glb",
+          "bytes": 474448,
+          "triangles": 23878,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "gateway_west",
+          "file": "landmarks/gateway_west.glb",
+          "bytes": 216204,
+          "triangles": 10365,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "hammersmith_campus",
+          "file": "landmarks/hammersmith_campus.glb",
+          "bytes": 653596,
+          "triangles": 47608,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "imperial_i_hub",
+          "file": "landmarks/imperial_i_hub.glb",
+          "bytes": 437340,
+          "triangles": 27821,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "imperial_msrh",
+          "file": "landmarks/imperial_msrh.glb",
+          "bytes": 345736,
+          "triangles": 19140,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "imperial_school_of_public_health",
+          "file": "landmarks/imperial_school_of_public_health.glb",
+          "bytes": 449680,
+          "triangles": 27116,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "kensington_aldridge_academy",
+          "file": "landmarks/kensington_aldridge_academy.glb",
+          "bytes": 379412,
+          "triangles": 19240,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "norland_house",
+          "file": "landmarks/norland_house.glb",
+          "bytes": 167944,
+          "triangles": 8574,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "one_wood_crescent",
+          "file": "landmarks/one_wood_crescent.glb",
+          "bytes": 131876,
+          "triangles": 5814,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "phoenix_brewery",
+          "file": "landmarks/phoenix_brewery.glb",
+          "bytes": 1132856,
+          "triangles": 60800,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "poynter_house",
+          "file": "landmarks/poynter_house.glb",
+          "bytes": 166412,
+          "triangles": 8574,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "rca_white_city",
+          "file": "landmarks/rca_white_city.glb",
+          "bytes": 107604,
+          "triangles": 4997,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "silchester_towers",
+          "file": "landmarks/silchester_towers.glb",
+          "bytes": 1174944,
+          "triangles": 70206,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "sir_michael_uren_hub",
+          "file": "landmarks/sir_michael_uren_hub.glb",
+          "bytes": 482100,
+          "triangles": 28459,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "stadium_house",
+          "file": "landmarks/stadium_house.glb",
+          "bytes": 243040,
+          "triangles": 12680,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "stebbing_house",
+          "file": "landmarks/stebbing_house.glb",
+          "bytes": 167152,
+          "triangles": 8586,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "the_mediaworks",
+          "file": "landmarks/the_mediaworks.glb",
+          "bytes": 609636,
+          "triangles": 32980,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "the_studio_building",
+          "file": "landmarks/the_studio_building.glb",
+          "bytes": 361560,
+          "triangles": 18068,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "the_westworks",
+          "file": "landmarks/the_westworks.glb",
+          "bytes": 458700,
+          "triangles": 23982,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "the_white_building",
+          "file": "landmarks/the_white_building.glb",
+          "bytes": 183764,
+          "triangles": 8687,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "the_yellow_building",
+          "file": "landmarks/the_yellow_building.glb",
+          "bytes": 130476,
+          "triangles": 5762,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "westfield_london",
+          "file": "landmarks/westfield_london.glb",
+          "bytes": 2197780,
+          "triangles": 156401,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "white_city_energy_centre",
+          "file": "landmarks/white_city_energy_centre.glb",
+          "bytes": 389088,
+          "triangles": 18851,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "white_city_station",
+          "file": "landmarks/white_city_station.glb",
+          "bytes": 275184,
+          "triangles": 16134,
+          "cell": [
+            2,
+            4
+          ]
+        },
+        {
+          "id": "wood_lane_station",
+          "file": "landmarks/wood_lane_station.glb",
+          "bytes": 153044,
+          "triangles": 7999,
+          "cell": [
+            2,
+            4
+          ]
+        }
+      ],
+      "centre_xz": [
+        -1500.0,
+        -500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 16495256
+    },
+    {
+      "id": "b_2_5",
+      "cell": [
+        2,
+        5
+      ],
+      "file": "tiles/b_2_5.glb",
+      "bytes": 683036,
+      "triangles": 27989,
+      "landmarks": [
+        {
+          "id": "ribbon_w10",
+          "file": "landmarks/ribbon_w10.glb",
+          "bytes": 214020,
+          "triangles": 10700,
+          "cell": [
+            2,
+            5
+          ]
+        },
+        {
+          "id": "westway_sports_centre",
+          "file": "landmarks/westway_sports_centre.glb",
+          "bytes": 50284,
+          "triangles": 1948,
+          "cell": [
+            2,
+            5
+          ]
+        },
+        {
+          "id": "wood_lane_studios",
+          "file": "landmarks/wood_lane_studios.glb",
+          "bytes": 1526472,
+          "triangles": 83609,
+          "cell": [
+            2,
+            5
+          ]
+        }
+      ],
+      "centre_xz": [
+        -1500.0,
+        -1500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 2473812
+    },
+    {
+      "id": "b_2_6",
+      "cell": [
+        2,
+        6
+      ],
+      "file": "tiles/b_2_6.glb",
+      "bytes": 1682456,
+      "triangles": 72037,
+      "landmarks": [
+        {
+          "id": "kensal_green_anglican_chapel",
+          "file": "landmarks/kensal_green_anglican_chapel.glb",
+          "bytes": 339364,
+          "triangles": 26433,
+          "cell": [
+            2,
+            6
+          ]
+        }
+      ],
+      "centre_xz": [
+        -1500.0,
+        -2500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 2021820
+    },
+    {
+      "id": "b_2_7",
+      "cell": [
+        2,
+        7
+      ],
+      "file": "tiles/b_2_7.glb",
+      "bytes": 2194308,
+      "triangles": 88006,
+      "landmarks": [],
+      "centre_xz": [
+        -1500.0,
+        -3500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 2194308
+    },
+    {
+      "id": "b_3_0",
+      "cell": [
+        3,
+        0
+      ],
+      "file": "tiles/b_3_0.glb",
+      "bytes": 1386624,
+      "triangles": 58777,
+      "landmarks": [],
+      "centre_xz": [
+        -500.0,
+        3500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1386624
+    },
+    {
+      "id": "b_3_1",
+      "cell": [
+        3,
+        1
+      ],
+      "file": "tiles/b_3_1.glb",
+      "bytes": 1379620,
+      "triangles": 60919,
+      "landmarks": [],
+      "centre_xz": [
+        -500.0,
+        2500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1379620
+    },
+    {
+      "id": "b_3_2",
+      "cell": [
+        3,
+        2
+      ],
+      "file": "tiles/b_3_2.glb",
+      "bytes": 1078536,
+      "triangles": 46123,
+      "landmarks": [],
+      "centre_xz": [
+        -500.0,
+        1500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1078536
+    },
+    {
+      "id": "b_3_3",
+      "cell": [
+        3,
+        3
+      ],
+      "file": "tiles/b_3_3.glb",
+      "bytes": 889856,
+      "triangles": 37186,
+      "landmarks": [
+        {
+          "id": "hammersmith_bridge",
+          "file": "landmarks/hammersmith_bridge.glb",
+          "bytes": 745884,
+          "triangles": 51524,
+          "cell": [
+            3,
+            3
+          ]
+        },
+        {
+          "id": "holland_house",
+          "file": "landmarks/holland_house.glb",
+          "bytes": 208172,
+          "triangles": 11536,
+          "cell": [
+            3,
+            3
+          ]
+        },
+        {
+          "id": "holland_park_school",
+          "file": "landmarks/holland_park_school.glb",
+          "bytes": 115636,
+          "triangles": 5708,
+          "cell": [
+            3,
+            3
+          ]
+        },
+        {
+          "id": "kensington_olympia_station",
+          "file": "landmarks/kensington_olympia_station.glb",
+          "bytes": 112924,
+          "triangles": 5302,
+          "cell": [
+            3,
+            3
+          ]
+        },
+        {
+          "id": "leighton_house",
+          "file": "landmarks/leighton_house.glb",
+          "bytes": 221088,
+          "triangles": 11407,
+          "cell": [
+            3,
+            3
+          ]
+        },
+        {
+          "id": "olympia_london",
+          "file": "landmarks/olympia_london.glb",
+          "bytes": 1322604,
+          "triangles": 84558,
+          "cell": [
+            3,
+            3
+          ]
+        },
+        {
+          "id": "shepherds_bush_stations",
+          "file": "landmarks/shepherds_bush_stations.glb",
+          "bytes": 177532,
+          "triangles": 8213,
+          "cell": [
+            3,
+            3
+          ]
+        }
+      ],
+      "centre_xz": [
+        -500.0,
+        500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 3793696
+    },
+    {
+      "id": "b_3_4",
+      "cell": [
+        3,
+        4
+      ],
+      "file": "tiles/b_3_4.glb",
+      "bytes": 1341756,
+      "triangles": 57411,
+      "landmarks": [
+        {
+          "id": "kensington_leisure_centre",
+          "file": "landmarks/kensington_leisure_centre.glb",
+          "bytes": 122292,
+          "triangles": 5889,
+          "cell": [
+            3,
+            4
+          ]
+        },
+        {
+          "id": "scale_space",
+          "file": "landmarks/scale_space.glb",
+          "bytes": 777260,
+          "triangles": 46792,
+          "cell": [
+            3,
+            4
+          ]
+        },
+        {
+          "id": "st_johns_notting_hill",
+          "file": "landmarks/st_johns_notting_hill.glb",
+          "bytes": 227444,
+          "triangles": 11716,
+          "cell": [
+            3,
+            4
+          ]
+        }
+      ],
+      "centre_xz": [
+        -500.0,
+        -500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 2468752
+    },
+    {
+      "id": "b_3_5",
+      "cell": [
+        3,
+        5
+      ],
+      "file": "tiles/b_3_5.glb",
+      "bytes": 958612,
+      "triangles": 40337,
+      "landmarks": [
+        {
+          "id": "electric_cinema",
+          "file": "landmarks/electric_cinema.glb",
+          "bytes": 48720,
+          "triangles": 1801,
+          "cell": [
+            3,
+            5
+          ]
+        },
+        {
+          "id": "trellick_tower",
+          "file": "landmarks/trellick_tower.glb",
+          "bytes": 1167680,
+          "triangles": 80962,
+          "cell": [
+            3,
+            5
+          ]
+        }
+      ],
+      "centre_xz": [
+        -500.0,
+        -1500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 2175012
+    },
+    {
+      "id": "b_3_6",
+      "cell": [
+        3,
+        6
+      ],
+      "file": "tiles/b_3_6.glb",
+      "bytes": 2643612,
+      "triangles": 103996,
+      "landmarks": [],
+      "centre_xz": [
+        -500.0,
+        -2500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 2643612
+    },
+    {
+      "id": "b_3_7",
+      "cell": [
+        3,
+        7
+      ],
+      "file": "tiles/b_3_7.glb",
+      "bytes": 1713432,
+      "triangles": 75162,
+      "landmarks": [],
+      "centre_xz": [
+        -500.0,
+        -3500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1713432
+    },
+    {
+      "id": "b_4_0",
+      "cell": [
+        4,
+        0
+      ],
+      "file": "tiles/b_4_0.glb",
+      "bytes": 1106776,
+      "triangles": 47284,
+      "landmarks": [],
+      "centre_xz": [
+        500.0,
+        3500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1106776
+    },
+    {
+      "id": "b_4_1",
+      "cell": [
+        4,
+        1
+      ],
+      "file": "tiles/b_4_1.glb",
+      "bytes": 885408,
+      "triangles": 39278,
+      "landmarks": [
+        {
+          "id": "brompton_cemetery",
+          "file": "landmarks/brompton_cemetery.glb",
+          "bytes": 1460164,
+          "triangles": 97674,
+          "cell": [
+            4,
+            1
+          ]
+        },
+        {
+          "id": "empress_state_building",
+          "file": "landmarks/empress_state_building.glb",
+          "bytes": 692264,
+          "triangles": 36710,
+          "cell": [
+            4,
+            1
+          ]
+        },
+        {
+          "id": "fulham_broadway_centre",
+          "file": "landmarks/fulham_broadway_centre.glb",
+          "bytes": 113224,
+          "triangles": 5806,
+          "cell": [
+            4,
+            1
+          ]
+        },
+        {
+          "id": "fulham_broadway_station",
+          "file": "landmarks/fulham_broadway_station.glb",
+          "bytes": 123532,
+          "triangles": 5923,
+          "cell": [
+            4,
+            1
+          ]
+        },
+        {
+          "id": "fulham_town_hall",
+          "file": "landmarks/fulham_town_hall.glb",
+          "bytes": 440756,
+          "triangles": 23232,
+          "cell": [
+            4,
+            1
+          ]
+        },
+        {
+          "id": "st_johns_walham_green",
+          "file": "landmarks/st_johns_walham_green.glb",
+          "bytes": 119524,
+          "triangles": 5710,
+          "cell": [
+            4,
+            1
+          ]
+        },
+        {
+          "id": "st_lukes_redcliffe_square",
+          "file": "landmarks/st_lukes_redcliffe_square.glb",
+          "bytes": 190624,
+          "triangles": 9409,
+          "cell": [
+            4,
+            1
+          ]
+        },
+        {
+          "id": "stamford_bridge",
+          "file": "landmarks/stamford_bridge.glb",
+          "bytes": 877916,
+          "triangles": 44030,
+          "cell": [
+            4,
+            1
+          ]
+        },
+        {
+          "id": "west_brompton_station",
+          "file": "landmarks/west_brompton_station.glb",
+          "bytes": 129660,
+          "triangles": 6232,
+          "cell": [
+            4,
+            1
+          ]
+        }
+      ],
+      "centre_xz": [
+        500.0,
+        2500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 5033072
+    },
+    {
+      "id": "b_4_2",
+      "cell": [
+        4,
+        2
+      ],
+      "file": "tiles/b_4_2.glb",
+      "bytes": 1193612,
+      "triangles": 52909,
+      "landmarks": [
+        {
+          "id": "chelsea_westminster_hospital",
+          "file": "landmarks/chelsea_westminster_hospital.glb",
+          "bytes": 1135428,
+          "triangles": 84427,
+          "cell": [
+            4,
+            2
+          ]
+        },
+        {
+          "id": "earls_court_station",
+          "file": "landmarks/earls_court_station.glb",
+          "bytes": 243780,
+          "triangles": 11950,
+          "cell": [
+            4,
+            2
+          ]
+        },
+        {
+          "id": "lots_road_power_station",
+          "file": "landmarks/lots_road_power_station.glb",
+          "bytes": 785920,
+          "triangles": 56359,
+          "cell": [
+            4,
+            2
+          ]
+        },
+        {
+          "id": "st_cuthberts_philbeach_gardens",
+          "file": "landmarks/st_cuthberts_philbeach_gardens.glb",
+          "bytes": 194884,
+          "triangles": 9746,
+          "cell": [
+            4,
+            2
+          ]
+        }
+      ],
+      "centre_xz": [
+        500.0,
+        1500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 3553624
+    },
+    {
+      "id": "b_4_3",
+      "cell": [
+        4,
+        3
+      ],
+      "file": "tiles/b_4_3.glb",
+      "bytes": 1290604,
+      "triangles": 55702,
+      "landmarks": [
+        {
+          "id": "barkers_building",
+          "file": "landmarks/barkers_building.glb",
+          "bytes": 1086964,
+          "triangles": 59355,
+          "cell": [
+            4,
+            3
+          ]
+        },
+        {
+          "id": "derry_and_toms",
+          "file": "landmarks/derry_and_toms.glb",
+          "bytes": 1497036,
+          "triangles": 81893,
+          "cell": [
+            4,
+            3
+          ]
+        },
+        {
+          "id": "design_museum",
+          "file": "landmarks/design_museum.glb",
+          "bytes": 375400,
+          "triangles": 22440,
+          "cell": [
+            4,
+            3
+          ]
+        },
+        {
+          "id": "kensington_central_library",
+          "file": "landmarks/kensington_central_library.glb",
+          "bytes": 352408,
+          "triangles": 18182,
+          "cell": [
+            4,
+            3
+          ]
+        },
+        {
+          "id": "kensington_palace",
+          "file": "landmarks/kensington_palace.glb",
+          "bytes": 1513320,
+          "triangles": 103092,
+          "cell": [
+            4,
+            3
+          ]
+        },
+        {
+          "id": "kensington_town_hall",
+          "file": "landmarks/kensington_town_hall.glb",
+          "bytes": 582076,
+          "triangles": 30702,
+          "cell": [
+            4,
+            3
+          ]
+        },
+        {
+          "id": "linley_sambourne_house",
+          "file": "landmarks/linley_sambourne_house.glb",
+          "bytes": 76664,
+          "triangles": 3252,
+          "cell": [
+            4,
+            3
+          ]
+        },
+        {
+          "id": "royal_garden_hotel",
+          "file": "landmarks/royal_garden_hotel.glb",
+          "bytes": 195560,
+          "triangles": 10588,
+          "cell": [
+            4,
+            3
+          ]
+        },
+        {
+          "id": "st_mary_abbots",
+          "file": "landmarks/st_mary_abbots.glb",
+          "bytes": 312928,
+          "triangles": 16562,
+          "cell": [
+            4,
+            3
+          ]
+        }
+      ],
+      "centre_xz": [
+        500.0,
+        500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 7282960
+    },
+    {
+      "id": "b_4_4",
+      "cell": [
+        4,
+        4
+      ],
+      "file": "tiles/b_4_4.glb",
+      "bytes": 1549472,
+      "triangles": 67260,
+      "landmarks": [
+        {
+          "id": "campden_hill_towers",
+          "file": "landmarks/campden_hill_towers.glb",
+          "bytes": 929376,
+          "triangles": 48450,
+          "cell": [
+            4,
+            4
+          ]
+        },
+        {
+          "id": "coronet_theatre",
+          "file": "landmarks/coronet_theatre.glb",
+          "bytes": 253984,
+          "triangles": 13383,
+          "cell": [
+            4,
+            4
+          ]
+        },
+        {
+          "id": "czech_slovak_embassies",
+          "file": "landmarks/czech_slovak_embassies.glb",
+          "bytes": 61020,
+          "triangles": 2834,
+          "cell": [
+            4,
+            4
+          ]
+        },
+        {
+          "id": "kensington_temple",
+          "file": "landmarks/kensington_temple.glb",
+          "bytes": 246340,
+          "triangles": 12558,
+          "cell": [
+            4,
+            4
+          ]
+        },
+        {
+          "id": "newcombe_house",
+          "file": "landmarks/newcombe_house.glb",
+          "bytes": 293068,
+          "triangles": 14778,
+          "cell": [
+            4,
+            4
+          ]
+        },
+        {
+          "id": "russian_embassy",
+          "file": "landmarks/russian_embassy.glb",
+          "bytes": 515920,
+          "triangles": 28212,
+          "cell": [
+            4,
+            4
+          ]
+        },
+        {
+          "id": "st_matthews_bayswater",
+          "file": "landmarks/st_matthews_bayswater.glb",
+          "bytes": 236824,
+          "triangles": 12441,
+          "cell": [
+            4,
+            4
+          ]
+        },
+        {
+          "id": "st_sophia_cathedral_bayswater",
+          "file": "landmarks/st_sophia_cathedral_bayswater.glb",
+          "bytes": 221912,
+          "triangles": 11745,
+          "cell": [
+            4,
+            4
+          ]
+        },
+        {
+          "id": "whiteleys",
+          "file": "landmarks/whiteleys.glb",
+          "bytes": 632596,
+          "triangles": 43655,
+          "cell": [
+            4,
+            4
+          ]
+        }
+      ],
+      "centre_xz": [
+        500.0,
+        -500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 4940512
+    },
+    {
+      "id": "b_4_5",
+      "cell": [
+        4,
+        5
+      ],
+      "file": "tiles/b_4_5.glb",
+      "bytes": 974380,
+      "triangles": 40959,
+      "landmarks": [
+        {
+          "id": "porchester_hall",
+          "file": "landmarks/porchester_hall.glb",
+          "bytes": 375448,
+          "triangles": 20300,
+          "cell": [
+            4,
+            5
+          ]
+        }
+      ],
+      "centre_xz": [
+        500.0,
+        -1500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1349828
+    },
+    {
+      "id": "b_4_6",
+      "cell": [
+        4,
+        6
+      ],
+      "file": "tiles/b_4_6.glb",
+      "bytes": 1209688,
+      "triangles": 47681,
+      "landmarks": [],
+      "centre_xz": [
+        500.0,
+        -2500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1209688
+    },
+    {
+      "id": "b_4_7",
+      "cell": [
+        4,
+        7
+      ],
+      "file": "tiles/b_4_7.glb",
+      "bytes": 1244900,
+      "triangles": 52974,
+      "landmarks": [],
+      "centre_xz": [
+        500.0,
+        -3500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1244900
+    },
+    {
+      "id": "b_5_0",
+      "cell": [
+        5,
+        0
+      ],
+      "file": "tiles/b_5_0.glb",
+      "bytes": 530020,
+      "triangles": 20738,
+      "landmarks": [
+        {
+          "id": "chelsea_academy",
+          "file": "landmarks/chelsea_academy.glb",
+          "bytes": 614684,
+          "triangles": 32828,
+          "cell": [
+            5,
+            0
+          ]
+        }
+      ],
+      "centre_xz": [
+        1500.0,
+        3500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1144704
+    },
+    {
+      "id": "b_5_1",
+      "cell": [
+        5,
+        1
+      ],
+      "file": "tiles/b_5_1.glb",
+      "bytes": 1719136,
+      "triangles": 74654,
+      "landmarks": [
+        {
+          "id": "battersea_bridge",
+          "file": "landmarks/battersea_bridge.glb",
+          "bytes": 331452,
+          "triangles": 18120,
+          "cell": [
+            5,
+            1
+          ]
+        },
+        {
+          "id": "chelsea_harbour_belvedere",
+          "file": "landmarks/chelsea_harbour_belvedere.glb",
+          "bytes": 740160,
+          "triangles": 66744,
+          "cell": [
+            5,
+            1
+          ]
+        }
+      ],
+      "centre_xz": [
+        1500.0,
+        2500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 2790748
+    },
+    {
+      "id": "b_5_2",
+      "cell": [
+        5,
+        2
+      ],
+      "file": "tiles/b_5_2.glb",
+      "bytes": 1151268,
+      "triangles": 49802,
+      "landmarks": [
+        {
+          "id": "baden_powell_house",
+          "file": "landmarks/baden_powell_house.glb",
+          "bytes": 240808,
+          "triangles": 12268,
+          "cell": [
+            5,
+            2
+          ]
+        },
+        {
+          "id": "consulate_general_of_france",
+          "file": "landmarks/consulate_general_of_france.glb",
+          "bytes": 389028,
+          "triangles": 19910,
+          "cell": [
+            5,
+            2
+          ]
+        },
+        {
+          "id": "dana_research_centre",
+          "file": "landmarks/dana_research_centre.glb",
+          "bytes": 228784,
+          "triangles": 11030,
+          "cell": [
+            5,
+            2
+          ]
+        },
+        {
+          "id": "embassy_of_oman",
+          "file": "landmarks/embassy_of_oman.glb",
+          "bytes": 413128,
+          "triangles": 21434,
+          "cell": [
+            5,
+            2
+          ]
+        },
+        {
+          "id": "institut_francais",
+          "file": "landmarks/institut_francais.glb",
+          "bytes": 245700,
+          "triangles": 12150,
+          "cell": [
+            5,
+            2
+          ]
+        },
+        {
+          "id": "ismaili_centre",
+          "file": "landmarks/ismaili_centre.glb",
+          "bytes": 883048,
+          "triangles": 48174,
+          "cell": [
+            5,
+            2
+          ]
+        },
+        {
+          "id": "lycee_francais_charles_de_gaulle",
+          "file": "landmarks/lycee_francais_charles_de_gaulle.glb",
+          "bytes": 1916684,
+          "triangles": 108713,
+          "cell": [
+            5,
+            2
+          ]
+        },
+        {
+          "id": "michelin_house",
+          "file": "landmarks/michelin_house.glb",
+          "bytes": 442764,
+          "triangles": 33204,
+          "cell": [
+            5,
+            2
+          ]
+        },
+        {
+          "id": "more_house",
+          "file": "landmarks/more_house.glb",
+          "bytes": 364380,
+          "triangles": 18696,
+          "cell": [
+            5,
+            2
+          ]
+        },
+        {
+          "id": "natural_history_museum",
+          "file": "landmarks/natural_history_museum.glb",
+          "bytes": 2250856,
+          "triangles": 161228,
+          "cell": [
+            5,
+            2
+          ]
+        },
+        {
+          "id": "royal_marsden_hospital",
+          "file": "landmarks/royal_marsden_hospital.glb",
+          "bytes": 1502796,
+          "triangles": 85446,
+          "cell": [
+            5,
+            2
+          ]
+        },
+        {
+          "id": "science_museum",
+          "file": "landmarks/science_museum.glb",
+          "bytes": 476784,
+          "triangles": 25592,
+          "cell": [
+            5,
+            2
+          ]
+        },
+        {
+          "id": "sorbonne_house",
+          "file": "landmarks/sorbonne_house.glb",
+          "bytes": 264376,
+          "triangles": 13274,
+          "cell": [
+            5,
+            2
+          ]
+        },
+        {
+          "id": "south_kensington_station",
+          "file": "landmarks/south_kensington_station.glb",
+          "bytes": 251044,
+          "triangles": 12620,
+          "cell": [
+            5,
+            2
+          ]
+        },
+        {
+          "id": "st_augustines_queens_gate",
+          "file": "landmarks/st_augustines_queens_gate.glb",
+          "bytes": 181104,
+          "triangles": 9234,
+          "cell": [
+            5,
+            2
+          ]
+        },
+        {
+          "id": "st_mary_the_boltons",
+          "file": "landmarks/st_mary_the_boltons.glb",
+          "bytes": 128800,
+          "triangles": 6268,
+          "cell": [
+            5,
+            2
+          ]
+        },
+        {
+          "id": "victoria_and_albert_museum",
+          "file": "landmarks/victoria_and_albert_museum.glb",
+          "bytes": 1990128,
+          "triangles": 115097,
+          "cell": [
+            5,
+            2
+          ]
+        }
+      ],
+      "centre_xz": [
+        1500.0,
+        1500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 13321480
+    },
+    {
+      "id": "b_5_3",
+      "cell": [
+        5,
+        3
+      ],
+      "file": "tiles/b_5_3.glb",
+      "bytes": 541848,
+      "triangles": 22631,
+      "landmarks": [
+        {
+          "id": "abdus_salam_library",
+          "file": "landmarks/abdus_salam_library.glb",
+          "bytes": 127440,
+          "triangles": 6887,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "albert_court",
+          "file": "landmarks/albert_court.glb",
+          "bytes": 1660284,
+          "triangles": 91671,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "albert_hall_mansions",
+          "file": "landmarks/albert_hall_mansions.glb",
+          "bytes": 1963424,
+          "triangles": 108339,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "albert_memorial",
+          "file": "landmarks/albert_memorial.glb",
+          "bytes": 689484,
+          "triangles": 35636,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "alexandra_court",
+          "file": "landmarks/alexandra_court.glb",
+          "bytes": 1053528,
+          "triangles": 54642,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "beit_quad",
+          "file": "landmarks/beit_quad.glb",
+          "bytes": 1168700,
+          "triangles": 63431,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "blackett_laboratory",
+          "file": "landmarks/blackett_laboratory.glb",
+          "bytes": 623960,
+          "triangles": 43754,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "bone_building",
+          "file": "landmarks/bone_building.glb",
+          "bytes": 513568,
+          "triangles": 25894,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "brompton_oratory",
+          "file": "landmarks/brompton_oratory.glb",
+          "bytes": 496304,
+          "triangles": 35789,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "cheval_hyde_park_gate",
+          "file": "landmarks/cheval_hyde_park_gate.glb",
+          "bytes": 542472,
+          "triangles": 28326,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "city_guilds_building",
+          "file": "landmarks/city_guilds_building.glb",
+          "bytes": 503864,
+          "triangles": 34286,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "electrical_engineering_building",
+          "file": "landmarks/electrical_engineering_building.glb",
+          "bytes": 337196,
+          "triangles": 22976,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "faculty_building",
+          "file": "landmarks/faculty_building.glb",
+          "bytes": 75540,
+          "triangles": 4486,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "goethe_institut_london",
+          "file": "landmarks/goethe_institut_london.glb",
+          "bytes": 326884,
+          "triangles": 16762,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "holy_trinity_prince_consort_road",
+          "file": "landmarks/holy_trinity_prince_consort_road.glb",
+          "bytes": 87868,
+          "triangles": 4071,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "huxley_building",
+          "file": "landmarks/huxley_building.glb",
+          "bytes": 821736,
+          "triangles": 56674,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "hyde_park_chapel",
+          "file": "landmarks/hyde_park_chapel.glb",
+          "bytes": 173108,
+          "triangles": 8423,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "imperial_170_queens_gate",
+          "file": "landmarks/imperial_170_queens_gate.glb",
+          "bytes": 341520,
+          "triangles": 23326,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "imperial_business_school",
+          "file": "landmarks/imperial_business_school.glb",
+          "bytes": 223528,
+          "triangles": 14354,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "imperial_campus_service_buildings",
+          "file": "landmarks/imperial_campus_service_buildings.glb",
+          "bytes": 93640,
+          "triangles": 4738,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "imperial_chemistry_building",
+          "file": "landmarks/imperial_chemistry_building.glb",
+          "bytes": 263204,
+          "triangles": 17523,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "imperial_chemistry_rcs1",
+          "file": "landmarks/imperial_chemistry_rcs1.glb",
+          "bytes": 632388,
+          "triangles": 36155,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "imperial_dyson_building",
+          "file": "landmarks/imperial_dyson_building.glb",
+          "bytes": 803792,
+          "triangles": 43152,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "imperial_early_years_centre",
+          "file": "landmarks/imperial_early_years_centre.glb",
+          "bytes": 140780,
+          "triangles": 6530,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "imperial_ethos",
+          "file": "landmarks/imperial_ethos.glb",
+          "bytes": 219796,
+          "triangles": 14786,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "imperial_flowers_building",
+          "file": "landmarks/imperial_flowers_building.glb",
+          "bytes": 340512,
+          "triangles": 17806,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "imperial_sir_ernst_chain",
+          "file": "landmarks/imperial_sir_ernst_chain.glb",
+          "bytes": 666628,
+          "triangles": 50142,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "imperial_south_building",
+          "file": "landmarks/imperial_south_building.glb",
+          "bytes": 89396,
+          "triangles": 4128,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "jamaican_high_commission",
+          "file": "landmarks/jamaican_high_commission.glb",
+          "bytes": 172140,
+          "triangles": 8004,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "kensington_gardens_bandstand",
+          "file": "landmarks/kensington_gardens_bandstand.glb",
+          "bytes": 91072,
+          "triangles": 4582,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "metrogate_house",
+          "file": "landmarks/metrogate_house.glb",
+          "bytes": 232168,
+          "triangles": 11568,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "montrose_court",
+          "file": "landmarks/montrose_court.glb",
+          "bytes": 1118664,
+          "triangles": 63250,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "pepperdine_princes_gate",
+          "file": "landmarks/pepperdine_princes_gate.glb",
+          "bytes": 226356,
+          "triangles": 11073,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "princes_gardens_eastside",
+          "file": "landmarks/princes_gardens_eastside.glb",
+          "bytes": 1027596,
+          "triangles": 79374,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "princes_gardens_north_terrace",
+          "file": "landmarks/princes_gardens_north_terrace.glb",
+          "bytes": 318960,
+          "triangles": 17032,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "princes_gardens_southside",
+          "file": "landmarks/princes_gardens_southside.glb",
+          "bytes": 779116,
+          "triangles": 59790,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "princes_gate_51_55",
+          "file": "landmarks/princes_gate_51_55.glb",
+          "bytes": 276644,
+          "triangles": 14036,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "princes_gate_59_63",
+          "file": "landmarks/princes_gate_59_63.glb",
+          "bytes": 832712,
+          "triangles": 43977,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "princes_gate_exhibition_road_north",
+          "file": "landmarks/princes_gate_exhibition_road_north.glb",
+          "bytes": 390036,
+          "triangles": 20241,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "queen_alexandras_house",
+          "file": "landmarks/queen_alexandras_house.glb",
+          "bytes": 1151128,
+          "triangles": 61650,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "queen_carolines_temple",
+          "file": "landmarks/queen_carolines_temple.glb",
+          "bytes": 85248,
+          "triangles": 1749,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "queens_gate_east_houses",
+          "file": "landmarks/queens_gate_east_houses.glb",
+          "bytes": 221868,
+          "triangles": 11348,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "queens_gate_hotel",
+          "file": "landmarks/queens_gate_hotel.glb",
+          "bytes": 267996,
+          "triangles": 13538,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "queens_gate_west_terrace",
+          "file": "landmarks/queens_gate_west_terrace.glb",
+          "bytes": 424060,
+          "triangles": 23192,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "queens_tower",
+          "file": "landmarks/queens_tower.glb",
+          "bytes": 609008,
+          "triangles": 46312,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "rca_darwin_building",
+          "file": "landmarks/rca_darwin_building.glb",
+          "bytes": 631296,
+          "triangles": 33576,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "rca_frayling_building",
+          "file": "landmarks/rca_frayling_building.glb",
+          "bytes": 229816,
+          "triangles": 11534,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "rca_stevens_building",
+          "file": "landmarks/rca_stevens_building.glb",
+          "bytes": 348380,
+          "triangles": 17188,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "roderic_hill_ace",
+          "file": "landmarks/roderic_hill_ace.glb",
+          "bytes": 1445236,
+          "triangles": 105381,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "royal_albert_hall",
+          "file": "landmarks/royal_albert_hall.glb",
+          "bytes": 1461180,
+          "triangles": 116356,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "royal_college_of_music",
+          "file": "landmarks/royal_college_of_music.glb",
+          "bytes": 356240,
+          "triangles": 23482,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "royal_college_of_organists",
+          "file": "landmarks/royal_college_of_organists.glb",
+          "bytes": 265988,
+          "triangles": 12565,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "royal_geographical_society",
+          "file": "landmarks/royal_geographical_society.glb",
+          "bytes": 764520,
+          "triangles": 40362,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "royal_school_of_mines",
+          "file": "landmarks/royal_school_of_mines.glb",
+          "bytes": 1660816,
+          "triangles": 95561,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "royal_thai_embassy",
+          "file": "landmarks/royal_thai_embassy.glb",
+          "bytes": 264040,
+          "triangles": 12828,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "serpentine_bridge",
+          "file": "landmarks/serpentine_bridge.glb",
+          "bytes": 304312,
+          "triangles": 18092,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "serpentine_south",
+          "file": "landmarks/serpentine_south.glb",
+          "bytes": 219068,
+          "triangles": 15610,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "sherfield_building",
+          "file": "landmarks/sherfield_building.glb",
+          "bytes": 296308,
+          "triangles": 21942,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "sir_alexander_fleming_building",
+          "file": "landmarks/sir_alexander_fleming_building.glb",
+          "bytes": 329640,
+          "triangles": 23364,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "skempton_building",
+          "file": "landmarks/skempton_building.glb",
+          "bytes": 1113164,
+          "triangles": 79214,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "weeks_hall",
+          "file": "landmarks/weeks_hall.glb",
+          "bytes": 111900,
+          "triangles": 5170,
+          "cell": [
+            5,
+            3
+          ]
+        },
+        {
+          "id": "william_penney_laboratory",
+          "file": "landmarks/william_penney_laboratory.glb",
+          "bytes": 98040,
+          "triangles": 4432,
+          "cell": [
+            5,
+            3
+          ]
+        }
+      ],
+      "centre_xz": [
+        1500.0,
+        500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 33647108
+    },
+    {
+      "id": "b_5_4",
+      "cell": [
+        5,
+        4
+      ],
+      "file": "tiles/b_5_4.glb",
+      "bytes": 846996,
+      "triangles": 35761,
+      "landmarks": [
+        {
+          "id": "christ_church_lancaster_gate",
+          "file": "landmarks/christ_church_lancaster_gate.glb",
+          "bytes": 916080,
+          "triangles": 50328,
+          "cell": [
+            5,
+            4
+          ]
+        },
+        {
+          "id": "italian_gardens",
+          "file": "landmarks/italian_gardens.glb",
+          "bytes": 520912,
+          "triangles": 30613,
+          "cell": [
+            5,
+            4
+          ]
+        },
+        {
+          "id": "lancaster_gate_terraces",
+          "file": "landmarks/lancaster_gate_terraces.glb",
+          "bytes": 2073200,
+          "triangles": 124858,
+          "cell": [
+            5,
+            4
+          ]
+        },
+        {
+          "id": "leinster_gardens_fake_houses",
+          "file": "landmarks/leinster_gardens_fake_houses.glb",
+          "bytes": 71208,
+          "triangles": 3002,
+          "cell": [
+            5,
+            4
+          ]
+        },
+        {
+          "id": "marble_arch",
+          "file": "landmarks/marble_arch.glb",
+          "bytes": 510920,
+          "triangles": 43048,
+          "cell": [
+            5,
+            4
+          ]
+        },
+        {
+          "id": "peter_pan_statue",
+          "file": "landmarks/peter_pan_statue.glb",
+          "bytes": 79492,
+          "triangles": 1824,
+          "cell": [
+            5,
+            4
+          ]
+        },
+        {
+          "id": "physical_energy_statue",
+          "file": "landmarks/physical_energy_statue.glb",
+          "bytes": 64480,
+          "triangles": 1468,
+          "cell": [
+            5,
+            4
+          ]
+        },
+        {
+          "id": "queen_annes_alcove",
+          "file": "landmarks/queen_annes_alcove.glb",
+          "bytes": 62012,
+          "triangles": 1354,
+          "cell": [
+            5,
+            4
+          ]
+        },
+        {
+          "id": "royal_lancaster_london",
+          "file": "landmarks/royal_lancaster_london.glb",
+          "bytes": 125700,
+          "triangles": 6075,
+          "cell": [
+            5,
+            4
+          ]
+        },
+        {
+          "id": "st_james_sussex_gardens",
+          "file": "landmarks/st_james_sussex_gardens.glb",
+          "bytes": 189760,
+          "triangles": 9584,
+          "cell": [
+            5,
+            4
+          ]
+        },
+        {
+          "id": "victoria_gate_lodge",
+          "file": "landmarks/victoria_gate_lodge.glb",
+          "bytes": 96504,
+          "triangles": 4532,
+          "cell": [
+            5,
+            4
+          ]
+        },
+        {
+          "id": "water_gardens_estate",
+          "file": "landmarks/water_gardens_estate.glb",
+          "bytes": 853356,
+          "triangles": 59438,
+          "cell": [
+            5,
+            4
+          ]
+        }
+      ],
+      "centre_xz": [
+        1500.0,
+        -500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 6410620
+    },
+    {
+      "id": "b_5_5",
+      "cell": [
+        5,
+        5
+      ],
+      "file": "tiles/b_5_5.glb",
+      "bytes": 774240,
+      "triangles": 31617,
+      "landmarks": [
+        {
+          "id": "five_merchant_square",
+          "file": "landmarks/five_merchant_square.glb",
+          "bytes": 105404,
+          "triangles": 4832,
+          "cell": [
+            5,
+            5
+          ]
+        },
+        {
+          "id": "kingdom_street_offices",
+          "file": "landmarks/kingdom_street_offices.glb",
+          "bytes": 399116,
+          "triangles": 23113,
+          "cell": [
+            5,
+            5
+          ]
+        },
+        {
+          "id": "paddington_station",
+          "file": "landmarks/paddington_station.glb",
+          "bytes": 3145780,
+          "triangles": 206378,
+          "cell": [
+            5,
+            5
+          ]
+        },
+        {
+          "id": "sheldon_square",
+          "file": "landmarks/sheldon_square.glb",
+          "bytes": 1028824,
+          "triangles": 55243,
+          "cell": [
+            5,
+            5
+          ]
+        },
+        {
+          "id": "st_marys_cambridge_wing",
+          "file": "landmarks/st_marys_cambridge_wing.glb",
+          "bytes": 552028,
+          "triangles": 29164,
+          "cell": [
+            5,
+            5
+          ]
+        },
+        {
+          "id": "st_marys_clarence_memorial_wing",
+          "file": "landmarks/st_marys_clarence_memorial_wing.glb",
+          "bytes": 694116,
+          "triangles": 36688,
+          "cell": [
+            5,
+            5
+          ]
+        },
+        {
+          "id": "st_marys_lindo_wing",
+          "file": "landmarks/st_marys_lindo_wing.glb",
+          "bytes": 405864,
+          "triangles": 20514,
+          "cell": [
+            5,
+            5
+          ]
+        },
+        {
+          "id": "st_marys_medical_school",
+          "file": "landmarks/st_marys_medical_school.glb",
+          "bytes": 1055732,
+          "triangles": 56134,
+          "cell": [
+            5,
+            5
+          ]
+        },
+        {
+          "id": "st_marys_mint_wing",
+          "file": "landmarks/st_marys_mint_wing.glb",
+          "bytes": 1182424,
+          "triangles": 66104,
+          "cell": [
+            5,
+            5
+          ]
+        },
+        {
+          "id": "st_marys_paterson_centre",
+          "file": "landmarks/st_marys_paterson_centre.glb",
+          "bytes": 111684,
+          "triangles": 5180,
+          "cell": [
+            5,
+            5
+          ]
+        },
+        {
+          "id": "st_marys_queen_mother_wing",
+          "file": "landmarks/st_marys_queen_mother_wing.glb",
+          "bytes": 468808,
+          "triangles": 25102,
+          "cell": [
+            5,
+            5
+          ]
+        },
+        {
+          "id": "st_marys_salton_house",
+          "file": "landmarks/st_marys_salton_house.glb",
+          "bytes": 217504,
+          "triangles": 10365,
+          "cell": [
+            5,
+            5
+          ]
+        },
+        {
+          "id": "the_point_paddington",
+          "file": "landmarks/the_point_paddington.glb",
+          "bytes": 222672,
+          "triangles": 11910,
+          "cell": [
+            5,
+            5
+          ]
+        },
+        {
+          "id": "waterside_house_paddington",
+          "file": "landmarks/waterside_house_paddington.glb",
+          "bytes": 136992,
+          "triangles": 6672,
+          "cell": [
+            5,
+            5
+          ]
+        }
+      ],
+      "centre_xz": [
+        1500.0,
+        -1500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 10501188
+    },
+    {
+      "id": "b_5_6",
+      "cell": [
+        5,
+        6
+      ],
+      "file": "tiles/b_5_6.glb",
+      "bytes": 1227148,
+      "triangles": 52641,
+      "landmarks": [],
+      "centre_xz": [
+        1500.0,
+        -2500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1227148
+    },
+    {
+      "id": "b_5_7",
+      "cell": [
+        5,
+        7
+      ],
+      "file": "tiles/b_5_7.glb",
+      "bytes": 1278856,
+      "triangles": 54063,
+      "landmarks": [],
+      "centre_xz": [
+        1500.0,
+        -3500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1278856
+    },
+    {
+      "id": "b_6_0",
+      "cell": [
+        6,
+        0
+      ],
+      "file": "tiles/b_6_0.glb",
+      "bytes": 721084,
+      "triangles": 29140,
+      "landmarks": [],
+      "centre_xz": [
+        2500.0,
+        3500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 721084
+    },
+    {
+      "id": "b_6_1",
+      "cell": [
+        6,
+        1
+      ],
+      "file": "tiles/b_6_1.glb",
+      "bytes": 902496,
+      "triangles": 37600,
+      "landmarks": [
+        {
+          "id": "albert_bridge",
+          "file": "landmarks/albert_bridge.glb",
+          "bytes": 599496,
+          "triangles": 34308,
+          "cell": [
+            6,
+            1
+          ]
+        },
+        {
+          "id": "national_army_museum",
+          "file": "landmarks/national_army_museum.glb",
+          "bytes": 287388,
+          "triangles": 14636,
+          "cell": [
+            6,
+            1
+          ]
+        }
+      ],
+      "centre_xz": [
+        2500.0,
+        2500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1789380
+    },
+    {
+      "id": "b_6_2",
+      "cell": [
+        6,
+        2
+      ],
+      "file": "tiles/b_6_2.glb",
+      "bytes": 1673908,
+      "triangles": 73690,
+      "landmarks": [
+        {
+          "id": "cadogan_hall",
+          "file": "landmarks/cadogan_hall.glb",
+          "bytes": 216152,
+          "triangles": 11048,
+          "cell": [
+            6,
+            2
+          ]
+        },
+        {
+          "id": "holy_trinity_sloane_street",
+          "file": "landmarks/holy_trinity_sloane_street.glb",
+          "bytes": 196900,
+          "triangles": 9998,
+          "cell": [
+            6,
+            2
+          ]
+        },
+        {
+          "id": "peter_jones",
+          "file": "landmarks/peter_jones.glb",
+          "bytes": 212532,
+          "triangles": 11102,
+          "cell": [
+            6,
+            2
+          ]
+        },
+        {
+          "id": "royal_brompton_hospital",
+          "file": "landmarks/royal_brompton_hospital.glb",
+          "bytes": 933976,
+          "triangles": 50530,
+          "cell": [
+            6,
+            2
+          ]
+        },
+        {
+          "id": "royal_hospital_chelsea",
+          "file": "landmarks/royal_hospital_chelsea.glb",
+          "bytes": 1250628,
+          "triangles": 82946,
+          "cell": [
+            6,
+            2
+          ]
+        },
+        {
+          "id": "saatchi_gallery",
+          "file": "landmarks/saatchi_gallery.glb",
+          "bytes": 485708,
+          "triangles": 25660,
+          "cell": [
+            6,
+            2
+          ]
+        }
+      ],
+      "centre_xz": [
+        2500.0,
+        1500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 4969804
+    },
+    {
+      "id": "b_6_3",
+      "cell": [
+        6,
+        3
+      ],
+      "file": "tiles/b_6_3.glb",
+      "bytes": 946332,
+      "triangles": 40151,
+      "landmarks": [
+        {
+          "id": "diana_memorial_fountain",
+          "file": "landmarks/diana_memorial_fountain.glb",
+          "bytes": 141020,
+          "triangles": 8598,
+          "cell": [
+            6,
+            3
+          ]
+        },
+        {
+          "id": "dormition_cathedral",
+          "file": "landmarks/dormition_cathedral.glb",
+          "bytes": 251152,
+          "triangles": 12892,
+          "cell": [
+            6,
+            3
+          ]
+        },
+        {
+          "id": "harrods",
+          "file": "landmarks/harrods.glb",
+          "bytes": 1527940,
+          "triangles": 87306,
+          "cell": [
+            6,
+            3
+          ]
+        },
+        {
+          "id": "harvey_nichols",
+          "file": "landmarks/harvey_nichols.glb",
+          "bytes": 699680,
+          "triangles": 36613,
+          "cell": [
+            6,
+            3
+          ]
+        },
+        {
+          "id": "holy_trinity_brompton",
+          "file": "landmarks/holy_trinity_brompton.glb",
+          "bytes": 433864,
+          "triangles": 22480,
+          "cell": [
+            6,
+            3
+          ]
+        },
+        {
+          "id": "holy_trinity_church_house",
+          "file": "landmarks/holy_trinity_church_house.glb",
+          "bytes": 198608,
+          "triangles": 10026,
+          "cell": [
+            6,
+            3
+          ]
+        },
+        {
+          "id": "hyde_park_barracks",
+          "file": "landmarks/hyde_park_barracks.glb",
+          "bytes": 924112,
+          "triangles": 54066,
+          "cell": [
+            6,
+            3
+          ]
+        },
+        {
+          "id": "mandarin_oriental_hyde_park",
+          "file": "landmarks/mandarin_oriental_hyde_park.glb",
+          "bytes": 942424,
+          "triangles": 50419,
+          "cell": [
+            6,
+            3
+          ]
+        },
+        {
+          "id": "one_hyde_park",
+          "file": "landmarks/one_hyde_park.glb",
+          "bytes": 399996,
+          "triangles": 20174,
+          "cell": [
+            6,
+            3
+          ]
+        },
+        {
+          "id": "serpentine_bar_kitchen",
+          "file": "landmarks/serpentine_bar_kitchen.glb",
+          "bytes": 63372,
+          "triangles": 2646,
+          "cell": [
+            6,
+            3
+          ]
+        },
+        {
+          "id": "serpentine_boathouses",
+          "file": "landmarks/serpentine_boathouses.glb",
+          "bytes": 86128,
+          "triangles": 4288,
+          "cell": [
+            6,
+            3
+          ]
+        },
+        {
+          "id": "serpentine_lido",
+          "file": "landmarks/serpentine_lido.glb",
+          "bytes": 252472,
+          "triangles": 13689,
+          "cell": [
+            6,
+            3
+          ]
+        },
+        {
+          "id": "wellington_arch",
+          "file": "landmarks/wellington_arch.glb",
+          "bytes": 722872,
+          "triangles": 61105,
+          "cell": [
+            6,
+            3
+          ]
+        }
+      ],
+      "centre_xz": [
+        2500.0,
+        500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 7589972
+    },
+    {
+      "id": "b_6_4",
+      "cell": [
+        6,
+        4
+      ],
+      "file": "tiles/b_6_4.glb",
+      "bytes": 546312,
+      "triangles": 21860,
+      "landmarks": [
+        {
+          "id": "animals_in_war_memorial",
+          "file": "landmarks/animals_in_war_memorial.glb",
+          "bytes": 46640,
+          "triangles": 1984,
+          "cell": [
+            6,
+            4
+          ]
+        },
+        {
+          "id": "cumberland_lodge",
+          "file": "landmarks/cumberland_lodge.glb",
+          "bytes": 60940,
+          "triangles": 1404,
+          "cell": [
+            6,
+            4
+          ]
+        },
+        {
+          "id": "hyde_park_connaught_squares",
+          "file": "landmarks/hyde_park_connaught_squares.glb",
+          "bytes": 909272,
+          "triangles": 58498,
+          "cell": [
+            6,
+            4
+          ]
+        },
+        {
+          "id": "hyde_park_police_station",
+          "file": "landmarks/hyde_park_police_station.glb",
+          "bytes": 297168,
+          "triangles": 15828,
+          "cell": [
+            6,
+            4
+          ]
+        },
+        {
+          "id": "marble_arch_place",
+          "file": "landmarks/marble_arch_place.glb",
+          "bytes": 734428,
+          "triangles": 37443,
+          "cell": [
+            6,
+            4
+          ]
+        },
+        {
+          "id": "selfridges",
+          "file": "landmarks/selfridges.glb",
+          "bytes": 1236728,
+          "triangles": 100063,
+          "cell": [
+            6,
+            4
+          ]
+        },
+        {
+          "id": "serpentine_north",
+          "file": "landmarks/serpentine_north.glb",
+          "bytes": 291104,
+          "triangles": 14182,
+          "cell": [
+            6,
+            4
+          ]
+        }
+      ],
+      "centre_xz": [
+        2500.0,
+        -500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 4122592
+    },
+    {
+      "id": "b_6_5",
+      "cell": [
+        6,
+        5
+      ],
+      "file": "tiles/b_6_5.glb",
+      "bytes": 1243224,
+      "triangles": 54363,
+      "landmarks": [
+        {
+          "id": "hilton_london_metropole",
+          "file": "landmarks/hilton_london_metropole.glb",
+          "bytes": 476928,
+          "triangles": 26993,
+          "cell": [
+            6,
+            5
+          ]
+        },
+        {
+          "id": "merchant_square_3_4",
+          "file": "landmarks/merchant_square_3_4.glb",
+          "bytes": 175780,
+          "triangles": 8426,
+          "cell": [
+            6,
+            5
+          ]
+        }
+      ],
+      "centre_xz": [
+        2500.0,
+        -1500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 1895932
+    },
+    {
+      "id": "b_6_6",
+      "cell": [
+        6,
+        6
+      ],
+      "file": "tiles/b_6_6.glb",
+      "bytes": 415596,
+      "triangles": 15456,
+      "landmarks": [],
+      "centre_xz": [
+        2500.0,
+        -2500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 415596
+    },
+    {
+      "id": "b_6_7",
+      "cell": [
+        6,
+        7
+      ],
+      "file": "tiles/b_6_7.glb",
+      "bytes": 712604,
+      "triangles": 29232,
+      "landmarks": [],
+      "centre_xz": [
+        2500.0,
+        -3500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 712604
+    },
+    {
+      "id": "b_7_0",
+      "cell": [
+        7,
+        0
+      ],
+      "file": "tiles/b_7_0.glb",
+      "bytes": 452952,
+      "triangles": 17047,
+      "landmarks": [],
+      "centre_xz": [
+        3500.0,
+        3500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 452952
+    },
+    {
+      "id": "b_7_1",
+      "cell": [
+        7,
+        1
+      ],
+      "file": "tiles/b_7_1.glb",
+      "bytes": 207440,
+      "triangles": 6568,
+      "landmarks": [
+        {
+          "id": "battersea_power_station",
+          "file": "landmarks/battersea_power_station.glb",
+          "bytes": 3901076,
+          "triangles": 224087,
+          "cell": [
+            7,
+            1
+          ]
+        },
+        {
+          "id": "chelsea_bridge",
+          "file": "landmarks/chelsea_bridge.glb",
+          "bytes": 382976,
+          "triangles": 22764,
+          "cell": [
+            7,
+            1
+          ]
+        },
+        {
+          "id": "grosvenor_bridge",
+          "file": "landmarks/grosvenor_bridge.glb",
+          "bytes": 575528,
+          "triangles": 32984,
+          "cell": [
+            7,
+            1
+          ]
+        }
+      ],
+      "centre_xz": [
+        3500.0,
+        2500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 5067020
+    },
+    {
+      "id": "b_7_2",
+      "cell": [
+        7,
+        2
+      ],
+      "file": "tiles/b_7_2.glb",
+      "bytes": 892800,
+      "triangles": 37392,
+      "landmarks": [
+        {
+          "id": "grosvenor_hotel_victoria",
+          "file": "landmarks/grosvenor_hotel_victoria.glb",
+          "bytes": 1582372,
+          "triangles": 87146,
+          "cell": [
+            7,
+            2
+          ]
+        },
+        {
+          "id": "royal_court_theatre",
+          "file": "landmarks/royal_court_theatre.glb",
+          "bytes": 110424,
+          "triangles": 5314,
+          "cell": [
+            7,
+            2
+          ]
+        },
+        {
+          "id": "victoria_coach_station",
+          "file": "landmarks/victoria_coach_station.glb",
+          "bytes": 548104,
+          "triangles": 30078,
+          "cell": [
+            7,
+            2
+          ]
+        },
+        {
+          "id": "victoria_station",
+          "file": "landmarks/victoria_station.glb",
+          "bytes": 894732,
+          "triangles": 70164,
+          "cell": [
+            7,
+            2
+          ]
+        }
+      ],
+      "centre_xz": [
+        3500.0,
+        1500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 4028432
+    },
+    {
+      "id": "b_7_3",
+      "cell": [
+        7,
+        3
+      ],
+      "file": "tiles/b_7_3.glb",
+      "bytes": 624972,
+      "triangles": 24796,
+      "landmarks": [
+        {
+          "id": "apsley_house",
+          "file": "landmarks/apsley_house.glb",
+          "bytes": 1259088,
+          "triangles": 113158,
+          "cell": [
+            7,
+            3
+          ]
+        },
+        {
+          "id": "belgrave_square_terraces",
+          "file": "landmarks/belgrave_square_terraces.glb",
+          "bytes": 1786160,
+          "triangles": 109666,
+          "cell": [
+            7,
+            3
+          ]
+        },
+        {
+          "id": "buckingham_palace",
+          "file": "landmarks/buckingham_palace.glb",
+          "bytes": 2268832,
+          "triangles": 209868,
+          "cell": [
+            7,
+            3
+          ]
+        },
+        {
+          "id": "hyde_park_bandstand",
+          "file": "landmarks/hyde_park_bandstand.glb",
+          "bytes": 166228,
+          "triangles": 8436,
+          "cell": [
+            7,
+            3
+          ]
+        },
+        {
+          "id": "st_pauls_knightsbridge",
+          "file": "landmarks/st_pauls_knightsbridge.glb",
+          "bytes": 157012,
+          "triangles": 7694,
+          "cell": [
+            7,
+            3
+          ]
+        },
+        {
+          "id": "st_peters_eaton_square",
+          "file": "landmarks/st_peters_eaton_square.glb",
+          "bytes": 252544,
+          "triangles": 12964,
+          "cell": [
+            7,
+            3
+          ]
+        },
+        {
+          "id": "the_lanesborough",
+          "file": "landmarks/the_lanesborough.glb",
+          "bytes": 659404,
+          "triangles": 35621,
+          "cell": [
+            7,
+            3
+          ]
+        }
+      ],
+      "centre_xz": [
+        3500.0,
+        500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 7174240
+    },
+    {
+      "id": "b_7_4",
+      "cell": [
+        7,
+        4
+      ],
+      "file": "tiles/b_7_4.glb",
+      "bytes": 890000,
+      "triangles": 36994,
+      "landmarks": [
+        {
+          "id": "joy_of_life_fountain",
+          "file": "landmarks/joy_of_life_fountain.glb",
+          "bytes": 49344,
+          "triangles": 2326,
+          "cell": [
+            7,
+            4
+          ]
+        }
+      ],
+      "centre_xz": [
+        3500.0,
+        -500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 939344
+    },
+    {
+      "id": "b_7_5",
+      "cell": [
+        7,
+        5
+      ],
+      "file": "tiles/b_7_5.glb",
+      "bytes": 1077112,
+      "triangles": 46360,
+      "landmarks": [
+        {
+          "id": "bbc_broadcasting_house",
+          "file": "landmarks/bbc_broadcasting_house.glb",
+          "bytes": 989216,
+          "triangles": 82552,
+          "cell": [
+            7,
+            5
+          ]
+        }
+      ],
+      "centre_xz": [
+        3500.0,
+        -1500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 2066328
+    },
+    {
+      "id": "b_7_6",
+      "cell": [
+        7,
+        6
+      ],
+      "file": "tiles/b_7_6.glb",
+      "bytes": 219732,
+      "triangles": 7030,
+      "landmarks": [],
+      "centre_xz": [
+        3500.0,
+        -2500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 219732
+    },
+    {
+      "id": "b_7_7",
+      "cell": [
+        7,
+        7
+      ],
+      "file": "tiles/b_7_7.glb",
+      "bytes": 865000,
+      "triangles": 35556,
+      "landmarks": [],
+      "centre_xz": [
+        3500.0,
+        -3500.0
+      ],
+      "half_m": 500.0,
+      "rotation_rad": -0.0,
+      "total_bytes": 865000
+    }
+  ]
+}
