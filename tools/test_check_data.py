@@ -19,6 +19,20 @@ class ReuseTests(unittest.TestCase):
                     entries.append(dict(id=name,manifest=f'snapshots/{name}/manifest.json',sha256=hashlib.sha256(p.read_bytes()).hexdigest(),bytes=3,files=1))
                 (root/'catalog.json').write_text(json.dumps(dict(schema_version='1.0.0',kind='canopy.scenario-data',scenario_id='demo',snapshots=entries)))
             save();self.assertEqual(check(root)['bytes'],3)
+            # Retirement cannot remove a payload used by the current snapshot.
+            c=json.loads((root/'catalog.json').read_text());c['snapshots'][0]['retired_paths']=['a.bin']
+            (root/'catalog.json').write_text(json.dumps(c))
+            with self.assertRaisesRegex(ValueError,'must be local and removed'):check(root)
+            (old/'a.bin').unlink()
+            with self.assertRaisesRegex(ValueError,'differs from its immutable source'):check(root)
+            # An unreferenced retirement leaves the original manifest intact.
+            c['snapshots'].pop();(root/'catalog.json').write_text(json.dumps(c))
+            (new/'manifest.json').unlink();new.rmdir()
+            self.assertEqual(check(root)['bytes'],0)
+            c['snapshots'][0]['retired_paths'].append('missing.bin')
+            (root/'catalog.json').write_text(json.dumps(c))
+            with self.assertRaisesRegex(ValueError,'not present'):check(root)
+            new.mkdir();(old/'a.bin').write_bytes(b'abc');save()
             # A source file edit breaks both references; no silent substitution.
             (old/'a.bin').write_bytes(b'bad')
             with self.assertRaises(ValueError):check(root)

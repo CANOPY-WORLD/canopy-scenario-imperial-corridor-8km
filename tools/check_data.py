@@ -43,10 +43,26 @@ def check(root=ROOT):
         if (manifest.get('schema_version') not in ('1.0.0', '1.1.0') or manifest.get('kind') != 'canopy.publication' or
                 manifest.get('scenario_id') != catalog['scenario_id'] or manifest.get('snapshot') != entry['id']):
             raise ValueError('Snapshot identity mismatch')
+        retired_list = entry.get('retired_paths', [])
+        if not isinstance(retired_list, list) or any(not isinstance(x, str) for x in retired_list):
+            raise ValueError('Invalid retired paths')
+        retired = set(retired_list)
+        if len(retired) != len(retired_list):
+            raise ValueError('Duplicate retired paths')
         names, routes, total = set(), set(), 0
         local_names, stored_bytes = set(), 0
         for record in manifest['files']:
             path = bounded(manifest_path.parent, record['path'])
+            if record['path'] in retired:
+                if 'source_snapshot' in record or path.exists():
+                    raise ValueError('Retired payload must be local and removed')
+                bounded(root, record['viewer_path'])
+                if record['path'] in names or record['viewer_path'] in routes:
+                    raise ValueError('Duplicate retired path or route')
+                names.add(record['path'])
+                routes.add(record['viewer_path'])
+                total += record['bytes']
+                continue
             if 'source_snapshot' in record:
                 source = record['source_snapshot']
                 if manifest['schema_version'] != '1.1.0' or not isinstance(source,str) or source not in inventories:
@@ -68,13 +84,15 @@ def check(root=ROOT):
                     sha256(path) != record['sha256']):
                 raise ValueError(f'Snapshot checksum/size mismatch: {path}')
             total += record['bytes']
+        if not retired <= names:
+            raise ValueError('Retired path not present in original manifest')
         actual = {p.relative_to(manifest_path.parent).as_posix()
                   for p in manifest_path.parent.rglob('*') if p.is_file()}
         if actual != local_names | {'manifest.json'} or total != manifest['bytes'] or total != entry['bytes'] or len(names) != entry['files']:
             raise ValueError('Unlisted payloads or incorrect snapshot totals')
         count += len(names)
         size += stored_bytes
-        inventories[entry['id']] = {r['path']:r for r in manifest['files']}
+        inventories[entry['id']] = {r['path']:r for r in manifest['files'] if r['path'] not in retired}
     if {p.name for p in (root / 'snapshots').iterdir()} != snapshots:
         raise ValueError('Unlisted snapshot')
     if size > 950_000_000:
