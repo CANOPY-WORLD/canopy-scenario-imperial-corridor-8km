@@ -1,0 +1,33 @@
+{
+  "kind": "traffic-wind-pollution-replacement",
+  "source_snapshot": "london-traffic-native-20261122",
+  "source_manifest_sha256": "548f72f3fb3434bd968692de67bfa9836149304d28830070fcee856e95970b45",
+  "removed_from_selection": [
+    "derivation.json",
+    "physics/chunks/masks_poll_invalid_8m/0000.gz",
+    "physics/chunks/quantized8/poll/0000.gz",
+    "physics/chunks/quantized8/poll/0001.gz",
+    "physics/chunks/quantized8/poll/0002.gz",
+    "physics/chunks/quantized8/poll/0003.gz",
+    "physics/chunks/quantized8/poll/0004.gz",
+    "physics/chunks/quantized8/poll/0005.gz",
+    "physics/chunks/quantized8/poll/0006.gz",
+    "physics/chunks/quantized8/poll/0007.gz",
+    "physics/chunks/quantized8/poll/0008.gz",
+    "physics/chunks/quantized8/poll/0009.gz",
+    "physics/chunks/quantized8/poll/0010.gz",
+    "physics/chunks/quantized8/poll/0011.gz",
+    "physics/chunks/quantized8/poll/0012.gz",
+    "physics/chunks/quantized8/poll/0013.gz",
+    "physics/chunks/quantized8/poll/0014.gz",
+    "physics/chunks/quantized8/poll/0015.gz",
+    "physics/chunks/quantized8/poll/0016.gz",
+    "physics/chunks/quantized8/poll/0017.gz",
+    "physics/chunks/quantized8/poll/0018.gz",
+    "physics/chunks/quantized8/poll/0019.gz",
+    "physics/chunks/quantized8/poll/0020.gz",
+    "physics/manifest.json",
+    "scene.json"
+  ],
+  "source_run": "20261122T161940Z_41d85080fa"
+}
