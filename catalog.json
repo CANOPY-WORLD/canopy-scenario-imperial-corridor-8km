@@ -422,6 +422,13 @@
       "sha256": "269310f22b43045a30585a7ae11d9dc020e69566087556b02c7c9b2f6dc6bdd8",
       "bytes": 249886035,
       "files": 1405
+    },
+    {
+      "id": "london-traffic-native-20261122",
+      "manifest": "snapshots/london-traffic-native-20261122/manifest.json",
+      "sha256": "548f72f3fb3434bd968692de67bfa9836149304d28830070fcee856e95970b45",
+      "bytes": 239324744,
+      "files": 1405
     }
   ]
 }
