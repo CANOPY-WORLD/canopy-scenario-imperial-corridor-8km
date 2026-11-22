@@ -436,6 +436,13 @@
       "sha256": "5d9547eb2ed5176c9d9203e1b3597f817a91bb2c77854c7470ad6d31507f1302",
       "bytes": 273582403,
       "files": 1485
+    },
+    {
+      "id": "london-ihub-interior-20261122",
+      "manifest": "snapshots/london-ihub-interior-20261122/manifest.json",
+      "sha256": "95fbcb9cff7d92097c754f62a9b0ded837017f6adbb63d5ab5f9a8380c2778b8",
+      "bytes": 277076014,
+      "files": 1488
     }
   ]
 }
