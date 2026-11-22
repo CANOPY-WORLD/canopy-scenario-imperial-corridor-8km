@@ -1,0 +1,23 @@
+{
+  "kind": "native-traffic-replacement",
+  "source_snapshot": "london-solar-small-20261122",
+  "source_manifest_sha256": "269310f22b43045a30585a7ae11d9dc020e69566087556b02c7c9b2f6dc6bdd8",
+  "recording_sha256": "76f4f497901bfe5a54ee99b6d7da04c1dcb97a203cefb7a2e705866f8eaf13f7",
+  "retained_source_sha256": {
+    "network_sha256": "ccbc42e04aef68d143a5bd716249fea06eca47775dfded03a0fb9e49be07af97",
+    "fcd_sha256": "67fd90b97852e5c6c866ffe1a540a2a7528735c0458b11ef3b952fcf611a164b",
+    "exporter_sha256": "0aef5a70dd6dc88dbf40418b5cef54fa1eac309db786d144196da7de473fa740",
+    "facilities_reader_sha256": "30b96cb55236a4f2e201d885a2aed870a4539185884dd9429a8fddde358a7b32",
+    "crossings_osm_sha256": "3774937db3908111c24c26b9781bd399b67b5a978b5f4e67f1e58446c348b566",
+    "signals_sha256": "28dbe2653bff844062c6c5fe69d625376de067d6e0a472cbeeec89eb62a80527"
+  },
+  "removed_from_selection": [
+    "context/traffic-am.bin",
+    "context/traffic-am.json",
+    "derivation.json",
+    "scene.json"
+  ],
+  "scope": "South Kensington review interval 680.0\u2013720.9 simulation seconds, 0.1 s samples. Synthetic low-load demonstration, not citywide calibrated traffic.",
+  "attribution": "Roads and crossings \u00a9 OpenStreetMap contributors, ODbL; https://www.openstreetmap.org/copyright",
+  "validation_limits": "Zero collisions and teleports in this run; three emergency brakes. Higher demand remains rejected. Native heights are OSM layer estimates, not terrain survey."
+}

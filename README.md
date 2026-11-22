@@ -66,3 +66,9 @@ Review this candidate with the corresponding Canopy compressed-reader change. Me
 ## Solar replacement and retirement
 
 The user explicitly requested replacement and removal of previous sunlight data. The current viewer selects only `london-solar-small-20261122`. All 390 obsolete solar/shadow payloads (84,225,425 bytes) are removed from the current tree and website. Original manifests and Git history remain intact for provenance. Catalog `retired_paths` records the exact removed paths; validation requires their absence and rejects reuse of retired data. Shared geometry and other fields are retained. This explicit retirement supersedes the general snapshot availability policy for these paths only.
+
+## Native South Kensington traffic replacement
+
+`london-traffic-native-20261122` selects the exact Exhibition Road review recording (410 samples at 0.1 seconds, simulation times 680.0–720.9). Native road geometry, front-bumper XYZ, dimensions, headings, slopes and recorded signal states travel together. It replaces the older 1-second citywide traffic replay in the selected website; other widgets retain full city geometry. This is a low-load synthetic demonstration, not a validated citywide capacity model. The source run has zero collisions/teleports and three emergency brakes; higher loads are not approved. Original source inputs and full FCD are retained privately. The public derivation gives original hashes and OSM attribution.
+
+The shared viewer defaults solar playback to the 68 daylight frames (21–88, 04:50:54–21:05:27 BST); all 100 unchanged source frames remain available. The selected scene is 239,324,744 bytes; new presentation payloads add 1,121,355 bytes.

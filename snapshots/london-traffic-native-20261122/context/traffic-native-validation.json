@@ -1,0 +1,37 @@
+{
+  "collisions": 0,
+  "teleports": 0,
+  "emergency_stops": 0,
+  "emergency_braking": 3,
+  "invalid_route_warnings": [],
+  "invalid_departure_warnings": [],
+  "requested_interval_complete": true,
+  "signal_detector_warnings": [],
+  "final_summary": {
+    "time": "2399.900",
+    "loaded": "1000",
+    "inserted": "1000",
+    "running": "0",
+    "waiting": "0",
+    "ended": "1000",
+    "arrived": "1000",
+    "collisions": "0",
+    "teleports": "0",
+    "halting": "0",
+    "stopped": "0",
+    "meanWaitingTime": "0.0000",
+    "meanTravelTime": "740.8316",
+    "meanSpeed": "-1.0000",
+    "meanSpeedRelative": "-1.0000",
+    "discarded": "0",
+    "duration": "0"
+  },
+  "diagnostic_pass": true,
+  "failed_checks": [],
+  "traffic_system_validated": false,
+  "acceptance_scope": "Necessary numerical and configuration checks only; network geometry, signal semantics and demand still require validation.",
+  "limitations": [
+    "Exact native input hashes retained; demand calibration not inferred",
+    "A zero-collision run does not establish safety for other demands or seeds"
+  ]
+}
