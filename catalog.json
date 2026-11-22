@@ -19,6 +19,13 @@
       "sha256": "28c533575c8d849fed1df7a51384b41044b3dd9c49cc0c663f6082c9c0271ce4",
       "bytes": 228692784,
       "files": 1297
+    },
+    {
+      "id": "london-solar-small-20261122",
+      "manifest": "snapshots/london-solar-small-20261122/manifest.json",
+      "sha256": "269310f22b43045a30585a7ae11d9dc020e69566087556b02c7c9b2f6dc6bdd8",
+      "bytes": 249886035,
+      "files": 1405
     }
   ]
 }

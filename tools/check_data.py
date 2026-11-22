@@ -29,6 +29,7 @@ def check(root=ROOT):
     if catalog.get('schema_version') != '1.0.0' or catalog.get('kind') != 'canopy.scenario-data':
         raise ValueError('Unsupported Scenario data catalog')
     count, size, snapshots = 0, 0, set()
+    inventories = {}
     for entry in catalog['snapshots']:
         if entry['id'] in snapshots or not re.fullmatch('[a-zA-Z0-9][a-zA-Z0-9._-]*', entry['id']):
             raise ValueError('Invalid or duplicate snapshot ID')
@@ -39,12 +40,24 @@ def check(root=ROOT):
         if sha256(manifest_path) != entry['sha256']:
             raise ValueError('Snapshot manifest checksum mismatch')
         manifest = json.loads(manifest_path.read_bytes())
-        if (manifest.get('schema_version') != '1.0.0' or manifest.get('kind') != 'canopy.publication' or
+        if (manifest.get('schema_version') not in ('1.0.0', '1.1.0') or manifest.get('kind') != 'canopy.publication' or
                 manifest.get('scenario_id') != catalog['scenario_id'] or manifest.get('snapshot') != entry['id']):
             raise ValueError('Snapshot identity mismatch')
         names, routes, total = set(), set(), 0
+        local_names, stored_bytes = set(), 0
         for record in manifest['files']:
             path = bounded(manifest_path.parent, record['path'])
+            if 'source_snapshot' in record:
+                source = record['source_snapshot']
+                if manifest['schema_version'] != '1.1.0' or not isinstance(source,str) or source not in inventories:
+                    raise ValueError('Source snapshot must already be validated')
+                original = inventories[source].get(record['path'])
+                if not original or 'source_snapshot' in original or any(original[k] != record[k] for k in ('bytes','sha256','viewer_path')):
+                    raise ValueError('Reused snapshot record differs from its immutable source')
+                path = bounded(root / 'snapshots' / source, record['path'])
+            else:
+                local_names.add(record['path'])
+                stored_bytes += record['bytes']
             bounded(root, record['viewer_path'])
             if record['path'] in names or record['viewer_path'] in routes:
                 raise ValueError('Duplicate snapshot file or presentation route')
@@ -57,10 +70,11 @@ def check(root=ROOT):
             total += record['bytes']
         actual = {p.relative_to(manifest_path.parent).as_posix()
                   for p in manifest_path.parent.rglob('*') if p.is_file()}
-        if actual != names | {'manifest.json'} or total != manifest['bytes'] or total != entry['bytes'] or len(names) != entry['files']:
+        if actual != local_names | {'manifest.json'} or total != manifest['bytes'] or total != entry['bytes'] or len(names) != entry['files']:
             raise ValueError('Unlisted payloads or incorrect snapshot totals')
         count += len(names)
-        size += total
+        size += stored_bytes
+        inventories[entry['id']] = {r['path']:r for r in manifest['files']}
     if {p.name for p in (root / 'snapshots').iterdir()} != snapshots:
         raise ValueError('Unlisted snapshot')
     if size > 950_000_000:

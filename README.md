@@ -52,3 +52,13 @@ GitHub Pages URLs are versioned by the snapshot directory. The reference in Cano
 The candidate keeps all building details resident, uses lossless Meshopt geometry encoding and half-size ordinary building textures, retains landmark texture quality, selects 47 summer shadow frames and all 47 winter frames at unchanged 8 m / 10 minute sampling, and omits irradiance, static wind, bird replay and unused context copies. Traffic recordings are unchanged. Added zebra crossing paths retain OpenStreetMap identities and attribution; displayed stripe dimensions are illustrative. See [derivation report](snapshots/london-compact-20261122/derivation.json) for original hashes, omissions and compression evidence.
 
 This snapshot must be merged, deployed and verified before Canopy switches its active publication reference.
+
+## Full-day summer solar candidate
+
+`london-solar-small-20261122` replaces the two old solar date selections with 100 newly computed summer-solstice samples from 00:00 BST on 21 June 2026 through the following midnight. It restores irradiance on a fixed 0–950 W/m² colour scale and retains matching shadows. This is a clear-sky model, not observed weather.
+
+The complete selected Scenario is 249,886,035 bytes across 1,405 payloads. Only 30,509,013 bytes are newly stored: approximately 22.23 MB irradiance, 7.99 MB losslessly packed shadows, and masks/provenance. Irradiance uses codes 0–254 with scale 950/254 W/m², with a measured maximum added error of 1.87012 W/m² against the retained float16 8 m display values. No frames, grid cells or masks are removed. Native results remain private and unchanged. The earlier 73 MB local candidate is not included in this repository branch or upload.
+
+Publication manifest 1.1 adds optional `source_snapshot` to each file record. It identifies an earlier immutable snapshot in this repository. Path, route, byte count and hash must match that snapshot's original non-reused record. The data checker rejects unknown sources, transitive reuse, altered records and unlisted files. The catalog byte totals describe complete logical downloads; the capacity check counts physically stored payload bytes once. All three retained snapshots store 817,275,080 payload bytes. Historical snapshots are unchanged.
+
+Review this candidate with the corresponding Canopy compressed-reader change. Merge and verify this data deployment before publishing the shared viewer reference. Run `python3 tools/check_data.py` and `python3 -m unittest discover -s tools -p test_check_data.py` before publication.

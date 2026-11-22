@@ -1,0 +1,708 @@
+{
+  "frames": 100,
+  "night_frames": 32,
+  "peak_w_m2": 933.2410888671875,
+  "mean_ground_daily_kwh_m2": 7.028999072932533,
+  "stats": [
+    {
+      "frame": 0,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -13.783567295104637
+    },
+    {
+      "frame": 1,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -14.295232536273682
+    },
+    {
+      "frame": 2,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -14.674562811823286
+    },
+    {
+      "frame": 3,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -14.919403306972237
+    },
+    {
+      "frame": 4,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -15.028338953825926
+    },
+    {
+      "frame": 5,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -15.00073398224182
+    },
+    {
+      "frame": 6,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -14.836749831254275
+    },
+    {
+      "frame": 7,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -14.537340590147636
+    },
+    {
+      "frame": 8,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -14.10422618816008
+    },
+    {
+      "frame": 9,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -13.53984453820445
+    },
+    {
+      "frame": 10,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -12.8472844943948
+    },
+    {
+      "frame": 11,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -12.030201405608583
+    },
+    {
+      "frame": 12,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -11.092715643858199
+    },
+    {
+      "frame": 13,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -10.03929022247283
+    },
+    {
+      "frame": 14,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -8.874572516223965
+    },
+    {
+      "frame": 15,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -7.603153978137732
+    },
+    {
+      "frame": 16,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -6.229100885014406
+    },
+    {
+      "frame": 17,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -4.754704340145788
+    },
+    {
+      "frame": 18,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -3.17564292751293
+    },
+    {
+      "frame": 19,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -1.4464959558963035
+    },
+    {
+      "frame": 20,
+      "minimum": 1.0321707932803292e-09,
+      "maximum": 4.144057896837694e-08,
+      "mean_ground": 3.335919984692737e-08,
+      "altitude_deg": 0.5327528739097485
+    },
+    {
+      "frame": 21,
+      "minimum": 0.01568715274333954,
+      "maximum": 0.7525984048843384,
+      "mean_ground": 0.5336208343505859,
+      "altitude_deg": 2.131919323431731
+    },
+    {
+      "frame": 22,
+      "minimum": 0.1878197193145752,
+      "maximum": 10.617565155029297,
+      "mean_ground": 7.0803117752075195,
+      "altitude_deg": 3.8819140620655754
+    },
+    {
+      "frame": 23,
+      "minimum": 0.49852943420410156,
+      "maximum": 32.686065673828125,
+      "mean_ground": 21.296829223632812,
+      "altitude_deg": 5.7339235653536536
+    },
+    {
+      "frame": 24,
+      "minimum": 0.8338718414306641,
+      "maximum": 62.49174118041992,
+      "mean_ground": 40.55059051513672,
+      "altitude_deg": 7.662497454736221
+    },
+    {
+      "frame": 25,
+      "minimum": 1.1424751281738281,
+      "maximum": 96.62390899658203,
+      "mean_ground": 63.16481399536133,
+      "altitude_deg": 9.652860667985077
+    },
+    {
+      "frame": 26,
+      "minimum": 1.4113044738769531,
+      "maximum": 133.23048400878906,
+      "mean_ground": 88.40262603759766,
+      "altitude_deg": 11.695885901155332
+    },
+    {
+      "frame": 27,
+      "minimum": 1.6411628723144531,
+      "maximum": 171.2960968017578,
+      "mean_ground": 115.8096694946289,
+      "altitude_deg": 13.784423602098391
+    },
+    {
+      "frame": 28,
+      "minimum": 1.8368606567382812,
+      "maximum": 210.21795654296875,
+      "mean_ground": 145.49032592773438,
+      "altitude_deg": 15.912415099787081
+    },
+    {
+      "frame": 29,
+      "minimum": 2.003753662109375,
+      "maximum": 249.59886169433594,
+      "mean_ground": 176.1697998046875,
+      "altitude_deg": 18.074402396342805
+    },
+    {
+      "frame": 30,
+      "minimum": 2.1466712951660156,
+      "maximum": 289.14752197265625,
+      "mean_ground": 208.36512756347656,
+      "altitude_deg": 20.265255974850625
+    },
+    {
+      "frame": 31,
+      "minimum": 2.2696685791015625,
+      "maximum": 328.6300048828125,
+      "mean_ground": 241.2526397705078,
+      "altitude_deg": 22.480009572542095
+    },
+    {
+      "frame": 32,
+      "minimum": 2.376068115234375,
+      "maximum": 367.844482421875,
+      "mean_ground": 275.4187316894531,
+      "altitude_deg": 24.71374516283417
+    },
+    {
+      "frame": 33,
+      "minimum": 2.4685440063476562,
+      "maximum": 406.60858154296875,
+      "mean_ground": 310.0546875,
+      "altitude_deg": 26.96149994134432
+    },
+    {
+      "frame": 34,
+      "minimum": 2.549285888671875,
+      "maximum": 444.75238037109375,
+      "mean_ground": 345.075439453125,
+      "altitude_deg": 29.218180430530957
+    },
+    {
+      "frame": 35,
+      "minimum": 2.6200408935546875,
+      "maximum": 482.11474609375,
+      "mean_ground": 380.41552734375,
+      "altitude_deg": 31.478475095425498
+    },
+    {
+      "frame": 36,
+      "minimum": 2.6822586059570312,
+      "maximum": 521.189697265625,
+      "mean_ground": 415.3726806640625,
+      "altitude_deg": 33.73675962233986
+    },
+    {
+      "frame": 37,
+      "minimum": 2.7371063232421875,
+      "maximum": 561.0806274414062,
+      "mean_ground": 448.9819030761719,
+      "altitude_deg": 35.98699025421071
+    },
+    {
+      "frame": 38,
+      "minimum": 2.785552978515625,
+      "maximum": 599.740966796875,
+      "mean_ground": 482.05035400390625,
+      "altitude_deg": 38.22258115278746
+    },
+    {
+      "frame": 39,
+      "minimum": 2.828399658203125,
+      "maximum": 636.9817504882812,
+      "mean_ground": 516.8513793945312,
+      "altitude_deg": 40.43626190453948
+    },
+    {
+      "frame": 40,
+      "minimum": 2.8663177490234375,
+      "maximum": 672.65576171875,
+      "mean_ground": 550.0182495117188,
+      "altitude_deg": 42.61991168775317
+    },
+    {
+      "frame": 41,
+      "minimum": 2.8998565673828125,
+      "maximum": 706.5429077148438,
+      "mean_ground": 581.3133544921875,
+      "altitude_deg": 44.76436736079785
+    },
+    {
+      "frame": 42,
+      "minimum": 2.9294891357421875,
+      "maximum": 738.5115966796875,
+      "mean_ground": 612.2411499023438,
+      "altitude_deg": 46.85920467057255
+    },
+    {
+      "frame": 43,
+      "minimum": 2.9556121826171875,
+      "maximum": 768.4170532226562,
+      "mean_ground": 641.2424926757812,
+      "altitude_deg": 48.892495384414495
+    },
+    {
+      "frame": 44,
+      "minimum": 2.9785308837890625,
+      "maximum": 797.9368286132812,
+      "mean_ground": 673.5545654296875,
+      "altitude_deg": 50.85054993348723
+    },
+    {
+      "frame": 45,
+      "minimum": 2.9985504150390625,
+      "maximum": 823.4915771484375,
+      "mean_ground": 699.2958984375,
+      "altitude_deg": 52.71766636205079
+    },
+    {
+      "frame": 46,
+      "minimum": 3.0158843994140625,
+      "maximum": 847.1751708984375,
+      "mean_ground": 730.4461059570312,
+      "altitude_deg": 54.47592393381696
+    },
+    {
+      "frame": 47,
+      "minimum": 3.0307464599609375,
+      "maximum": 867.7732543945312,
+      "mean_ground": 751.7816772460938,
+      "altitude_deg": 56.105084265548975
+    },
+    {
+      "frame": 48,
+      "minimum": 3.04327392578125,
+      "maximum": 885.7297973632812,
+      "mean_ground": 765.4597778320312,
+      "altitude_deg": 57.58269282851655
+    },
+    {
+      "frame": 49,
+      "minimum": 3.053619384765625,
+      "maximum": 900.966796875,
+      "mean_ground": 781.9898071289062,
+      "altitude_deg": 58.884501416483594
+    },
+    {
+      "frame": 50,
+      "minimum": 3.0618743896484375,
+      "maximum": 912.0508422851562,
+      "mean_ground": 783.4646606445312,
+      "altitude_deg": 59.98534027502275
+    },
+    {
+      "frame": 51,
+      "minimum": 3.068145751953125,
+      "maximum": 921.62890625,
+      "mean_ground": 795.2685546875,
+      "altitude_deg": 60.86052980626551
+    },
+    {
+      "frame": 52,
+      "minimum": 3.0724639892578125,
+      "maximum": 928.501953125,
+      "mean_ground": 803.6162109375,
+      "altitude_deg": 61.48780819759433
+    },
+    {
+      "frame": 53,
+      "minimum": 3.0749053955078125,
+      "maximum": 932.348388671875,
+      "mean_ground": 809.0056762695312,
+      "altitude_deg": 61.8495615055005
+    },
+    {
+      "frame": 54,
+      "minimum": 3.075469970703125,
+      "maximum": 933.2410888671875,
+      "mean_ground": 810.2326049804688,
+      "altitude_deg": 61.93493361312758
+    },
+    {
+      "frame": 55,
+      "minimum": 3.074188232421875,
+      "maximum": 931.212646484375,
+      "mean_ground": 807.30224609375,
+      "altitude_deg": 61.741283326735726
+    },
+    {
+      "frame": 56,
+      "minimum": 3.071014404296875,
+      "maximum": 925.7021484375,
+      "mean_ground": 800.3157348632812,
+      "altitude_deg": 61.274557235159556
+    },
+    {
+      "frame": 57,
+      "minimum": 3.0659332275390625,
+      "maximum": 917.881591796875,
+      "mean_ground": 790.0145874023438,
+      "altitude_deg": 60.548460372425254
+    },
+    {
+      "frame": 58,
+      "minimum": 3.05889892578125,
+      "maximum": 907.3712768554688,
+      "mean_ground": 777.1685180664062,
+      "altitude_deg": 59.5826829439263
+    },
+    {
+      "frame": 59,
+      "minimum": 3.0498504638671875,
+      "maximum": 894.20263671875,
+      "mean_ground": 773.8758544921875,
+      "altitude_deg": 58.40068263664279
+    },
+    {
+      "frame": 60,
+      "minimum": 3.038665771484375,
+      "maximum": 878.1300048828125,
+      "mean_ground": 756.7344360351562,
+      "altitude_deg": 57.02753270982098
+    },
+    {
+      "frame": 61,
+      "minimum": 3.0252532958984375,
+      "maximum": 859.2794189453125,
+      "mean_ground": 742.7490844726562,
+      "altitude_deg": 55.488181452598745
+    },
+    {
+      "frame": 62,
+      "minimum": 3.0094451904296875,
+      "maximum": 837.640869140625,
+      "mean_ground": 714.4705200195312,
+      "altitude_deg": 53.80625563464553
+    },
+    {
+      "frame": 63,
+      "minimum": 2.9910888671875,
+      "maximum": 813.5883178710938,
+      "mean_ground": 688.53857421875,
+      "altitude_deg": 52.003377489556975
+    },
+    {
+      "frame": 64,
+      "minimum": 2.9699859619140625,
+      "maximum": 788.2503051757812,
+      "mean_ground": 663.0017700195312,
+      "altitude_deg": 50.09888262539775
+    },
+    {
+      "frame": 65,
+      "minimum": 2.9458465576171875,
+      "maximum": 758.3692626953125,
+      "mean_ground": 632.1657104492188,
+      "altitude_deg": 48.10980944566723
+    },
+    {
+      "frame": 66,
+      "minimum": 2.9184112548828125,
+      "maximum": 727.4776611328125,
+      "mean_ground": 602.67333984375,
+      "altitude_deg": 46.051049148252496
+    },
+    {
+      "frame": 67,
+      "minimum": 2.887298583984375,
+      "maximum": 694.4152221679688,
+      "mean_ground": 572.1145629882812,
+      "altitude_deg": 43.93557546340208
+    },
+    {
+      "frame": 68,
+      "minimum": 2.8521194458007812,
+      "maximum": 659.0318603515625,
+      "mean_ground": 540.3626098632812,
+      "altitude_deg": 41.77470158062964
+    },
+    {
+      "frame": 69,
+      "minimum": 2.8123550415039062,
+      "maximum": 623.1845703125,
+      "mean_ground": 506.1875305175781,
+      "altitude_deg": 39.57833360060683
+    },
+    {
+      "frame": 70,
+      "minimum": 2.7674179077148438,
+      "maximum": 585.1513671875,
+      "mean_ground": 471.3279724121094,
+      "altitude_deg": 37.35520473840896
+    },
+    {
+      "frame": 71,
+      "minimum": 2.716583251953125,
+      "maximum": 545.7215576171875,
+      "mean_ground": 437.47552490234375,
+      "altitude_deg": 35.113083733378325
+    },
+    {
+      "frame": 72,
+      "minimum": 2.6589889526367188,
+      "maximum": 505.3871765136719,
+      "mean_ground": 402.64984130859375,
+      "altitude_deg": 32.85895638446963
+    },
+    {
+      "frame": 73,
+      "minimum": 2.5936050415039062,
+      "maximum": 467.684326171875,
+      "mean_ground": 367.4145202636719,
+      "altitude_deg": 30.59918191878353
+    },
+    {
+      "frame": 74,
+      "minimum": 2.5191497802734375,
+      "maximum": 429.9990234375,
+      "mean_ground": 332.00421142578125,
+      "altitude_deg": 28.339627338448793
+    },
+    {
+      "frame": 75,
+      "minimum": 2.4340744018554688,
+      "maximum": 391.5940246582031,
+      "mean_ground": 295.86785888671875,
+      "altitude_deg": 26.085783368967558
+    },
+    {
+      "frame": 76,
+      "minimum": 2.3364639282226562,
+      "maximum": 352.63360595703125,
+      "mean_ground": 259.9736022949219,
+      "altitude_deg": 23.842865976176192
+    },
+    {
+      "frame": 77,
+      "minimum": 2.2239608764648438,
+      "maximum": 313.2919616699219,
+      "mean_ground": 224.9764404296875,
+      "altitude_deg": 21.615907643060012
+    },
+    {
+      "frame": 78,
+      "minimum": 2.093647003173828,
+      "maximum": 273.7579040527344,
+      "mean_ground": 192.01234436035156,
+      "altitude_deg": 19.409843391682866
+    },
+    {
+      "frame": 79,
+      "minimum": 1.941925048828125,
+      "maximum": 234.24383544921875,
+      "mean_ground": 160.26625061035156,
+      "altitude_deg": 17.2295981711068
+    },
+    {
+      "frame": 80,
+      "minimum": 1.7644386291503906,
+      "maximum": 195.00204467773438,
+      "mean_ground": 130.3311767578125,
+      "altitude_deg": 15.080186152645982
+    },
+    {
+      "frame": 81,
+      "minimum": 1.5560894012451172,
+      "maximum": 156.35723876953125,
+      "mean_ground": 102.25344848632812,
+      "altitude_deg": 12.966840833580411
+    },
+    {
+      "frame": 82,
+      "minimum": 1.3115348815917969,
+      "maximum": 118.7706069946289,
+      "mean_ground": 76.2863540649414,
+      "altitude_deg": 10.8952128201606
+    },
+    {
+      "frame": 83,
+      "minimum": 1.0268840789794922,
+      "maximum": 82.97203063964844,
+      "mean_ground": 52.61940002441406,
+      "altitude_deg": 8.871709749050464
+    },
+    {
+      "frame": 84,
+      "minimum": 0.7049713134765625,
+      "maximum": 50.2354621887207,
+      "mean_ground": 31.837697982788086,
+      "altitude_deg": 6.904116620485164
+    },
+    {
+      "frame": 85,
+      "minimum": 0.36963367462158203,
+      "maximum": 22.91696548461914,
+      "mean_ground": 14.844870567321777,
+      "altitude_deg": 5.002327843431874
+    },
+    {
+      "frame": 86,
+      "minimum": 0.09714341163635254,
+      "maximum": 5.161740779876709,
+      "mean_ground": 3.4892985820770264,
+      "altitude_deg": 3.187035610132063
+    },
+    {
+      "frame": 87,
+      "minimum": 0.0014434373006224632,
+      "maximum": 0.06469889730215073,
+      "mean_ground": 0.04766204208135605,
+      "altitude_deg": 1.4876145142440893
+    },
+    {
+      "frame": 88,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -0.0750954898900914
+    },
+    {
+      "frame": 89,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -2.1465858575231995
+    },
+    {
+      "frame": 90,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -3.8037819185024153
+    },
+    {
+      "frame": 91,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -5.3406899343972505
+    },
+    {
+      "frame": 92,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -6.7761424987765215
+    },
+    {
+      "frame": 93,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -8.110730077737628
+    },
+    {
+      "frame": 94,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -9.341214825136591
+    },
+    {
+      "frame": 95,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -10.463241947482349
+    },
+    {
+      "frame": 96,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -11.472160180437204
+    },
+    {
+      "frame": 97,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -12.36337117007185
+    },
+    {
+      "frame": 98,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -13.13252860142839
+    },
+    {
+      "frame": 99,
+      "minimum": 0.0,
+      "maximum": 0.0,
+      "mean_ground": 0.0,
+      "altitude_deg": -13.775679465588754
+    }
+  ]
+}
