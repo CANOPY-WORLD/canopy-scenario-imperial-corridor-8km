@@ -429,6 +429,13 @@
       "sha256": "548f72f3fb3434bd968692de67bfa9836149304d28830070fcee856e95970b45",
       "bytes": 239324744,
       "files": 1405
+    },
+    {
+      "id": "london-pollution-log8-20261122",
+      "manifest": "snapshots/london-pollution-log8-20261122/manifest.json",
+      "sha256": "5d9547eb2ed5176c9d9203e1b3597f817a91bb2c77854c7470ad6d31507f1302",
+      "bytes": 273582403,
+      "files": 1485
     }
   ]
 }
