@@ -431,10 +431,10 @@
       "files": 1405
     },
     {
-      "id": "london-pollution-8m-20261122",
-      "manifest": "snapshots/london-pollution-8m-20261122/manifest.json",
-      "sha256": "72cd392cf6779d1e7361e0f990c32fa7f00f320a8ba296fc643d2d73b7156d26",
-      "bytes": 311452961,
+      "id": "london-pollution-log8-20261122",
+      "manifest": "snapshots/london-pollution-log8-20261122/manifest.json",
+      "sha256": "5d9547eb2ed5176c9d9203e1b3597f817a91bb2c77854c7470ad6d31507f1302",
+      "bytes": 273582403,
       "files": 1485
     }
   ]
