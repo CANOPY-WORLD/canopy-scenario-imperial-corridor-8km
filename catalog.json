@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "kind": "canopy.scenario-data",
   "scenario_id": "imperial_corridor_8km",
-  "title": "Imperial Corridor, London \u2014 8 km \u00d7 8 km",
+  "title": "Imperial Corridor, London — 8 km × 8 km",
   "canopy": "https://github.com/CANOPY-WORLD/canopy",
   "viewer_url": "https://canopy-world.github.io/canopy/viewer/3d/?scene=imperial_corridor_8km",
   "snapshots": [
@@ -443,6 +443,13 @@
       "sha256": "95fbcb9cff7d92097c754f62a9b0ded837017f6adbb63d5ab5f9a8380c2778b8",
       "bytes": 277076014,
       "files": 1488
+    },
+    {
+      "id": "london-tube-stations53-20261123",
+      "manifest": "snapshots/london-tube-stations53-20261123/manifest.json",
+      "sha256": "e85de183eaf72b2e7ed78c09bb02a111a2900a77bbabe7744128542a21a47573",
+      "bytes": 291443261,
+      "files": 1494
     }
   ]
 }
