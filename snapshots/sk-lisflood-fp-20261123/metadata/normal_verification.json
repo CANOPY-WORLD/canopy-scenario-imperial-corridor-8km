@@ -1,0 +1,39 @@
+{
+  "case": "sk-normal-water-v4",
+  "passed": true,
+  "nominal_duration_s": 21600,
+  "actual_last_output_s": 21600.060547,
+  "initial_wet_area_m2": 191237,
+  "final_wet_area_m2": 191237,
+  "initial_volume_m3": 176036.0001608692,
+  "final_volume_m3": 176036.0001608692,
+  "checks": {
+    "finite_nonnegative_depth": true,
+    "max_depth_change_m": 0.0,
+    "maximum_depth_increase_entire_run_m": 0.0,
+    "maximum_face_speed_m_s": 0.0,
+    "maximum_wet_area_drift_m2": 0,
+    "maximum_changed_wet_pixels": 0,
+    "ever_wet_pixels_outside_initial_area": 0,
+    "minimum_reference_coverage_percent": 100.0,
+    "maximum_reference_area_difference_percent": 1.1778166644232064,
+    "relative_volume_error_percent": 0.0,
+    "point_sample_count": 361,
+    "point_depth_ranges_m": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "maximum_point_speed_m_s": 0.0,
+    "max_core_stage_error_m": 9.155273446026513e-07
+  },
+  "runtime": {
+    "exit_code": 0,
+    "wall_seconds": 188.64497729670256,
+    "parameters": "normal.par",
+    "physical_duration_s": 21600
+  },
+  "checks_are_numerical_not_observational_validation": true,
+  "precision": "8 decimal places for raster outputs; native point depths are rounded to 4 decimals",
+  "normal_stage_definition": "DSM-derived reference stage at acquisition, not a gauge-validated long-term normal stage"
+}

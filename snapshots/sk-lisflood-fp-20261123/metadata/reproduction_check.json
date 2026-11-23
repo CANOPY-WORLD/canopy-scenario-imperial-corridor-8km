@@ -1,0 +1,101 @@
+{
+  "test_date": "2026-11-23",
+  "scope": "New build and bounded 30-minute rerun from the distributed ZIP using its standalone reproduce.py; not a fresh full 3-hour rerun or raw-data reconstruction.",
+  "platform": "Linux x86-64, NVIDIA RTX 5090, CUDA 12.8, GCC/G++ 13, Python 3.12",
+  "requested_seconds": 1800,
+  "archive_sha256": "642ba6c88c792e13a10faf8e92d83a159e6c42b985ebe391beb27ea80aad5287",
+  "case_manifest_sha256": "8cc83f4782b2dfbbc32766caa5731e62a904586d5dc07d8f671b00b222c29e68",
+  "standalone_script_sha256": "773d9c5723241457d243ff398b248be66289875bd0d04ed77a2c6210f03de585",
+  "verified_case_files": 37,
+  "build": {
+    "schema": "lisflood-fp-build/1",
+    "upstream_revision": "78dda58284701f99a24ec982dab0de8a28a00246",
+    "patch_sha256": "a9dba2a973d28cb1b8624fea6a40a7719896cf5d3e0e3bd8e837c7c84b92bea6",
+    "config_sha256": "62ea38671e809ea980f435d3ee929c8aab981aa3f88dee9186ffcde9784eb00a",
+    "source_hashes": {
+      "cuda/cuda_boundary.cu": {
+        "original_sha256": "623f028bc40e8e8880b9274ee109d93d13837764187d819527acbec83ef2d6eb",
+        "patched_sha256": "0b0431819ea1f9dc6506bb4c72246bea20e4fb0047ef6da45e6099d220a3c1e1"
+      },
+      "cuda/cuda_boundary.cuh": {
+        "original_sha256": "a44a377707147e6b265a730498e6138de9f09f38c843c39cdf187a7968844713",
+        "patched_sha256": "5c02aa189f04531188f2904f70346fb2a0012212729d9ba2947e9f386b88ce1f"
+      },
+      "cuda/acc/cuda_acc_simulate.cu": {
+        "original_sha256": "acf88bbd9ed353f07f32043b4726f18180748247509f3334147bdb1136fbc920",
+        "patched_sha256": "d5d048999788e39ef4cc6e6f01164bc24fd1de51e31057b655e82206e9f8fc55"
+      }
+    },
+    "binary_sha256": "1a4facefa2ac76d3d1baa7411c5f59ce4a5a40cffcc0f312cb200ed6a641ac49",
+    "cuda_architectures": "120"
+  },
+  "depth_comparison": [
+    {
+      "file": "rain-0000.wd",
+      "reference_sha256": "9b53439b5db5abd690b678a936bbb072041b2155e7f1a5e362d2dcd95ace46e5",
+      "rerun_sha256": "9b53439b5db5abd690b678a936bbb072041b2155e7f1a5e362d2dcd95ace46e5",
+      "max_absolute_depth_difference_m": 0.0,
+      "identical_bytes": true
+    },
+    {
+      "file": "rain-0001.wd",
+      "reference_sha256": "dd860b86d53edddf2d5baf54826456105c58439370bf10374a6ee637485dbfa0",
+      "rerun_sha256": "dd860b86d53edddf2d5baf54826456105c58439370bf10374a6ee637485dbfa0",
+      "max_absolute_depth_difference_m": 0.0,
+      "identical_bytes": true
+    },
+    {
+      "file": "rain-0002.wd",
+      "reference_sha256": "4ba0dbdc3ed37d8577b455111eb06601bbfceb0d87aef75c1c620e9754f796eb",
+      "rerun_sha256": "4ba0dbdc3ed37d8577b455111eb06601bbfceb0d87aef75c1c620e9754f796eb",
+      "max_absolute_depth_difference_m": 0.0,
+      "identical_bytes": true
+    }
+  ],
+  "numerical_audit": {
+    "passed": true,
+    "absolute_tolerance_m3": 0.1,
+    "max_absolute_residual_m3": 4.7630130097786605e-06,
+    "completed_seconds": 1800.1065799221294,
+    "snapshots": [
+      {
+        "time_s": 0.2,
+        "volume_m3": 176036.0001610014,
+        "rain_m3": 0.0,
+        "boundary_in_m3": 0.0,
+        "boundary_out_m3": 0.0,
+        "residual_m3": 1.3969838619232178e-09,
+        "max_depth_m": 1.0
+      },
+      {
+        "time_s": 900.0000000000676,
+        "volume_m3": 213689.92400059802,
+        "rain_m3": 37879.58093261915,
+        "boundary_in_m3": 0.0,
+        "boundary_out_m3": 225.657097784144,
+        "residual_m3": 4.7630130097786605e-06,
+        "max_depth_m": 1.017996263
+      },
+      {
+        "time_s": 1800.1065799221294,
+        "volume_m3": 287793.3556807536,
+        "rain_m3": 113668.93644318859,
+        "boundary_in_m3": 0.0,
+        "boundary_out_m3": 1911.580919531017,
+        "residual_m3": -3.903984861608478e-06,
+        "max_depth_m": 2.2809242005
+      }
+    ],
+    "scope": "Numerical consistency; not calibration or observed-depth validation."
+  },
+  "environment_lock_check": {
+    "explicit_conda_packages": 236,
+    "creation_dry_run_passed": true,
+    "fresh_environment_install_performed": false
+  },
+  "limits": [
+    "The complete original recorded run is supplied as reference diagnostics; this packaging check covers 30 simulated minutes.",
+    "Reference GPU/toolchain only; cross-hardware bitwise equivalence is not promised.",
+    "Numerical conservation is not observed-storm calibration."
+  ]
+}

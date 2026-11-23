@@ -1,0 +1,34 @@
+{
+  "upstream_source": "retained-source:source",
+  "isolated_source": "retained-source:solver-source",
+  "changed_files": [
+    "cuda/cuda_boundary.cu",
+    "cuda/cuda_boundary.cuh",
+    "cuda/acc/cuda_acc_simulate.cu"
+  ],
+  "changes": [
+    "FP64 via upstream default configuration",
+    "ACC outgoing face flux is scaled once by the donor available-water budget, shared by both adjacent cells",
+    "Output face velocities scaled by the same factor",
+    "Actual limited external fluxes integrated every step and saved every mass interval",
+    "17-significant-digit ACC time-step logging for independent dynamic-rain integration"
+  ],
+  "unchanged": "ACC momentum discretisation, friction, terrain, initial lake state and rainfall input remain unchanged",
+  "scope": "Local experimental correction; not presented as an unmodified upstream binary",
+  "budget_scope": "Boundary CSV integrates external perimeter flows only. Rain is integrated independently from native time-step logs. Point sources, HFIX, infiltration, drainage and evaporation are disabled in this case.",
+  "validated_scope": "Regular-grid GPU ACC for this no-drainage/no-infiltration rain case; not a general validation of all LISFLOOD features.",
+  "source_hashes": {
+    "cuda/cuda_boundary.cu": {
+      "original_sha256": "623f028bc40e8e8880b9274ee109d93d13837764187d819527acbec83ef2d6eb",
+      "patched_sha256": "0b0431819ea1f9dc6506bb4c72246bea20e4fb0047ef6da45e6099d220a3c1e1"
+    },
+    "cuda/cuda_boundary.cuh": {
+      "original_sha256": "a44a377707147e6b265a730498e6138de9f09f38c843c39cdf187a7968844713",
+      "patched_sha256": "5c02aa189f04531188f2904f70346fb2a0012212729d9ba2947e9f386b88ce1f"
+    },
+    "cuda/acc/cuda_acc_simulate.cu": {
+      "original_sha256": "acf88bbd9ed353f07f32043b4726f18180748247509f3334147bdb1136fbc920",
+      "patched_sha256": "d5d048999788e39ef4cc6e6f01164bc24fd1de51e31057b655e82206e9f8fc55"
+    }
+  }
+}

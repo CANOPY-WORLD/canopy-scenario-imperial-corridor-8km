@@ -443,6 +443,13 @@
       "sha256": "95fbcb9cff7d92097c754f62a9b0ded837017f6adbb63d5ab5f9a8380c2778b8",
       "bytes": 277076014,
       "files": 1488
+    },
+    {
+      "id": "sk-lisflood-fp-20261123",
+      "manifest": "snapshots/sk-lisflood-fp-20261123/manifest.json",
+      "sha256": "d6fd885547355c2d514ff0c91e24507913781bb69f29981e1c4fe8d7431e0340",
+      "bytes": 131363547,
+      "files": 34
     }
   ]
 }

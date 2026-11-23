@@ -1,0 +1,146 @@
+{
+  "passed": true,
+  "native_maximum_depth_threshold_m": 0.001,
+  "completed_simulated_time_s": 10800.069185625774,
+  "steps": 127394,
+  "dt_min_s": 0.07056704428977825,
+  "dt_max_s": 0.2,
+  "nominal_rain_mm": 49.95,
+  "actual_applied_rain_mm": 49.9500904071427,
+  "initial_water_volume_m3": 176036.000161,
+  "final": {
+    "time_s": 10800.069185625774,
+    "time_min": 180.0011530937629,
+    "total_volume_m3": 629899.6198016927,
+    "rain_cumulative_m3": 511488.9257691413,
+    "boundary_in_m3": 0.0,
+    "boundary_out_m3": 57625.30612869252,
+    "water_balance_residual_m3": 2.4389009922742844e-07,
+    "land_volume_m3": 315689.7042641008,
+    "roof_volume_m3": 52800.248018865095,
+    "water_region_volume_m3": 261409.66751872672,
+    "land_area_depth_ge_0p1_m2": 1210613,
+    "land_area_depth_ge_0p3_m2": 195179,
+    "land_area_depth_ge_0p5_m2": 44617,
+    "land_max_depth_m": 5.2770047496,
+    "sk_focus_land_area_depth_ge_0p1_m2": 70051,
+    "sk_focus_land_area_depth_ge_0p3_m2": 18051,
+    "sk_focus_land_max_depth_m": 5.2770047496
+  },
+  "at_end_of_rain": {
+    "time_s": 5400.047043786597,
+    "time_min": 90.00078406310995,
+    "total_volume_m3": 649241.3135101767,
+    "rain_cumulative_m3": 511488.9257691413,
+    "boundary_in_m3": 0.0,
+    "boundary_out_m3": 38283.61242020658,
+    "water_balance_residual_m3": 2.4200562620535493e-07,
+    "land_volume_m3": 347481.4653620627,
+    "roof_volume_m3": 53610.0231928994,
+    "water_region_volume_m3": 248149.8249552145,
+    "land_area_depth_ge_0p1_m2": 1303692,
+    "land_area_depth_ge_0p3_m2": 141814,
+    "land_area_depth_ge_0p5_m2": 39329,
+    "land_max_depth_m": 5.2463527107,
+    "sk_focus_land_area_depth_ge_0p1_m2": 93942,
+    "sk_focus_land_area_depth_ge_0p3_m2": 15187,
+    "sk_focus_land_max_depth_m": 5.2463527107
+  },
+  "max_absolute_water_balance_residual_m3": 4.7630130097786605e-06,
+  "sk_focus_bounds_bng": [
+    526300,
+    178850,
+    527250,
+    179750
+  ],
+  "sk_focus_is_campus_boundary": false,
+  "sk_focus_land_ever_ge_0p1_m2": 108860,
+  "sk_focus_land_ever_ge_0p3_m2": 24282,
+  "sk_focus_land_maximum_depth_m": 5.2770047496,
+  "land_cell_area_m2": 7043291,
+  "roof_cell_area_m2": 2999438,
+  "water_region_cell_area_m2": 197271,
+  "land_maximum_depth_m": 5.2770047496,
+  "land_maximum_location": {
+    "easting": 526580.5,
+    "northing": 178918.5,
+    "longitude": -0.17798255209774447,
+    "latitude": 51.49504696527645
+  },
+  "land_ever_depth_ge_0p1_m2": 1593136,
+  "land_ever_depth_ge_0p3_m2": 260303,
+  "land_ever_depth_ge_0p5_m2": 62782,
+  "land_wet_ge_0p1_depth_percentiles_m": {
+    "p50": 0.1867957568,
+    "p90": 0.32827694165,
+    "p99": 0.7684022404049997
+  },
+  "maximum_snapshot_land_flood_area_ge_0p1_m2": 1303692,
+  "lake_final": [
+    {
+      "time_s": 10800.069185625774,
+      "time_min": 180.0011530937629,
+      "lake_id": 1,
+      "name": "Long Water",
+      "normal_stage_m_ODN": 14.98,
+      "median_stage_m_ODN": 15.46849515505,
+      "p05_stage_m_ODN": 15.463288550640002,
+      "p95_stage_m_ODN": 15.473762659655,
+      "median_rise_m": 0.48849515504999985,
+      "volume_within_initial_footprint_m3": 59078.745010798004,
+      "wet_area_within_initial_footprint_m2": 39690
+    },
+    {
+      "time_s": 10800.069185625774,
+      "time_min": 180.0011530937629,
+      "lake_id": 2,
+      "name": "Serpentine",
+      "normal_stage_m_ODN": 14.98,
+      "median_stage_m_ODN": 15.4699010917,
+      "p05_stage_m_ODN": 15.4649228011,
+      "p95_stage_m_ODN": 15.4747812656,
+      "median_rise_m": 0.4899010917000002,
+      "volume_within_initial_footprint_m3": 180991.9450389853,
+      "wet_area_within_initial_footprint_m2": 121481
+    },
+    {
+      "time_s": 10800.069185625774,
+      "time_min": 180.0011530937629,
+      "lake_id": 3,
+      "name": "Round Pond",
+      "normal_stage_m_ODN": 24.54,
+      "median_stage_m_ODN": 24.71836725565,
+      "p05_stage_m_ODN": 24.716786141550003,
+      "p95_stage_m_ODN": 24.719941582675,
+      "median_rise_m": 0.17836725565000222,
+      "volume_within_initial_footprint_m3": 20227.7775816213,
+      "wet_area_within_initial_footprint_m2": 30066
+    }
+  ],
+  "lake_peak_sampled_median_rise_m": {
+    "Long Water": 0.48849515504999985,
+    "Serpentine": 0.4899010917000002,
+    "Round Pond": 0.17836725565000222
+  },
+  "notes": [
+    "Ever-flooded areas use per-cell maximum over every solver time step, not simultaneous area.",
+    "Lake statistics use fixed accepted initial water footprints; additional shoreline flooding is counted as land if outside the protected-water mask.",
+    "FP64 native ASCII values used for all volume checks; GeoTIFF and NetCDF exports are float32 for display.",
+    "Velocities remain available as native staggered Vx/Vy in results-open; not reinterpreted as cell-centred vectors."
+  ],
+  "deep_water_review": {
+    "land_area_ever_ge_2m_m2": 348,
+    "connected_patches_ge_2m": 62,
+    "top_location": {
+      "patch_id": 43,
+      "land_area_ge_2m_m2": 1,
+      "max_depth_m": 5.2770047496,
+      "peak_easting": 526580.5,
+      "peak_northing": 178918.5,
+      "bed_at_peak_m_ODN": 7.646,
+      "median_3x3_bed_m_ODN": 18.246,
+      "building_within_3x3": true
+    },
+    "interpretation": "Locations needing terrain/building-edge review; not automatically classified as errors."
+  }
+}

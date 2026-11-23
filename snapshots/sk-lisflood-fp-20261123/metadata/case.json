@@ -1,0 +1,64 @@
+{
+  "case": "sk-rain-normal-v5",
+  "solver": "LISFLOOD-FP 8.3 GPU ACC, FP64 with local shared-face conservation correction",
+  "rain_source_case": "retained-source:sk-rain-only-v1",
+  "terrain_source_case": "retained-source:sk-terrain-lakes-v3",
+  "initial_water_source_case": "retained-source:sk-normal-water-v4",
+  "shape": [
+    3200,
+    3200
+  ],
+  "resolution_m": 1,
+  "bounds_bng": [
+    525000.0,
+    177800.0,
+    528200.0,
+    181000.0
+  ],
+  "horizontal_crs": "EPSG:27700",
+  "vertical_datum": "ODN",
+  "nominal_rain_mm": 49.95,
+  "rain_from_netcdf_mm": 49.95000076293945,
+  "rates_mm_h": [
+    14.8,
+    29.6,
+    74,
+    44.4,
+    22.2,
+    14.8
+  ],
+  "rain_interval_s": 900,
+  "rain_duration_s": 5400,
+  "total_duration_s": 10800,
+  "output_interval_s": 900,
+  "rain_is_observed": false,
+  "initial_volume_from_startfile_m3": 176036.000161,
+  "nominal_rain_input_m3": 511488.0,
+  "manning_n": 0.03,
+  "boundary": "FREE -1 on four external edges, same as original baseline",
+  "infiltration": false,
+  "drainage": false,
+  "roof_redistribution": false,
+  "HFIX_points": false,
+  "rain_application": "uniform across all cells, including roofs and lakes; roofs represented by DSM heights",
+  "hashes": {
+    "DSM_final.dem": "e430f83576bd2d8084e44eb62abf3d28d5b849380babedb0da959726e3b6407e",
+    "normal.start": "2c26193517d66bf902438db8d562936d591de21db113b26bd3965d374e9eb95f",
+    "rain.nc": "6a318a4a244f6aa6d9932e6a1304504a9fd7cfb2708f81c5b463e4166a821396",
+    "open.bci": "6059b885099ac9c762634fd49185b27d5fdbe2e079e29fe7cb58cf297f8d335c"
+  },
+  "limitations": [
+    "Original 49.95 mm synthetic experiment, not an observed storm reconstruction.",
+    "Accepted full-fill terrain and trial lake bathymetry retain the previously documented assumptions.",
+    "Roof cell water is not ground flooding; report ground flooding separately from roofs and initial lakes.",
+    "The original run used a dry 4 m bare-earth grid; this 1 m run changes resolution, terrain and initial water together.",
+    "Native GPU .mass does not fully account dynamic rain and open-boundary fluxes; check water volumes independently."
+  ],
+  "initial_tstep_s": 0.2,
+  "adaptive_timestep": true,
+  "solver_binary": "retained-source:lisflood",
+  "solver_binary_sha256": "a0cd50c7d1a66a52baebcd47a621a9683b11cea46dd956eb8e040bee052c1ae2",
+  "source_patch_sha256": "a9dba2a973d28cb1b8624fea6a40a7719896cf5d3e0e3bd8e837c7c84b92bea6",
+  "upstream_commit": "78dda58284701f99a24ec982dab0de8a28a00246",
+  "rain_integration": "Audited from exact per-step start time, original NetCDF values and previous cuda::dt; first rain increment is zero in upstream ACC order."
+}

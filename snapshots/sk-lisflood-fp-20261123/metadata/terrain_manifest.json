@@ -1,0 +1,136 @@
+{
+  "created_utc": "2026-11-23T12:02:07.092233+00:00",
+  "shape": [
+    3200,
+    3200
+  ],
+  "resolution_m": 1,
+  "bounds_bng": [
+    525000.0,
+    177800.0,
+    528200.0,
+    181000.0
+  ],
+  "horizontal_crs": "EPSG:27700",
+  "vertical_datum": "ODN",
+  "source_dtm_sha256": "60b0901490a028f4cdfe989850d9b3da657d4d2b4d21401bb87f8b1184f8b236",
+  "source_dsm_sha256": "f7a70be02343b2296b00f6e28bba457ffa62621847f4b54d7d8c9b91f6714ebd",
+  "fill": {
+    "algorithm": "priority flood, 4 face neighbours; all OSM water pixels and external edge are seeds; no artificial epsilon slope",
+    "experimental_full_nonwater_fill": true,
+    "water_pixels_unchanged": true,
+    "idempotence_check": true,
+    "depression_count": 195298,
+    "filled_area_m2": 3925565,
+    "max_fill_m": 29.533000946044922,
+    "fill_volume_m3": 3265005.150813765,
+    "large_edits_flagged": 859,
+    "review_threshold": "max fill > 1 m OR area > 1000 m2; flags do not prove error",
+    "building_overlap_breakdown": {
+      "inside_buildings": {
+        "area_m2": 1734240,
+        "fill_volume_m3": 2001736.2430496216,
+        "p50_p90_p99_max_m": [
+          1.0109996795654297,
+          2.134000301361084,
+          5.37399959564209,
+          29.533000946044922
+        ],
+        "area_fill_gt_1m_m2": 874365
+      },
+      "outside_buildings": {
+        "area_m2": 2191325,
+        "fill_volume_m3": 1263268.9077631896,
+        "p50_p90_p99_max_m": [
+          0.17499971389770508,
+          1.6319999694824219,
+          5.312000274658203,
+          24.63800048828125
+        ],
+        "area_fill_gt_1m_m2": 455312
+      }
+    }
+  },
+  "buildings": {
+    "count": 12513,
+    "raster_area_m2": 2999438,
+    "method": "DSM pixels only inside OSM building polygons, max with filled DTM; native roof variability retained; water wins on overlaps",
+    "height_statistics": "median and p90 absolute roof; p90 DSM minus filled ground, sampling 1 m eroded interiors if >=10 pixels",
+    "water_overlap_excluded_cells": 384,
+    "no_raster_samples": 0,
+    "low_height_review_count": 82,
+    "high_height_review_count": 8,
+    "subpixel_statistics_count": 17,
+    "subpixel_policy": "17 footprints contain no 1 m cell centres: height stats use all intersecting pixels and are flagged subpixel; geometry kept in SHP, absent from centre-rasterized obstacles"
+  },
+  "lakes": [
+    {
+      "lake_id": 2,
+      "name": "Serpentine",
+      "osm_id": "relation/5392",
+      "core_dtm_m": 14.979999542236328,
+      "mean_trial_depth_m": 1.0,
+      "stage_m_ODN": 14.98,
+      "area_m2": 121481,
+      "initial_volume_m3": 121481.0,
+      "point_easting": 527568.5,
+      "point_northing": 180046.5,
+      "depth_source": "UKCEH 42218 mean depth; uniform trial bed, no surveyed spatial bathymetry",
+      "stage_source": "EA DTM interior water-surface median, rounded to 0.01 m; trial stage, not a gauge observation"
+    },
+    {
+      "lake_id": 1,
+      "name": "Long Water",
+      "osm_id": "way/19841953",
+      "core_dtm_m": 15.0,
+      "mean_trial_depth_m": 1.0,
+      "stage_m_ODN": 14.98,
+      "area_m2": 39690,
+      "initial_volume_m3": 39690.0,
+      "point_easting": 526858.5,
+      "point_northing": 180231.5,
+      "depth_source": "UKCEH 42218 mean depth; uniform trial bed, no surveyed spatial bathymetry",
+      "stage_source": "EA DTM interior water-surface median, rounded to 0.01 m; trial stage, not a gauge observation"
+    },
+    {
+      "lake_id": 3,
+      "name": "Round Pond",
+      "osm_id": "way/945710489",
+      "core_dtm_m": 24.540000915527344,
+      "mean_trial_depth_m": 0.5,
+      "stage_m_ODN": 24.54,
+      "area_m2": 29716,
+      "initial_volume_m3": 14858.0,
+      "point_easting": 526180.5,
+      "point_northing": 180114.5,
+      "depth_source": "ASSUMED 0.5 m trial depth; no verified public depth found",
+      "stage_source": "EA DTM interior water-surface median, rounded to 0.01 m; trial stage, not a gauge observation"
+    }
+  ],
+  "sources": {
+    "DTM": "https://www.data.gov.uk/dataset/01b3ee39-da3f-47b6-83da-dc98e73a461f/lidar-composite-digital-terrain-model-dtm-1m",
+    "DSM": "https://www.data.gov.uk/dataset/cf3f1137-c12b-44a1-a835-e80fe4a60b92/lidar-composite-digital-surface-model-dsm-1m",
+    "lake_mean_depth": "https://uklakes.ceh.ac.uk/detail.html?wbid=42218",
+    "survey_2026_not_open_data": "https://www.storm-geomatics.com/case-studies/hyde-park-serpentine-bathymetric-survey/",
+    "water_connections": "https://www.royalparks.org.uk/read-watch-listen/water-features-hyde-park-kensington-gardens",
+    "historic_max_depth_not_uniform_depth": "https://announcements.asx.com.au/asxpdf/20120628/pdf/4272ttmwgwcgzm.pdf",
+    "OSM": "https://www.openstreetmap.org/copyright",
+    "OSM_extract": "https://download.geofabrik.de/europe/united-kingdom/england/greater-london.html",
+    "fill_algorithm_reference": "https://rbarnes.org/sci/2014_barnes_depressions_published.pdf"
+  },
+  "limitations": [
+    "Full land depression filling may remove real basements, underpasses and storage. Flagged cells are not verified errors.",
+    "OSM snapshot is not a completeness guarantee; footprints are contemporary whereas EA composite is 2022 and may contain surveys from differing dates.",
+    "DSM inside footprints can contain tree overhang, rooftop objects or low returns; building stats are unverified estimates.",
+    "No drainage, infiltration, roof runoff routing, underground lake pipes, pump flows or penstock model.",
+    "Trial lake beds are uniform mean-depth assumptions. DTM median stages are not gauge readings.",
+    "UKCEH coarse elevation 17 m AOD is not adopted; local DTM water surfaces near 15 m ODN set trial stage.",
+    "DSM_final is a synthetic hydraulic DEM, not a measured DSM or a digital twin mesh."
+  ],
+  "attribution": [
+    "Contains Environment Agency data, 2022 Composite LIDAR; Open Government Licence where applicable.",
+    "OSM buildings and water polygons: copyright OpenStreetMap contributors, ODbL."
+  ],
+  "lakes_connected_components_4way": 1,
+  "osm_snapshot_utc": "2026-11-22T21:20:48Z"
+}

@@ -1,0 +1,67 @@
+{
+  "case": "sk-rain-normal-v5",
+  "simulation_window_s": [
+    0,
+    6300.0
+  ],
+  "rain_duration_s": 5400,
+  "post_rain_routing_s": 900,
+  "rain_total_mm": 49.95,
+  "simulation_resolution_m": 1,
+  "domain_size_m": [
+    3200,
+    3200
+  ],
+  "seconds": 7,
+  "fps": 10,
+  "frames": 70,
+  "mp4_resolution": [
+    640,
+    640
+  ],
+  "gif_resolution": [
+    512,
+    512
+  ],
+  "gif_colors_max": 128,
+  "gif_loop": "infinite",
+  "display": "Full domain only, with small elapsed-time/phase badge. No zoom panel, hydrograph, focus rectangle, or separate recession sequence.",
+  "interpolation": "Linear water-depth interpolation between the saved full fields, for display only. Source outputs are about 15 minutes apart. No new solver run.",
+  "source_times_s": [
+    0.0,
+    900.0000000000676,
+    1800.1065799221294,
+    2700.014880138337,
+    3600.037823724185,
+    4500.005210343953,
+    5400.047043786597,
+    6300.036118683885
+  ],
+  "source_netcdf_sha256": "672bb496ed7c7639fd6a1dfaba26d26bae57af955a74559076ef6b63f8bee422",
+  "wet_display_threshold_m": 0.05,
+  "colour_bins_m": [
+    0.05,
+    0.1,
+    0.3,
+    0.5,
+    1,
+    2
+  ],
+  "colour_meaning": "Land water depth. Roof water excluded; buildings grey; existing/protected water teal.",
+  "physics_note": "No sewer drainage or infiltration. Surface redistribution and outflow across the existing FREE model boundaries can still lower local depths after rain.",
+  "checks": {
+    "mp4": {
+      "decoded_frames": 70,
+      "stream_info": "Duration: 00:00:07.00, start: 0.000000, bitrate: 484 kb/s\nStream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 640x640, 483 kb/s, 10 fps, 10 tbr, 10240 tbn (default)",
+      "bytes": 423892,
+      "sha256": "89011abbf9a7e4269d5595ce6654c34cca9fa6e31aab7185f979f6fcda59274b"
+    },
+    "gif": {
+      "decoded_frames": 70,
+      "stream_info": "Duration: 00:00:07.00, start: 0.000000, bitrate: 2239 kb/s\nStream #0:0: Video: gif, bgra, 512x512, 10 fps, 10 tbr, 100 tbn",
+      "bytes": 1959828,
+      "sha256": "bc08df57b553684bf008741ac6670b8da2a2218a214172341cc24e13c2ca88f0"
+    }
+  },
+  "wall_seconds": 21.76673019118607
+}

@@ -1,0 +1,11 @@
+# Sources and notices
+
+Terrain: © Environment Agency copyright and/or database right 2022. All rights reserved. Contains public sector information licensed under the [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). Sources: [1 m DTM](https://www.data.gov.uk/dataset/01b3ee39-da3f-47b6-83da-dc98e73a461f/lidar-composite-digital-terrain-model-dtm-1m) and [1 m DSM](https://www.data.gov.uk/dataset/cf3f1137-c12b-44a1-a835-e80fe4a60b92/lidar-composite-digital-surface-model-dsm-1m). This case modifies the elevations through depression filling, building-only DSM insertion and trial lake-bed construction; it is not an unmodified EA dataset.
+
+Building/water footprints and their derivatives: © OpenStreetMap contributors, [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/). [Source and attribution](https://www.openstreetmap.org/copyright); extracted through [Geofabrik Greater London](https://download.geofabrik.de/europe/united-kingdom/england/greater-london.html). The OSM-derived footprint database, masks, building-height table and combined terrain database in this package are provided under ODbL; the EA notices also apply to the elevation component. The used footprint geometry and resulting derivatives are included for reuse.
+
+The [UKCEH UK Lakes Portal, Serpentine 42218](https://uklakes.ceh.ac.uk/detail.html?wbid=42218) reports a 1.0 m mean depth. This is a scalar reference for the trial uniform bed, not a bathymetric survey. Round Pond's 0.5 m depth is an explicit assumption. The later DSM-based normal-water initialization supersedes earlier terrain-stage estimates; see the normal-water metadata.
+
+LISFLOOD-FP source and the included three modified source files/patch retain their original notices and GPL v3 licence; see `solver/LICENSE-GPL-3.0.txt`. The pinned complete upstream source can be retrieved with the documented build command. No solver binary is redistributed. The local donor-flux correction was made for this experimental case and is not represented as an official upstream release.
+
+New reproduction helpers accompany the recorded case; upstream solver and data licences remain applicable to their respective components. The surrounding repository's licence must not be interpreted as replacing these source licences.

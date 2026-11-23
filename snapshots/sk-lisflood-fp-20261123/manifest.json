@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "canopy.publication",
+  "scenario_id": "imperial_corridor_8km",
+  "snapshot": "sk-lisflood-fp-20261123",
+  "representation": "independent-recorded-experiment-report",
+  "source": {
+    "solver_repository": "https://github.com/ihaseeburrehman/LISFLOOD-FP-8.3",
+    "solver_commit": "78dda58284701f99a24ec982dab0de8a28a00246",
+    "reproduction_manifest_sha256": "8cc83f4782b2dfbbc32766caa5731e62a904586d5dc07d8f671b00b222c29e68",
+    "scope": "Recorded results and rerun from frozen terrain/initial water; not a selected Viewer scene or registered Method."
+  },
+  "bytes": 131363547,
+  "files": [
+    {
+      "path": "ATTRIBUTION.md",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/ATTRIBUTION.md",
+      "bytes": 2319,
+      "sha256": "f5481a57066e02ca23564cf3d29cbb8c14bf74a79f727b02303d381cef4b34eb"
+    },
+    {
+      "path": "README.md",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/README.md",
+      "bytes": 4141,
+      "sha256": "cef32a2e635c6742d47483f479f6126d13ce1132c97c811cf6b443aa78b7069d"
+    },
+    {
+      "path": "REPRODUCE.md",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/REPRODUCE.md",
+      "bytes": 5652,
+      "sha256": "c25eb555d1aa106aef3a981247443f891df3408f2bf04a515fb521370bda80b3"
+    },
+    {
+      "path": "diagnostics/deep_water_review_locations.csv",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/diagnostics/deep_water_review_locations.csv",
+      "bytes": 1831,
+      "sha256": "44f400d7feb283bd006ff23d4292057bbf5e394d309d74190785995b8c8d8e5b"
+    },
+    {
+      "path": "diagnostics/lake_levels_timeseries.csv",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/diagnostics/lake_levels_timeseries.csv",
+      "bytes": 6024,
+      "sha256": "62b3634ea76f9d6213bfefe6970f9055334c05605529ec2e9d2841af9a22738f"
+    },
+    {
+      "path": "diagnostics/rainfall.csv",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/diagnostics/rainfall.csv",
+      "bytes": 183,
+      "sha256": "4bcf638a6ffb545b88fdd1ab45948fae2929fceef607e42718bd23b46123175f"
+    },
+    {
+      "path": "diagnostics/water_balance_and_land_timeseries.csv",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/diagnostics/water_balance_and_land_timeseries.csv",
+      "bytes": 3296,
+      "sha256": "ae6a88fffb71045472111a39b2ffdde44763f89ae4305d1228d0e988456bea0f"
+    },
+    {
+      "path": "downloads/sk-lisflood-fp-20261123.zip",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/downloads/sk-lisflood-fp-20261123.zip",
+      "bytes": 64829459,
+      "sha256": "642ba6c88c792e13a10faf8e92d83a159e6c42b985ebe391beb27ea80aad5287"
+    },
+    {
+      "path": "figures/deep_water_terrain_review.png",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/figures/deep_water_terrain_review.png",
+      "bytes": 162691,
+      "sha256": "4386f8246c70d2fcc573cc3bbdf807a24fe88d2df76e1574a9220db4a07b5f6b"
+    },
+    {
+      "path": "figures/fill_review.png",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/figures/fill_review.png",
+      "bytes": 1554058,
+      "sha256": "70ebcfa2f1e8adf2318f1ffb077c37f38f665a6327de320a0936a42522a0c24e"
+    },
+    {
+      "path": "figures/flood_modelling_workflow.png",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/figures/flood_modelling_workflow.png",
+      "bytes": 1216785,
+      "sha256": "5836d14570a31b7bb491b3d6a39745d99992165a8843ecb058d51fdf3669deae"
+    },
+    {
+      "path": "figures/flood_modelling_workflow.svg",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/figures/flood_modelling_workflow.svg",
+      "bytes": 1201259,
+      "sha256": "8832e31fe29519ce33d4d7eee7aebc808fb95941f73f04405a19c8d565af3cc5"
+    },
+    {
+      "path": "figures/normal_water_setup.png",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/figures/normal_water_setup.png",
+      "bytes": 293143,
+      "sha256": "9e8a8929526c2eb15f2395ead296982927b449da09f086fa12e3e0141d7c8a03"
+    },
+    {
+      "path": "figures/normal_water_stability.png",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/figures/normal_water_stability.png",
+      "bytes": 103570,
+      "sha256": "1589ba95e823a249a4ef2d9951c0f620f53ddebf6f6fce73fe85bf95a3ea1379"
+    },
+    {
+      "path": "figures/rain_depth_overview.png",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/figures/rain_depth_overview.png",
+      "bytes": 585142,
+      "sha256": "d43f3c279ff75e398a0752c47212d01de78264997dfe96375afb81b40ee35879"
+    },
+    {
+      "path": "figures/rain_response_timeseries.png",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/figures/rain_response_timeseries.png",
+      "bytes": 243542,
+      "sha256": "0f19706f1dce757f99a4c8c147931c5995a91d84c6263938aa715785f70aa369"
+    },
+    {
+      "path": "figures/south_kensington_focus.png",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/figures/south_kensington_focus.png",
+      "bytes": 221117,
+      "sha256": "4b734c5e78119d23a089df85ebe2eebdd94f5b8c4e08ea40f8c06fe6f75c4872"
+    },
+    {
+      "path": "figures/terrain_corrections.png",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/figures/terrain_corrections.png",
+      "bytes": 2168986,
+      "sha256": "72fceefaa47fae9e9a06318bdbeeb1d10c8a2bd5d96076159c23e79aa0112251"
+    },
+    {
+      "path": "gis/cell_type_1m.tif",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/gis/cell_type_1m.tif",
+      "bytes": 359531,
+      "sha256": "3f12579c0b344dbc9b7a86c80d64991a4c6f59246f437a9f20932f6d03db1af1"
+    },
+    {
+      "path": "gis/depth_090min_1m.tif",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/gis/depth_090min_1m.tif",
+      "bytes": 31552390,
+      "sha256": "c317031cb98ac721743a832697bd9cfa374dda8326f2acffa65bbd7c1183b753"
+    },
+    {
+      "path": "gis/max_depth_land_only_1m.tif",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/gis/max_depth_land_only_1m.tif",
+      "bytes": 24268225,
+      "sha256": "2ab14866dc92a38cb5e0471ae1ea9d1ba6ffa49cd5adf5efda3880555b53e005"
+    },
+    {
+      "path": "index.html",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/index.html",
+      "bytes": 6217,
+      "sha256": "56ff9861cd3335dfdc0e97bfa004f72e270afd5ab0656357f77fc557394ab283"
+    },
+    {
+      "path": "media/manifest.json",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/media/manifest.json",
+      "bytes": 2160,
+      "sha256": "78ac0c2d2234167fde54971cd6f94ec947c1d4902e6db37cec8e564a6ed6ab4e"
+    },
+    {
+      "path": "media/sk-rain-overview-poster.jpg",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/media/sk-rain-overview-poster.jpg",
+      "bytes": 154865,
+      "sha256": "266409961402ae39ebf7de22bb9f61eab2b80150d4b90a0fa1fdedbb84ffb261"
+    },
+    {
+      "path": "media/sk-rain-overview.gif",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/media/sk-rain-overview.gif",
+      "bytes": 1959828,
+      "sha256": "bc08df57b553684bf008741ac6670b8da2a2218a214172341cc24e13c2ca88f0"
+    },
+    {
+      "path": "media/sk-rain-overview.mp4",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/media/sk-rain-overview.mp4",
+      "bytes": 423892,
+      "sha256": "89011abbf9a7e4269d5595ce6654c34cca9fa6e31aab7185f979f6fcda59274b"
+    },
+    {
+      "path": "metadata/case.json",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/metadata/case.json",
+      "bytes": 2653,
+      "sha256": "16637db1f5ce931b127a3517410751d07d6c9bc2de21bc56d0e772890cdeab7c"
+    },
+    {
+      "path": "metadata/normal_setup_manifest.json",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/metadata/normal_setup_manifest.json",
+      "bytes": 4556,
+      "sha256": "11df89f92d026531e5905c73b81fb372724a80f97feec51572cbbef0edf798e7"
+    },
+    {
+      "path": "metadata/normal_verification.json",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/metadata/normal_verification.json",
+      "bytes": 1337,
+      "sha256": "930bd4e5c0f396a3f368965f2f869dc888c245ac77d63175b878a1d48801d078"
+    },
+    {
+      "path": "metadata/reproduction.json",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/metadata/reproduction.json",
+      "bytes": 7174,
+      "sha256": "8cc83f4782b2dfbbc32766caa5731e62a904586d5dc07d8f671b00b222c29e68"
+    },
+    {
+      "path": "metadata/reproduction_check.json",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/metadata/reproduction_check.json",
+      "bytes": 4287,
+      "sha256": "757d8edecdf658ee669c807d0901b09dff936c3dba20bab15d5f70ac800e187d"
+    },
+    {
+      "path": "metadata/solver_modifications.json",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/metadata/solver_modifications.json",
+      "bytes": 1921,
+      "sha256": "2043f6cbe36bfaef1c8c55a1a0b96ef94a76684fe9d0e169843b99d301844a86"
+    },
+    {
+      "path": "metadata/terrain_manifest.json",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/metadata/terrain_manifest.json",
+      "bytes": 6046,
+      "sha256": "2ae6075bad558659d715586ed5b15f1c5699ef22e63bee2887d0f82d827e1bc9"
+    },
+    {
+      "path": "metadata/validation_summary.json",
+      "viewer_path": "scenes/imperial_corridor_8km/experiments/sk_lisflood_fp/metadata/validation_summary.json",
+      "bytes": 5267,
+      "sha256": "e6fd089f47e61e1e87957acf795c62d32292db23f1bc470d841f49950a6be8e2"
+    }
+  ]
+}

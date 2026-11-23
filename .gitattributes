@@ -1,0 +1,5 @@
+# This recorded snapshot is locked by byte hashes, including source line endings.
+snapshots/sk-lisflood-fp-20261123/** -text
+# Python CSV output and matplotlib SVG whitespace are preserved as generated.
+snapshots/sk-lisflood-fp-20261123/diagnostics/*.csv whitespace=cr-at-eol
+snapshots/sk-lisflood-fp-20261123/figures/*.svg whitespace=-blank-at-eol

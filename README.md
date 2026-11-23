@@ -86,3 +86,7 @@ The field uses frozen recorded 3D wind and new SUMO emissions; it is not observe
 `london-ihub-interior-20261122` extends the latest pollution snapshot with the retained I-HUB v10 building and concept office. The two aligned GLBs add 3,486,152 bytes using lossless gzip, with unchanged mesh buffers and a recorded geographic root transform. Existing pollution, sunlight, traffic and city payloads are reused by exact checksum. The full selected data download is 277,076,014 bytes.
 
 `scene.interior` declares the indoor widget, intact building shell, restored authored ceiling and 30-second camera journey (arrival indoors at 4 seconds). This is a concept office rather than a surveyed as-built model; the retained geographic fit has a 1.58 m median residual. `interiors/ihub-v10/provenance.json` records source mesh hashes, aligned hashes, placement, vertical-datum policy and inherited layout limits. The original source and scientific Asset remain retained privately.
+
+## SK LISFLOOD-FP recorded experiment
+
+`sk-lisflood-fp-20261123` is an independent South Kensington rain report within the London Scenario. It adds the illustrated workflow, selected diagnostics/GeoTIFFs, a seven-second MP4/GIF, and a portable input-and-source ZIP. [Open the report](snapshots/sk-lisflood-fp-20261123/index.html) or read its [scientific scope and reproduction boundary](snapshots/sk-lisflood-fp-20261123/README.md). It does not replace the shared Viewer's selected flood data. Native inputs and source patches are hash-locked; existing snapshots are retained unchanged.

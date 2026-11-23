@@ -1,0 +1,124 @@
+{
+  "case": "sk-normal-water-v4",
+  "scope": "Serpentine, Long Water and Round Pond shown in the previous terrain map",
+  "horizontal_crs": "EPSG:27700",
+  "vertical_datum": "ODN",
+  "grid_resolution_m": 1,
+  "grid_shape": [
+    3200,
+    3200
+  ],
+  "bounds": [
+    525000.0,
+    177800.0,
+    528200.0,
+    181000.0
+  ],
+  "accepted_hydraulic_bed": "retained-source:DSM_final_1m.tif",
+  "accepted_bed_unchanged_sha256": "e430f83576bd2d8084e44eb62abf3d28d5b849380babedb0da959726e3b6407e",
+  "reference_original_DSM": "retained-source:sk_ea_dsm_1m.tif",
+  "raw_DSM_sha256": "f7a70be02343b2296b00f6e28bba457ffa62621847f4b54d7d8c9b91f6714ebd",
+  "reference_method": "Original DSM water-core median, Euclidean >=10 m inside polygon, rounded to 0.01 m. Connected Serpentine/Long Water use their combined median and one horizontal stage.",
+  "initial_depth_formula": "max(reference stage - accepted hydraulic bed, 0), restricted to face-connected regions touching the reference water polygons",
+  "groups": [
+    {
+      "group": "Serpentine_LongWater",
+      "lake_ids": [
+        1,
+        2
+      ],
+      "normal_stage_m_ODN": 14.98,
+      "DSM_core_median_m": 14.979999542236328,
+      "core_pixels": 130908,
+      "reference_area_m2": 161171,
+      "normal_wet_area_m2": 161171,
+      "extra_connected_shore_area_m2": 0,
+      "reference_area_difference_percent": 0.0,
+      "initial_volume_m3": 161171.0
+    },
+    {
+      "group": "Round_Pond",
+      "lake_ids": [
+        3
+      ],
+      "normal_stage_m_ODN": 24.54,
+      "DSM_core_median_m": 24.540000915527344,
+      "core_pixels": 23808,
+      "reference_area_m2": 29716,
+      "normal_wet_area_m2": 30066,
+      "extra_connected_shore_area_m2": 350,
+      "reference_area_difference_percent": 1.1778166644232064,
+      "initial_volume_m3": 14865.000160217285
+    }
+  ],
+  "lakes": [
+    {
+      "lake_id": 1,
+      "name": "Long Water",
+      "normal_stage_m_ODN": 14.98,
+      "own_DSM_core_median_m": 15.0,
+      "reference_area_m2": 39690,
+      "normal_wet_area_m2": 39690,
+      "extra_shore_area_m2": 0,
+      "reference_coverage_percent": 100.0,
+      "initial_volume_m3": 39690.0,
+      "lake_interior_mean_depth_m": 1.0,
+      "point_easting": 526858.5,
+      "point_northing": 180231.5
+    },
+    {
+      "lake_id": 2,
+      "name": "Serpentine",
+      "normal_stage_m_ODN": 14.98,
+      "own_DSM_core_median_m": 14.979999542236328,
+      "reference_area_m2": 121481,
+      "normal_wet_area_m2": 121481,
+      "extra_shore_area_m2": 0,
+      "reference_coverage_percent": 100.0,
+      "initial_volume_m3": 121481.0,
+      "lake_interior_mean_depth_m": 1.0,
+      "point_easting": 527568.5,
+      "point_northing": 180046.5
+    },
+    {
+      "lake_id": 3,
+      "name": "Round Pond",
+      "normal_stage_m_ODN": 24.54,
+      "own_DSM_core_median_m": 24.540000915527344,
+      "reference_area_m2": 29716,
+      "normal_wet_area_m2": 30066,
+      "extra_shore_area_m2": 350,
+      "reference_coverage_percent": 100.0,
+      "initial_volume_m3": 14865.000160217285,
+      "lake_interior_mean_depth_m": 0.5,
+      "point_easting": 526180.5,
+      "point_northing": 180114.5
+    }
+  ],
+  "warmup": {
+    "duration_s": 21600,
+    "rain": false,
+    "infiltration": false,
+    "drainage": false,
+    "point_sources": false,
+    "external_boundary": "closed; all lakes internal",
+    "max_timestep_s": 0.1,
+    "manning_n": 0.03,
+    "solver": "LISFLOOD-FP 8.3 GPU ACC"
+  },
+  "area_validation": {
+    "wet_depth_threshold_m": 0.001,
+    "minimum_reference_polygon_coverage_percent": 99.9,
+    "maximum_reference_area_difference_percent": 2.0,
+    "startup_area_drift_m2": 1.0
+  },
+  "source_metadata": "retained-source:sk_ea_dsm_1m.tif.source.json",
+  "limitations": [
+    "Normal means a DSM-derived reference stage, not a normal level validated from a long gauge record.",
+    "DSM records a water surface and can include vegetation/bridges. It is not bathymetry.",
+    "The previously accepted trial lake beds remain: approximately 1 m for Serpentine/Long Water and 0.5 m for Round Pond.",
+    "The 2 cm discrepancy between the two connected DSM lake portions is flattened for a still-water initial state; raw samples remain in the audit.",
+    "OSM shoreline and LiDAR surface are not exactly coincident. Connected below-stage shore cells are filled without adding artificial banks.",
+    "Optional HFIX points are supplied but not enabled in normal.par. A later rainfall simulation should allow the water level and area to respond unless real outlet/pump data justify regulation."
+  ]
+}

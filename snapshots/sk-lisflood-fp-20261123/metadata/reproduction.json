@@ -1,0 +1,212 @@
+{
+  "schema": "lisflood-fp-recorded-case/1",
+  "case_id": "sk-lisflood-fp-20261123",
+  "simulation_seconds": 10800,
+  "solver": {
+    "repository": "https://github.com/ihaseeburrehman/LISFLOOD-FP-8.3.git",
+    "revision": "78dda58284701f99a24ec982dab0de8a28a00246",
+    "reference_binary_sha256": "a0cd50c7d1a66a52baebcd47a621a9683b11cea46dd956eb8e040bee052c1ae2",
+    "config_sha256": "62ea38671e809ea980f435d3ee929c8aab981aa3f88dee9186ffcde9784eb00a",
+    "source_hashes": {
+      "cuda/cuda_boundary.cu": {
+        "original_sha256": "623f028bc40e8e8880b9274ee109d93d13837764187d819527acbec83ef2d6eb",
+        "patched_sha256": "0b0431819ea1f9dc6506bb4c72246bea20e4fb0047ef6da45e6099d220a3c1e1"
+      },
+      "cuda/cuda_boundary.cuh": {
+        "original_sha256": "a44a377707147e6b265a730498e6138de9f09f38c843c39cdf187a7968844713",
+        "patched_sha256": "5c02aa189f04531188f2904f70346fb2a0012212729d9ba2947e9f386b88ce1f"
+      },
+      "cuda/acc/cuda_acc_simulate.cu": {
+        "original_sha256": "acf88bbd9ed353f07f32043b4726f18180748247509f3334147bdb1136fbc920",
+        "patched_sha256": "d5d048999788e39ef4cc6e6f01164bc24fd1de51e31057b655e82206e9f8fc55"
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "ATTRIBUTION.md",
+      "bytes": 2319,
+      "sha256": "f5481a57066e02ca23564cf3d29cbb8c14bf74a79f727b02303d381cef4b34eb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5652,
+      "sha256": "c25eb555d1aa106aef3a981247443f891df3408f2bf04a515fb521370bda80b3"
+    },
+    {
+      "path": "environment-linux-64.explicit.txt",
+      "bytes": 35142,
+      "sha256": "beea33ab12d678d7ed819e1de28edcaccada7605b3df79e8127aa37e621c2e29"
+    },
+    {
+      "path": "environment.yml",
+      "bytes": 8072,
+      "sha256": "b76416318711b385cc473c5d2f0ea22a8ebf2240dee9c39ba984e0edc65f3d80"
+    },
+    {
+      "path": "gis/DSM_final_1m.tif",
+      "bytes": 22268438,
+      "sha256": "4b4a01a540c8862ebca8746bc9ae200f22e79cdd7501e41ca58172772066d5ff"
+    },
+    {
+      "path": "gis/DTM_filled_1m.tif",
+      "bytes": 15936166,
+      "sha256": "c344a7807963113a66ac816bfc20e1a142358de3e34279adb39e3c2bd644b131"
+    },
+    {
+      "path": "gis/building_heights.csv",
+      "bytes": 1657752,
+      "sha256": "9f74f1f67f2b76874ad0b604fcfe6cb9e9a6d7615dfe6256c927fe19239f2762"
+    },
+    {
+      "path": "gis/building_mask_1m.tif",
+      "bytes": 397574,
+      "sha256": "61a57f84d2fa3f097422495d582e05f9ef490f600c1e852e643f4dd5da715815"
+    },
+    {
+      "path": "gis/buildings_shp.zip",
+      "bytes": 1952514,
+      "sha256": "f1df3db8cd1e72ba285224c8b2e33293187aeb8e96b7dc7bc7bdb0b9065aa802"
+    },
+    {
+      "path": "gis/normal_waterbodies.csv",
+      "bytes": 482,
+      "sha256": "5f1093cf441d03819671ce3f3eb6abfe2585b1e3301e6664e699599b9b4b9c2b"
+    },
+    {
+      "path": "gis/normal_waterbody_id_1m.tif",
+      "bytes": 21965,
+      "sha256": "08be34b98e76674025627e220e17c81e8f22d3e5fb9b0045d4ac7026432757b5"
+    },
+    {
+      "path": "gis/warm_normal_depth_1m.tif",
+      "bytes": 54557,
+      "sha256": "2e4e18ff7b33cd17bfea029b11440d018d55a716e49ad534a9837f1fad45dd95"
+    },
+    {
+      "path": "gis/water_polygons_bng.geojson",
+      "bytes": 29706,
+      "sha256": "125564c44c859bc75fdabd78c5c3b8cd467d2826e6710bca329f57598d97c55a"
+    },
+    {
+      "path": "gis/water_protection_mask_1m.tif",
+      "bytes": 23136,
+      "sha256": "bf78c55663851d6f981e5872ebb6256a65b9af70d9f021dec774a5ebf13cc7d5"
+    },
+    {
+      "path": "inputs/DSM_final.dem",
+      "bytes": 98996220,
+      "sha256": "e430f83576bd2d8084e44eb62abf3d28d5b849380babedb0da959726e3b6407e"
+    },
+    {
+      "path": "inputs/monitor.stage",
+      "bytes": 56,
+      "sha256": "135e63b927e8a345a9fa18506315fc5cf012cf21c6a5e8fb35656cbd016f5763"
+    },
+    {
+      "path": "inputs/normal.start",
+      "bytes": 112643352,
+      "sha256": "2c26193517d66bf902438db8d562936d591de21db113b26bd3965d374e9eb95f"
+    },
+    {
+      "path": "inputs/open.bci",
+      "bytes": 96,
+      "sha256": "6059b885099ac9c762634fd49185b27d5fdbe2e079e29fe7cb58cf297f8d335c"
+    },
+    {
+      "path": "inputs/rain.nc",
+      "bytes": 10088,
+      "sha256": "6a318a4a244f6aa6d9932e6a1304504a9fd7cfb2708f81c5b463e4166a821396"
+    },
+    {
+      "path": "inputs/rain.par",
+      "bytes": 266,
+      "sha256": "c742c73fdeb2e362ab02baea808b89f40a8c391f80857bc2efda657f8330d8f0"
+    },
+    {
+      "path": "inputs/rainfall.csv",
+      "bytes": 183,
+      "sha256": "4bcf638a6ffb545b88fdd1ab45948fae2929fceef607e42718bd23b46123175f"
+    },
+    {
+      "path": "metadata/case.json",
+      "bytes": 2653,
+      "sha256": "16637db1f5ce931b127a3517410751d07d6c9bc2de21bc56d0e772890cdeab7c"
+    },
+    {
+      "path": "metadata/normal_setup_manifest.json",
+      "bytes": 4556,
+      "sha256": "11df89f92d026531e5905c73b81fb372724a80f97feec51572cbbef0edf798e7"
+    },
+    {
+      "path": "metadata/normal_verification.json",
+      "bytes": 1337,
+      "sha256": "930bd4e5c0f396a3f368965f2f869dc888c245ac77d63175b878a1d48801d078"
+    },
+    {
+      "path": "metadata/rain_event_initial_state.json",
+      "bytes": 632,
+      "sha256": "54acf0e806aa8d98112f62de020a94a3291dbe12e1b0e8ddf6045b8ce804e0bf"
+    },
+    {
+      "path": "metadata/relocations.json",
+      "bytes": 2167,
+      "sha256": "c81f5fe1ee183f73b569fb30a2284d6fafa568da59abbef8f12306d68d595a70"
+    },
+    {
+      "path": "metadata/solver_modifications.json",
+      "bytes": 1921,
+      "sha256": "2043f6cbe36bfaef1c8c55a1a0b96ef94a76684fe9d0e169843b99d301844a86"
+    },
+    {
+      "path": "metadata/terrain_manifest.json",
+      "bytes": 6046,
+      "sha256": "2ae6075bad558659d715586ed5b15f1c5699ef22e63bee2887d0f82d827e1bc9"
+    },
+    {
+      "path": "metadata/terrain_qa.json",
+      "bytes": 753,
+      "sha256": "7713ade41cb24b54280c286a9ed6a83c623a889d7819ca968cb3d312e1ca6aa2"
+    },
+    {
+      "path": "metadata/validation_summary.json",
+      "bytes": 5267,
+      "sha256": "e6fd089f47e61e1e87957acf795c62d32292db23f1bc470d841f49950a6be8e2"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 16918,
+      "sha256": "773d9c5723241457d243ff398b248be66289875bd0d04ed77a2c6210f03de585"
+    },
+    {
+      "path": "solver/LICENSE-GPL-3.0.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "solver/acc_conservation.patch",
+      "bytes": 6630,
+      "sha256": "a9dba2a973d28cb1b8624fea6a40a7719896cf5d3e0e3bd8e837c7c84b92bea6"
+    },
+    {
+      "path": "solver/config.default.cmake",
+      "bytes": 315,
+      "sha256": "62ea38671e809ea980f435d3ee929c8aab981aa3f88dee9186ffcde9784eb00a"
+    },
+    {
+      "path": "solver/patched-source/cuda/acc/cuda_acc_simulate.cu",
+      "bytes": 10403,
+      "sha256": "d5d048999788e39ef4cc6e6f01164bc24fd1de51e31057b655e82206e9f8fc55"
+    },
+    {
+      "path": "solver/patched-source/cuda/cuda_boundary.cu",
+      "bytes": 20219,
+      "sha256": "0b0431819ea1f9dc6506bb4c72246bea20e4fb0047ef6da45e6099d220a3c1e1"
+    },
+    {
+      "path": "solver/patched-source/cuda/cuda_boundary.cuh",
+      "bytes": 3024,
+      "sha256": "5c02aa189f04531188f2904f70346fb2a0012212729d9ba2947e9f386b88ce1f"
+    }
+  ]
+}
