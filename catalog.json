@@ -9,9 +9,9 @@
     {
       "id": "london-public-20261118",
       "manifest": "snapshots/london-public-20261118/manifest.json",
-      "sha256": "77320e4684ce7a63c0a9a8a45b99329e085ea7dfa45991cc32b345d112d3f97c",
-      "bytes": 558073283,
-      "files": 1477,
+      "sha256": "58c7460506f91030ca751b132d8b3128ada5903af2b82ea7c0007a3f874c2b28",
+      "bytes": 564896066,
+      "files": 1478,
       "retired_paths": [
         "physics/chunks/masks_shadow_invalid_8m/0000.gz",
         "physics/chunks/masks_solar_invalid_8m/0000.gz",
@@ -313,9 +313,9 @@
     {
       "id": "london-compact-20261122",
       "manifest": "snapshots/london-compact-20261122/manifest.json",
-      "sha256": "28c533575c8d849fed1df7a51384b41044b3dd9c49cc0c663f6082c9c0271ce4",
-      "bytes": 228692784,
-      "files": 1297,
+      "sha256": "75fdcb48d65aea4c89b86f32378d092592c7be096d1e15005fd4da966b2efe3d",
+      "bytes": 235513224,
+      "files": 1298,
       "retired_paths": [
         "physics/chunks/masks_shadow_invalid_8m/0000.gz",
         "physics/chunks/masks_solar_invalid_8m/0000.gz",
@@ -419,15 +419,15 @@
     {
       "id": "london-solar-small-20261122",
       "manifest": "snapshots/london-solar-small-20261122/manifest.json",
-      "sha256": "269310f22b43045a30585a7ae11d9dc020e69566087556b02c7c9b2f6dc6bdd8",
-      "bytes": 249886035,
+      "sha256": "8aac03cd527c94b317418be4e54615567dabec82ece295c83194e14bf6575e1b",
+      "bytes": 256690402,
       "files": 1405
     },
     {
       "id": "london-traffic-native-20261122",
       "manifest": "snapshots/london-traffic-native-20261122/manifest.json",
-      "sha256": "548f72f3fb3434bd968692de67bfa9836149304d28830070fcee856e95970b45",
-      "bytes": 239324744,
+      "sha256": "eee6cc12729ebbbfafb496979c905843effd182378a897783a5aaa3e017f271e",
+      "bytes": 246129111,
       "files": 1405
     }
   ]

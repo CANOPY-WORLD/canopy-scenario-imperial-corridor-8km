@@ -1,0 +1,34 @@
+{
+  "schema": "canopy-flood-publication-provenance/1",
+  "source_run": "lisflood_4m_100frames_20261124",
+  "solver": "LISFLOOD-FP corrected GPU ACC FP64",
+  "source_grid": {
+    "shape_yx": [
+      2048,
+      2048
+    ],
+    "cell_m": 4.0,
+    "x0_m": -4096,
+    "y0_m": -4096
+  },
+  "display_grid": {
+    "shape_yx": [
+      1024,
+      1024
+    ],
+    "cell_m": 8.0,
+    "x0_m": -4096,
+    "y0_m": -4096
+  },
+  "frames": 100,
+  "simulation_seconds": 10800,
+  "pooling": "2x2 arithmetic mean; no temporal interpolation",
+  "transport": "uniform-global-field-8bit",
+  "quantization_scale_m": 0.021069143700787402,
+  "quantization_max_abs_error_m": 0.010534524917602539,
+  "water_balance_max_residual_m3": 0.0022664180432911962,
+  "assumptions": [
+    "dry-start rainfall-only",
+    "no infiltration, sewers, roof redistribution or tide"
+  ]
+}

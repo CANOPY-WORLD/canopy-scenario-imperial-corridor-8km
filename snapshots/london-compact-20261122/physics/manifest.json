@@ -477,106 +477,106 @@
         1024
       ],
       "time_s": [
-        0.5,
-        120.261,
-        240.409,
-        300.079,
-        420.282,
-        540.045,
-        660.025,
-        780.307,
-        900.427,
-        960.286,
-        1080.09,
-        1200.213,
-        1320.194,
-        1440.265,
-        1500.323,
-        1620.427,
-        1740.197,
-        1860.222,
-        1980.286,
-        2100.248,
-        2160.328,
-        2280.291,
-        2400.254,
-        2520.216,
-        2640.179,
-        2700.061,
-        2820.173,
-        2940.2,
-        3060.27,
-        3180.471,
-        3300.22,
-        3360.345,
-        3480.093,
-        3600.084,
-        3720.156,
-        3840.232,
-        3900.445,
-        4020.385,
-        4140.243,
-        4260.293,
-        4380.235,
-        4500.407,
-        4560.098,
-        4680.469,
-        4800.366,
-        4920.093,
-        5040.109,
-        5100.015,
-        5220.295,
-        5400.011,
-        5460.454,
-        5580.405,
-        5700.148,
-        5760.301,
-        5880.159,
-        6000.159,
-        6120.114,
-        6240.069,
-        6300.069,
-        6420.069,
-        6540.069,
-        6660.465,
-        6780.261,
-        6900.261,
-        6960.261,
-        7080.261,
-        7200.261,
-        7320.261,
-        7440.255,
-        7500.255,
-        7620.238,
-        7740.238,
-        7860.238,
-        7980.238,
-        8100.238,
-        8160.238,
-        8280.238,
-        8400.238,
-        8520.238,
-        8640.238,
-        8700.238,
-        8820.238,
-        8940.238,
-        9060.238,
-        9180.238,
-        9300.238,
-        9360.238,
-        9480.238,
-        9600.238,
-        9720.238,
-        9840.238,
-        9900.238,
-        10020.238,
-        10140.238,
-        10260.238,
-        10380.238,
-        10500.238,
-        10560.238,
-        10680.238,
-        10800.0
+        0.2,
+        109.20000000000101,
+        218.19999999999615,
+        327.39999999999,
+        436.3999999999838,
+        545.5999999999871,
+        654.6000000000118,
+        763.8000000000367,
+        872.8000000000615,
+        982.0000000000863,
+        1091.000000000111,
+        1200.0000000001357,
+        1309.2000000001606,
+        1418.2000000001854,
+        1527.4000000002102,
+        1636.400000000235,
+        1745.6000000002598,
+        1854.6000000002846,
+        1963.8000000003094,
+        2072.8000000003058,
+        2182.0000000002065,
+        2291.0000000001073,
+        2400.000000000008,
+        2509.199999999909,
+        2618.1999999998097,
+        2727.3999999997104,
+        2836.3999999996113,
+        2945.599999999512,
+        3054.599999999413,
+        3163.7999999993135,
+        3272.7999999992144,
+        3381.999999999115,
+        3490.999999999016,
+        3600.1999999989166,
+        3709.1999999988175,
+        3818.1999999987183,
+        3927.399999998619,
+        4036.39999999852,
+        4145.599999998421,
+        4254.599999998321,
+        4363.799999998222,
+        4472.799999998123,
+        4581.999999998024,
+        4690.9999999979245,
+        4800.199999997825,
+        4909.199999997726,
+        5018.199999997627,
+        5127.399999997528,
+        5236.3999999974285,
+        5345.599999997329,
+        5454.59999999723,
+        5563.799999997131,
+        5672.799999997032,
+        5781.999999996932,
+        5890.999999996833,
+        6000.199999996734,
+        6109.199999996635,
+        6218.199999996536,
+        6327.399999996436,
+        6436.399999996337,
+        6545.599999996238,
+        6654.599999996139,
+        6763.799999996039,
+        6872.79999999594,
+        6981.999999995841,
+        7090.999999995742,
+        7200.199999995642,
+        7309.199999995543,
+        7418.199999995444,
+        7527.399999995345,
+        7636.399999995246,
+        7745.599999995146,
+        7854.599999995047,
+        7963.799999994948,
+        8072.799999994849,
+        8181.9999999947495,
+        8290.9999999951,
+        8400.199999995497,
+        8509.199999995893,
+        8618.19999999629,
+        8727.399999996687,
+        8836.399999997084,
+        8945.599999997481,
+        9054.599999997878,
+        9163.799999998275,
+        9272.799999998671,
+        9381.999999999069,
+        9490.999999999465,
+        9600.199999999862,
+        9709.200000000259,
+        9818.200000000656,
+        9927.400000001053,
+        10036.40000000145,
+        10145.600000001847,
+        10254.600000002243,
+        10363.80000000264,
+        10472.800000003037,
+        10582.000000003434,
+        10691.00000000383,
+        10800.000000004227
       ],
       "axes": "TYX",
       "unit": "m",
@@ -682,8 +682,531 @@
         0.0,
         0.0
       ],
-      "display_aggregation": "Mean of valid 2x2 source cells; float16 storage",
-      "cell_m": 8
+      "display_aggregation": "Mean of each 2x2 native 4m source block; float16 then uniform-global-field-8bit transport",
+      "cell_m": 8,
+      "meta": {
+        "descr": "|u1",
+        "shape": [
+          100,
+          1024,
+          1024
+        ],
+        "itemsize": 1,
+        "offset": 0,
+        "block": 1048576,
+        "quantization": {
+          "scale": 0.021069143700787402,
+          "offset": 0.0,
+          "invalid_code": 255,
+          "method": "uniform-global-field-8bit"
+        }
+      },
+      "total_bytes": 104857600,
+      "parts": [
+        {
+          "file": "chunks/quantized8/flood/0000.gz",
+          "offset": 0,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0001.gz",
+          "offset": 1048576,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0002.gz",
+          "offset": 2097152,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0003.gz",
+          "offset": 3145728,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0004.gz",
+          "offset": 4194304,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0005.gz",
+          "offset": 5242880,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0006.gz",
+          "offset": 6291456,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0007.gz",
+          "offset": 7340032,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0008.gz",
+          "offset": 8388608,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0009.gz",
+          "offset": 9437184,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0010.gz",
+          "offset": 10485760,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0011.gz",
+          "offset": 11534336,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0012.gz",
+          "offset": 12582912,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0013.gz",
+          "offset": 13631488,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0014.gz",
+          "offset": 14680064,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0015.gz",
+          "offset": 15728640,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0016.gz",
+          "offset": 16777216,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0017.gz",
+          "offset": 17825792,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0018.gz",
+          "offset": 18874368,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0019.gz",
+          "offset": 19922944,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0020.gz",
+          "offset": 20971520,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0021.gz",
+          "offset": 22020096,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0022.gz",
+          "offset": 23068672,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0023.gz",
+          "offset": 24117248,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0024.gz",
+          "offset": 25165824,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0025.gz",
+          "offset": 26214400,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0026.gz",
+          "offset": 27262976,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0027.gz",
+          "offset": 28311552,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0028.gz",
+          "offset": 29360128,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0029.gz",
+          "offset": 30408704,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0030.gz",
+          "offset": 31457280,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0031.gz",
+          "offset": 32505856,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0032.gz",
+          "offset": 33554432,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0033.gz",
+          "offset": 34603008,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0034.gz",
+          "offset": 35651584,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0035.gz",
+          "offset": 36700160,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0036.gz",
+          "offset": 37748736,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0037.gz",
+          "offset": 38797312,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0038.gz",
+          "offset": 39845888,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0039.gz",
+          "offset": 40894464,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0040.gz",
+          "offset": 41943040,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0041.gz",
+          "offset": 42991616,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0042.gz",
+          "offset": 44040192,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0043.gz",
+          "offset": 45088768,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0044.gz",
+          "offset": 46137344,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0045.gz",
+          "offset": 47185920,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0046.gz",
+          "offset": 48234496,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0047.gz",
+          "offset": 49283072,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0048.gz",
+          "offset": 50331648,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0049.gz",
+          "offset": 51380224,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0050.gz",
+          "offset": 52428800,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0051.gz",
+          "offset": 53477376,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0052.gz",
+          "offset": 54525952,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0053.gz",
+          "offset": 55574528,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0054.gz",
+          "offset": 56623104,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0055.gz",
+          "offset": 57671680,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0056.gz",
+          "offset": 58720256,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0057.gz",
+          "offset": 59768832,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0058.gz",
+          "offset": 60817408,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0059.gz",
+          "offset": 61865984,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0060.gz",
+          "offset": 62914560,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0061.gz",
+          "offset": 63963136,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0062.gz",
+          "offset": 65011712,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0063.gz",
+          "offset": 66060288,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0064.gz",
+          "offset": 67108864,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0065.gz",
+          "offset": 68157440,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0066.gz",
+          "offset": 69206016,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0067.gz",
+          "offset": 70254592,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0068.gz",
+          "offset": 71303168,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0069.gz",
+          "offset": 72351744,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0070.gz",
+          "offset": 73400320,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0071.gz",
+          "offset": 74448896,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0072.gz",
+          "offset": 75497472,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0073.gz",
+          "offset": 76546048,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0074.gz",
+          "offset": 77594624,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0075.gz",
+          "offset": 78643200,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0076.gz",
+          "offset": 79691776,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0077.gz",
+          "offset": 80740352,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0078.gz",
+          "offset": 81788928,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0079.gz",
+          "offset": 82837504,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0080.gz",
+          "offset": 83886080,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0081.gz",
+          "offset": 84934656,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0082.gz",
+          "offset": 85983232,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0083.gz",
+          "offset": 87031808,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0084.gz",
+          "offset": 88080384,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0085.gz",
+          "offset": 89128960,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0086.gz",
+          "offset": 90177536,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0087.gz",
+          "offset": 91226112,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0088.gz",
+          "offset": 92274688,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0089.gz",
+          "offset": 93323264,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0090.gz",
+          "offset": 94371840,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0091.gz",
+          "offset": 95420416,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0092.gz",
+          "offset": 96468992,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0093.gz",
+          "offset": 97517568,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0094.gz",
+          "offset": 98566144,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0095.gz",
+          "offset": 99614720,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0096.gz",
+          "offset": 100663296,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0097.gz",
+          "offset": 101711872,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0098.gz",
+          "offset": 102760448,
+          "bytes": 1048576
+        },
+        {
+          "file": "chunks/quantized8/flood/0099.gz",
+          "offset": 103809024,
+          "bytes": 1048576
+        }
+      ],
+      "source_run": "lisflood_4m_100frames_20261124",
+      "solver": "LISFLOOD-FP corrected GPU ACC FP64",
+      "quantization_error_max_m": 0.010534524917602539
     },
     "wind_history.npy": {
       "shape": [
