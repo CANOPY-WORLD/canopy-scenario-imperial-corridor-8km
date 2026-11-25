@@ -13,7 +13,7 @@
       "https://github.com/acse-yl222/physics-grounded-4d-world-model-framework/releases/tag/imperial-corridor-native-20261102"
     ]
   },
-  "bytes": 277076014,
+  "bytes": 283880381,
   "files": [
     {
       "path": "actors/demo_rev02/actors/pigeon.glb.gz",
@@ -513,700 +513,700 @@
       "path": "physics/chunks/quantized8/flood/0000.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0000.gz",
       "bytes": 1051,
-      "sha256": "89f707d6e9d4b138766d528531357b9c95d5b7795364e65f033f127074e46307",
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0001.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0001.gz",
       "bytes": 1051,
-      "sha256": "89f707d6e9d4b138766d528531357b9c95d5b7795364e65f033f127074e46307",
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0002.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0002.gz",
-      "bytes": 1069,
-      "sha256": "10e0cc6db7884b6dd582eb009255bcb2d56f6d5cef18377a343b557b9382a5ca",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0003.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0003.gz",
-      "bytes": 1092,
-      "sha256": "b280def30212fd8fa2bd8f0e5d734c66168eda5154d893aa4b6cf7ed70aa2702",
+      "bytes": 1065,
+      "sha256": "3abf7133a896c91b963737db9481b60ce04022f9c0f49842d66019981134abaa",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0004.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0004.gz",
-      "bytes": 1118,
-      "sha256": "1e2a161842c4737629dffc540e9d5b6a05aa3d1430e4f271c14bc6f481e005d0",
+      "bytes": 3277,
+      "sha256": "712c7bc8da313e8b461b57468361e8a6dae3a460f0ae251c4ba894d3492e32cd",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0005.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0005.gz",
-      "bytes": 1205,
-      "sha256": "9fe2587fc18510bffb98feda467e398f52bc2171b705830f984a1ce84e74dc0b",
+      "bytes": 19921,
+      "sha256": "f63b4ddbb378e5711bd86c876b23d81f033dfe4b7201eb090cd283fd9ed04c28",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0006.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0006.gz",
-      "bytes": 1408,
-      "sha256": "e498282eeb8f63c8a9da788e7d826c3896c2907a17b35983d187e12928179881",
+      "bytes": 42268,
+      "sha256": "c3c26485b6ef0ea5808b82569584b8ffbf9cf488f4308fcead21a3817d3e504b",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0007.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0007.gz",
-      "bytes": 1870,
-      "sha256": "cb6a4dd906327b45bd24509a399d743e769aa21428cd15ae5e5f68ec25c31dae",
+      "bytes": 64079,
+      "sha256": "2344ed0b187f44f430c625699f11f67b558176921bb7a27689d40a692750a4f9",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0008.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0008.gz",
-      "bytes": 2994,
-      "sha256": "fbfb9f980bca41fd77e26e6f3186d145c453f94e4df72af06c60f952a6f25a2a",
+      "bytes": 83484,
+      "sha256": "5449fc23fb05ed34b84db28b8db14d91ea654a0a65f7d8c1dcb8a3b1bf89f9bf",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0009.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0009.gz",
-      "bytes": 5357,
-      "sha256": "50d584080f53fd05ad958a11776be2e7f16aa76ad4ec75b7fa324a29d6b0855a",
+      "bytes": 106975,
+      "sha256": "fa9e96e56fa5f1542cb59d73116a253b9bbb563dcc8c3a5a30cd3e30ab297628",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0010.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0010.gz",
-      "bytes": 21212,
-      "sha256": "6870bf7f8742dfa72c8f8fdc2000835b7c7ac22689d4ad95b6c006b8be0814c9",
+      "bytes": 130904,
+      "sha256": "023d61d9e46b8426671947d26082d2bda81cdfcf32565ac0b68569c27f1a22b8",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0011.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0011.gz",
-      "bytes": 46116,
-      "sha256": "246823481d083d37349f689a2ebeaa060b7b80997bb96cbaa6382dfa850b0edd",
+      "bytes": 151542,
+      "sha256": "05c8831b946b7642a66574b9b33fa9bc3148465f282dc14680a4ae9388e0ac6d",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0012.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0012.gz",
-      "bytes": 70196,
-      "sha256": "5d192db576561dfa3cabaaff268bb2904e05c2bc4a5c462b5f7e375f26fdfa42",
+      "bytes": 168746,
+      "sha256": "9350dbc3ef41ee35682f0905a2d8c2985e759ff2cf22795fb9172dd9026b4729",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0013.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0013.gz",
-      "bytes": 90400,
-      "sha256": "f18032bdfaab44a3410402cdb4be852dee2dfbedaf5ab6add739d5dd37d27a7c",
+      "bytes": 184009,
+      "sha256": "47441952fb2027f4e171cc4cc097682badc79f2829fa3a614b796f54791e095f",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0014.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0014.gz",
-      "bytes": 99079,
-      "sha256": "e2c952663c45a22a7d4c944692b06d6bce29d1a891f00b5981f58311734dc7c2",
+      "bytes": 197111,
+      "sha256": "801ba5ad4bf0d13730e7bf3b947ee3020e518e1ef2ab79a16b529e42b62c8e87",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0015.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0015.gz",
-      "bytes": 115129,
-      "sha256": "789821eb755e559d3e9af0367c334c306b2f8603df75180aeb299a972dd2ecc2",
+      "bytes": 208284,
+      "sha256": "70b79c3d62e6ef8d1c2de23d6db95a5e5e86632163e8d0e35d62be7708550553",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0016.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0016.gz",
-      "bytes": 128995,
-      "sha256": "67686bba1f3c82d5571ac1cae8b273dc604a7371e12407b190e63c2f5f8b8773",
+      "bytes": 218149,
+      "sha256": "eb0785ee52b5e28e925faa545c16d394c873cdb85b10dc6e795ced8c895db72b",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0017.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0017.gz",
-      "bytes": 151492,
-      "sha256": "df6ce62e3f8ceaee7b5f455647c1dc95825782081ae77a953dc7005d4768e44c",
+      "bytes": 232760,
+      "sha256": "564ec11d8aa01785a2f9347c5edbe26ea29b32583a4d1b5474b89daef1b796ab",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0018.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0018.gz",
-      "bytes": 185754,
-      "sha256": "79b9f23505d32734e32e83f1e79e1505df7c8cdcc7996b8e298473a0b17ad6bd",
+      "bytes": 253939,
+      "sha256": "8fa2b6fe0cb5b8b43a4fe5182cd7d34eed5124e28477e36f806df8262ff1c696",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0019.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0019.gz",
-      "bytes": 213539,
-      "sha256": "a25170cb1ec7455461f81d9010dbda0c15e0c13ae527f8893b150910bb0b15a0",
+      "bytes": 272110,
+      "sha256": "4dc73c9511e1d87cde2f07daa1fd09d03e82a0ccde9f45ee6abb8283057b0a18",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0020.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0020.gz",
-      "bytes": 225211,
-      "sha256": "6a01742088efa41fade5e1535f790528bce70d795d2b2f96fe0804221008f927",
+      "bytes": 287164,
+      "sha256": "93cd402ad00ad491928497a9e1978eb710464655380e392b267d27d43a34cbad",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0021.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0021.gz",
-      "bytes": 244727,
-      "sha256": "1244d4c55b48b17e0a25649d48f5bb02696194decd93eb850f9e51e0f7466a1e",
+      "bytes": 300396,
+      "sha256": "762d54565a672214cd7d46620ae28182ef2d10134a626304180cc0645f07183f",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0022.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0022.gz",
-      "bytes": 260432,
-      "sha256": "fa2665a01eb7db3f302c99e1068a39c9ab37e844ba1e73751c4e4b04d62dbbbf",
+      "bytes": 312180,
+      "sha256": "4bb3aa9cc26686bb6a9fefc165ca09f3785863bae9ba1bc346810a71fcfb4f47",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0023.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0023.gz",
-      "bytes": 273518,
-      "sha256": "2b10e86df9af8b775ed54e021fe44657a13f126864cdc12e8667141f11a0078a",
+      "bytes": 322552,
+      "sha256": "03bb5bcc49599d4b4f70de4a8106e611dc77c30dacb66007ce067d2b1ece72ae",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0024.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0024.gz",
-      "bytes": 285217,
-      "sha256": "19584765d20b5bfd0786d6042c4a244ecfbfdc3e7447bb5358b13a7780775c28",
+      "bytes": 331503,
+      "sha256": "cc659fe647d6ad1ed1c0b472d17d8588468c66342bc8288ae92a037de2010414",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0025.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0025.gz",
-      "bytes": 290352,
-      "sha256": "b52c959a7fcfa2ab8e348738b3bed49e206bf37d212062c37ad36cfeb48aaaf8",
+      "bytes": 338579,
+      "sha256": "90e95f84859591d65de03078d2d932225825848ae45e15c478c193d0bc04cf1a",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0026.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0026.gz",
-      "bytes": 292552,
-      "sha256": "7cb141e060f731e10ed3b2983fcea4939b501a8750bc7df6bf356c26819e3c62",
+      "bytes": 340972,
+      "sha256": "805649d4b88e10a114db24a4ecf600960e5d2f15c8f44f683405c5e503c68ab3",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0027.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0027.gz",
-      "bytes": 294958,
-      "sha256": "bd2f3ebd829b4ea83181de28ab143d09f18fbfb8852b0e581f3a8f3052a93a34",
+      "bytes": 343625,
+      "sha256": "1fa10cde129b069434d3a12fd528c5f2ddb9b2ade840d7584481653f70a9f9e5",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0028.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0028.gz",
-      "bytes": 297759,
-      "sha256": "641199b0f9769baf284290dbe2f59d36e75395966cd219e2d80b1c8da464288c",
+      "bytes": 346858,
+      "sha256": "ef78174c8502fd708cb5e96a248e4f979bc0173752ddaa7b9d99cf45fbcbbf38",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0029.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0029.gz",
-      "bytes": 300807,
-      "sha256": "f3568301f7187ea6bf5df81b7062015abcb9c647d546fae66ab4cbc7374739a8",
+      "bytes": 350042,
+      "sha256": "bf843390cab7b28e85f5d020b4f10a1ea011b24e9626aaeda16695dd2b940ed1",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0030.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0030.gz",
-      "bytes": 303743,
-      "sha256": "277fe90fcccc1cae45e24621edf1b270f6b28dd08d7bc67d3533707c1be70ec0",
+      "bytes": 353148,
+      "sha256": "03a2793928177233f87e009ebe45df62c94706467da5c3cc6ad18fad8a8bad38",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0031.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0031.gz",
-      "bytes": 305401,
-      "sha256": "3eb2b6cedd5ab76f1d55daf61fc83db01c11ed36a8b20d54d6ae55ed6edb3e3b",
+      "bytes": 356231,
+      "sha256": "49a189eb632f23205ee1a52395757b35814d35b082b9155f393cf50b1ac10e5c",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0032.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0032.gz",
-      "bytes": 308475,
-      "sha256": "d2fcdebeb1657eb8f78613ec12cb2704649bff2385386b865dc6e641421873d0",
+      "bytes": 359475,
+      "sha256": "cff863b7d5d945a5cbe5ab7f9ee041a0724fbfdc3b9b5f7efb00e16f51e4628c",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0033.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0033.gz",
-      "bytes": 311599,
-      "sha256": "40edc366dae30204ace29b20cbc3c9210f9828feba864341ab1a35b16e0ad6a8",
+      "bytes": 362494,
+      "sha256": "fe3167e0dd527e7c3f7ac660f66957fd074b7e8335a70c0c573e2fe7be3226b6",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0034.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0034.gz",
-      "bytes": 309330,
-      "sha256": "eceb5c6a83386389d08fa4d995ab0b4dfd281f7d687508755bbf30af8f671f99",
+      "bytes": 361831,
+      "sha256": "d40526da2380cccdc494b1aca8d9339a9aab75de746afc221f61c6ca5d2ff5ad",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0035.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0035.gz",
-      "bytes": 307420,
-      "sha256": "08487c38b149b23eb40631c005efe7eb9074879e35772884a4bfd220b55a3875",
+      "bytes": 361226,
+      "sha256": "3311c2aee6edf4a81960818a3fb5e90ce0dd4275d74a77eca4bf1111f96d1ff8",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0036.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0036.gz",
-      "bytes": 306589,
-      "sha256": "d6690a8ede9e6961ddbe47a58a52a01f615b5bbd20b5b4d0ca8205180b1a2891",
+      "bytes": 361064,
+      "sha256": "3558799f2860a7506cadc3b4a321b270b540cd9a5fa9d09c3695530ac8928313",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0037.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0037.gz",
-      "bytes": 305048,
-      "sha256": "1add96512ec07b8cf9775d7eb4d80e7476baf9219c56baf057e6b150dda694d9",
+      "bytes": 361136,
+      "sha256": "f322c027aee78e6931dfeb4259c077cef4f6db28c465675d0134aba2be48ad2b",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0038.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0038.gz",
-      "bytes": 303896,
-      "sha256": "a1504879b0573b5db751fa5be1f6128a16a4f2c27f74a9936d600dcd8f042414",
+      "bytes": 361605,
+      "sha256": "02ed80443131870955c42efd34ce7b29673ba9e191573140c4768e91f17523a8",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0039.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0039.gz",
-      "bytes": 303160,
-      "sha256": "7bfedd1e5db417154d0e106ff69013193538ed212976c5d911a65929f3078192",
+      "bytes": 362193,
+      "sha256": "f727f5c1f1dce3720a04a67df31d8f57b052193968e294ad000cf1d69ef757ce",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0040.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0040.gz",
-      "bytes": 302570,
-      "sha256": "951490b8fe719ff5a7d537b67c4dc745b2d9cb31523b5b4cf0b2e924bdb73f8f",
+      "bytes": 363020,
+      "sha256": "932bcb9c63dd1da3d6dd3446a90e19a72b075d89a2aa40aed3cbad7ea4554197",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0041.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0041.gz",
-      "bytes": 302315,
-      "sha256": "743aed9ed99f020a40502be41f0f3fc099f2075117c8ac2a99a08eeeb79bf1c8",
+      "bytes": 364088,
+      "sha256": "c51069256b00271d53c8fcbdb54bc401ae0308d2693a4b1bbaa1eb580fe0f6ad",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0042.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0042.gz",
-      "bytes": 301358,
-      "sha256": "1c5c8df1bcdf336f861342f5fc07af5bccf11fcca4d189b0f9b616fe2b397952",
+      "bytes": 363853,
+      "sha256": "c5000a5dc89459f4ae052a17801fa989ccce704bc38e91b4765886b4cfda1f30",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0043.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0043.gz",
-      "bytes": 299317,
-      "sha256": "54070ceee85742f095f8678d66242d285295942fda86a05ed3dec1062387f697",
+      "bytes": 363401,
+      "sha256": "1f0dedb04bec95fb33be0bf2b1a3d09e5241ca67a68540e82baaa4e44297e985",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0044.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0044.gz",
-      "bytes": 297596,
-      "sha256": "e8e1927e86137605dedabb5af9570a92cc519d1c5877174212c152456ff3459d",
+      "bytes": 363295,
+      "sha256": "d7b3937318e3a8c6135553646ed523c9a5c76636311335a6f8c2545f835f8e54",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0045.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0045.gz",
-      "bytes": 296198,
-      "sha256": "61fe5e68ddc2f0cc6c366ab0f866888ad7a1a1c91595cf5188b463682e9e5393",
+      "bytes": 363461,
+      "sha256": "d772e532aabef3796556234f56e160feefe42e54bc49dd38d8460d38510136f8",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0046.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0046.gz",
-      "bytes": 295016,
-      "sha256": "9295baac3c1e2328cc13031ee396054314c6a0f084b03f6fc807ca01d7fc203a",
+      "bytes": 363512,
+      "sha256": "8cff4b3d27069568af874280821654c69710dc8bf8b2f5022464fcfa2635e58a",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0047.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0047.gz",
-      "bytes": 294479,
-      "sha256": "617d6ac19da35a3425e329ca113ab7b7492bee63199063b0e9e4d8fddb5f9f81",
+      "bytes": 363792,
+      "sha256": "14202ed9ef7e3c6f009510f7eb72bfb79a3aad9a172e320226b12aa06900708a",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0048.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0048.gz",
-      "bytes": 293294,
-      "sha256": "7e67560b4bed72dfdf697505b75b5ff3249ea2865c84de787428757b77daf85f",
+      "bytes": 363895,
+      "sha256": "4ab260e4da8836a2422ebcd896b73952ff8378a9a384331e91f8409378491872",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0049.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0049.gz",
-      "bytes": 291734,
-      "sha256": "e0297627d4cd23ae4eb6564ddbb3f1ed0651ee8923e5513af0c353bef2c3c035",
+      "bytes": 364332,
+      "sha256": "9c8387135bb6dd2212018f239c13ea6b542887ab89f5aacaf2f03226989e3867",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0050.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0050.gz",
-      "bytes": 290396,
-      "sha256": "33768f332888251895d39952d3872aadddb518b49a55466f3ae63c3ce598d269",
+      "bytes": 363492,
+      "sha256": "6b9aa9598e6368cfa70b561768ebc93ccb5af09d7d016c72167572e77daf3e01",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0051.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0051.gz",
-      "bytes": 287851,
-      "sha256": "c9fed0725b561023402c4ed09733ac65d75e3b03f52cb22c0ae54d008ddbaf60",
+      "bytes": 361290,
+      "sha256": "a0fc27856a397d3439e3047cbfb5f318e032152dedd28c1c06742ee6e3e57126",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0052.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0052.gz",
-      "bytes": 285647,
-      "sha256": "7ff7eee3bce97e7ea532c79028d81965bfc58adba9f6b0bc9adadc2e4ec9a6a9",
+      "bytes": 359167,
+      "sha256": "268c0c3f487b9e7ae7b9c4ecca15186ca57364fa93a5e52b6865e0b30bc9c297",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0053.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0053.gz",
-      "bytes": 284550,
-      "sha256": "a7118ef604c4fe0c3e65dfd2a52d15d6f975991950addc2be4c20c3329909448",
+      "bytes": 357356,
+      "sha256": "04ac51de8912650045b85e73237379c4ddb364328232abba063069159a311d9c",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0054.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0054.gz",
-      "bytes": 282793,
-      "sha256": "ff2f3624a4824d71989a9c4a8bb4c5ca3a27ecb7fde800f8b9ce7a10e37c6b47",
+      "bytes": 355518,
+      "sha256": "5f16d581afda02cdd9f7bf2304e61a23ad4691b5908efdde92177e062e5e7993",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0055.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0055.gz",
-      "bytes": 281066,
-      "sha256": "1a4d95f148f4d38c082b1e8a2d9e9b31c6e58f076937844012250791173c2cfd",
+      "bytes": 353922,
+      "sha256": "296937a4b0ac133b45599f4d7c570b3aa6b95ea4320a7986cf34e38452c84f0a",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0056.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0056.gz",
-      "bytes": 279514,
-      "sha256": "de92807c01a9279aa4f2dd1ce15a80ab77f677977792f9a2a45f88da4f884b1b",
+      "bytes": 352201,
+      "sha256": "739504cc61e6df22c1091ac52388c455b7d58a5ac85c67d603ba90fa3db3bcf1",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0057.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0057.gz",
-      "bytes": 278004,
-      "sha256": "67540eaf9a7a9a8363217775ffcb1ce295f2ba1d653fec254817dc15d8e17569",
+      "bytes": 350862,
+      "sha256": "9894b4a8ba6d23e4b18404e30a5378a76b8a24203564687dd349e3e53b9cc206",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0058.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0058.gz",
-      "bytes": 277213,
-      "sha256": "4b9a91abde37a203c1bebb9bbd1276f493ce2ef5d5538967739608599b622285",
+      "bytes": 349693,
+      "sha256": "b6d1d05c445a01e5ee413396173035b09a66633911098dece9e295301e16ef35",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0059.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0059.gz",
-      "bytes": 275757,
-      "sha256": "b4de6acf97248fefc050333349e0797086bbac13fc777b4e95af02e136d9f86a",
+      "bytes": 348718,
+      "sha256": "65cfeaf7bc54c0eade3c231bca4d0aae8007ff6b771dff6caed38f5a46ff0283",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0060.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0060.gz",
-      "bytes": 274509,
-      "sha256": "f206393561fb90146169a4373367d26b639ddfa33f8519afff04f39247aee91f",
+      "bytes": 347676,
+      "sha256": "711a624627ae45be5a6d35165e1096a54d87109442abdc1a62fa053d5ebaec73",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0061.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0061.gz",
-      "bytes": 273282,
-      "sha256": "d34b484003423eb286ffb96c64d20b1320fc71b300dce931eabc3c978e773854",
+      "bytes": 346747,
+      "sha256": "ad4eb255079d883f195623dece8093831eaf97690fe36ceef6d6546a408a2d80",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0062.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0062.gz",
-      "bytes": 272158,
-      "sha256": "fe0b2a0c8d1375d0e4ab1fdb89af5f0df318aee68685d11352f200a26a16d5db",
+      "bytes": 345846,
+      "sha256": "d3f50227ab7df1cf498d86d38df17a2b33ef83c80b83d3949cd792246244746c",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0063.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0063.gz",
-      "bytes": 270930,
-      "sha256": "49ca15d841b0865c425631ac89c548bc2b75b01f73626561943e789db9a6e555",
+      "bytes": 345033,
+      "sha256": "b08f9be42ea4a6fdba9a45e03c816b8cab08b1467fbe9c0d49cf02c9d6ac5bd6",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0064.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0064.gz",
-      "bytes": 270341,
-      "sha256": "f88c9d5e1cc183ecc6bdb7fcc83f5f05c62d4a3ddf09bbc3afc8664742f8848d",
+      "bytes": 344228,
+      "sha256": "ba00061bfce22d7bda1eed14328926e0713f5576116e979f94a637aa0381ef47",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0065.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0065.gz",
-      "bytes": 269449,
-      "sha256": "810d2d97ea433fa9cb2f77a24d1cc2ae7a307366a382d0e979e84d71b6dd49eb",
+      "bytes": 343568,
+      "sha256": "591083224a26d7b3b595e4d75a0ef1d3dc66ccbf939c32138a6216c15b193702",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0066.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0066.gz",
-      "bytes": 268342,
-      "sha256": "d51ed870166673887a8c6a6bfd6892b419429f0211b78232909e0564fb142821",
+      "bytes": 342885,
+      "sha256": "ed9e7a00662c0da795533bbeb8df6540893271a398de78786e03d10dabdb11b0",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0067.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0067.gz",
-      "bytes": 267262,
-      "sha256": "28248714af9a68560fed21a2f2777977de9964d28468c81625f405cc9d988686",
+      "bytes": 342229,
+      "sha256": "8e582b528e480546f3900f54ab3df7e469148cd9dcc6d0de72090e5a4f178dc0",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0068.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0068.gz",
-      "bytes": 266368,
-      "sha256": "676814748c33c18a01426adf7cb14b2a58d8504db01eee3af9473b13d2784ffb",
+      "bytes": 341598,
+      "sha256": "42a6148e6e5966ffaa543213750635da9d07e1f5c90595b1643953819b69298e",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0069.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0069.gz",
-      "bytes": 265929,
-      "sha256": "783cb0ab9b93515d4f6783a8e2048d3333da3501415c56d8a94b163c54de90a2",
+      "bytes": 341076,
+      "sha256": "5c98e70b9b312115b84fe0bff8e052cc0fb2eef2520ad3e38841f25a8c773d80",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0070.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0070.gz",
-      "bytes": 265028,
-      "sha256": "641559d8148a1dc1e3ea46f9e33c7cf7b142240cd1ab587b9da2319941b3113a",
+      "bytes": 340624,
+      "sha256": "f7244ca59546ae649684190d4756af70934a7c61b2ef8a1c34ad32b95b952c5c",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0071.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0071.gz",
-      "bytes": 264055,
-      "sha256": "63d163af84eccc01aefb2ea36ca9c1a0586c760a0d250fa389e5197ce233ef20",
+      "bytes": 340137,
+      "sha256": "19845bfba607b9ae3a8d7294f75ae89b8931bf25ca8f9c76359520ef907ddb8b",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0072.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0072.gz",
-      "bytes": 263268,
-      "sha256": "6d20adb8781f8ea9750b56fb47fa5a7fa5b17051552d57accfdb1b44990076b5",
+      "bytes": 339687,
+      "sha256": "e249b2a70f1cd5212ed3c94d164d5705b02174d38dfa94d18ab56e6f0b76ea49",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0073.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0073.gz",
-      "bytes": 262511,
-      "sha256": "0cdd934063faa0d8b38643577d09c855bdca51311a0ef96ed20327e4cfc7bc66",
+      "bytes": 339252,
+      "sha256": "01fd60727c220d39b162f297ba79b3750c4116c6d75ed6e43116c1079cc3cc23",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0074.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0074.gz",
-      "bytes": 261735,
-      "sha256": "34779af94355f37df53e93b8b7cfd86f058d222b50f8e80bdd94f3d5d6c05613",
+      "bytes": 338736,
+      "sha256": "0c3d068a8027e216dd17df882ddd2630bb5c9fb0c2a84b89db69f63402c077dd",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0075.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0075.gz",
-      "bytes": 261327,
-      "sha256": "f630b2745f6b222c6c21f4a6e4d606dd0d2875426da51629eb55e29a3015d27c",
+      "bytes": 338253,
+      "sha256": "030376f70745b214accf69979b965339e289ecba99029c415079a050732243f8",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0076.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0076.gz",
-      "bytes": 260581,
-      "sha256": "3b0aaed65989ca3c782558dd350c419e1e6b27ec79cd841bd914fc1ef0a0bf1d",
+      "bytes": 337799,
+      "sha256": "f5f509f0b32e51c29c67e84fd67cc050a92cd878d4957789e71b2a19347f78d1",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0077.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0077.gz",
-      "bytes": 259842,
-      "sha256": "19c8b46475dad5177b6b5e6857be99086b3b77d91cb889f7b6a07673b2ec0a77",
+      "bytes": 337462,
+      "sha256": "6a53c2bdb6a702f68450f428318e014f2d5abce46964fe090abc5016a03522ec",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0078.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0078.gz",
-      "bytes": 259028,
-      "sha256": "06128a7664861f4e2b155971410a543925bcd54e49e6ebe5d61808abb50a0900",
+      "bytes": 337103,
+      "sha256": "c97cc36c96d0bc9955258efcc45b1ca37b98f52c39632eaf716e0da65599faea",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0079.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0079.gz",
-      "bytes": 258301,
-      "sha256": "95da7c3e1a0c4103b875d2e0b781d10ffe2af6b5b1536cd5047292d07f972458",
+      "bytes": 336788,
+      "sha256": "1fb092a9593aecf861c857b54dd5affa96a90aaf2e46e3a23224030568a61602",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0080.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0080.gz",
-      "bytes": 257861,
-      "sha256": "62cd81227ac5df91ee15752cd8750c5192a4659dfce270fd7882fa34d39b8efb",
+      "bytes": 336432,
+      "sha256": "8056f04fd491d927e5145dd10f48ad2fcd50b8eaffb560343aa06ed15c6541c2",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0081.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0081.gz",
-      "bytes": 257131,
-      "sha256": "29176c85747067876f1744bb368fc007411e35af76259a0f7454ed946a4fb03f",
+      "bytes": 336195,
+      "sha256": "9e51042cb9213347d01fe3c3d3fba61763e7b113c65f13d5c2a50f9e76ee6e34",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0082.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0082.gz",
-      "bytes": 256368,
-      "sha256": "96d23c0732ce159fc87d7bb31177d54e9b2e66694b555f2b947a859f716e1f7b",
+      "bytes": 335912,
+      "sha256": "4470c9320dd230076d80dcde39e9ba11ef7f5400eb7efda319b2f84038e253af",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0083.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0083.gz",
-      "bytes": 255638,
-      "sha256": "7c1a60802d5a9d5cee22d1dbe23c72ed2a577cfbf9c99cbc4757462f7879fac4",
+      "bytes": 335699,
+      "sha256": "691848e32aa3b5b417c5b232d38146deec6de3335f210f772be045872ce5caa4",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0084.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0084.gz",
-      "bytes": 255051,
-      "sha256": "1ab0a0e6347e7c95320bc29a37d6a0c07cfb8f9ba6e784fd4922ea710abe57db",
+      "bytes": 335434,
+      "sha256": "1754f6eee23724eeac3d1364327b44842bc08bfde59776a322fb4fbeae1eb439",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0085.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0085.gz",
-      "bytes": 254314,
-      "sha256": "bfccea93a4710893d0007a1fcefeffa45f66bbb801c76c598b57d4fccc11de82",
+      "bytes": 335201,
+      "sha256": "7c5cb3912d08a42bc4ad49db4b4b99f7033ffff518269dd97e8483113a247631",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0086.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0086.gz",
-      "bytes": 253890,
-      "sha256": "815d5619a8c6220a0bd38ea5ad2c98076282e5395e4043cb7953725ca076f27f",
+      "bytes": 334939,
+      "sha256": "9a56a175ee51188764c25d147fcc9123e04538642b46cb7e65061b9e75537db2",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0087.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0087.gz",
-      "bytes": 253182,
-      "sha256": "a0bccbcb073476f08057485398cd27274d3742b3b8318f5aef16716a07aa0a8a",
+      "bytes": 334722,
+      "sha256": "3de966d0e05cf9c69c770eae5d3398f375cdb209ee1ac4a9367f3f94978beda2",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0088.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0088.gz",
-      "bytes": 252416,
-      "sha256": "49b8098b238c331a61de7d294ac56cbc428cb64cc7b41425d2ab92ba08b518e8",
+      "bytes": 334456,
+      "sha256": "9f350ab47f1fc52b904720e0665d5fcd2b2b01c6e96ecb07b034e93ed9d1579c",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0089.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0089.gz",
-      "bytes": 251726,
-      "sha256": "1efe6b7e7d196dc7e726f24b64bbb27d251cc3aa429f73050c13c08fd6c3b523",
+      "bytes": 334287,
+      "sha256": "ca6d8ce8c895a4b64b73a12b5e779dbbb8409d75a99e13ddc6753e4afe297cd1",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0090.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0090.gz",
-      "bytes": 251054,
-      "sha256": "174712c05a18f60c4ca8698089c10d6715fb3142b34a76664d04221531eb10f8",
+      "bytes": 334048,
+      "sha256": "f5e4141bbd1bf452cd52f73fdd9271c439d1f24e6246373d862a8e719ce155d4",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0091.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0091.gz",
-      "bytes": 250685,
-      "sha256": "e5acd35865dbfd9ad6d0f1fc48a6ba35d08667597277650343d8a9c11aec79d2",
+      "bytes": 333795,
+      "sha256": "53590121df48ce6af4854ca4a76e6e82c4c44a80b6256436754f1f2d20dc4384",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0092.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0092.gz",
-      "bytes": 249978,
-      "sha256": "04d079882f4a9cc5e3737c83cd87de5b95452256697b7503b5b322950825e24a",
+      "bytes": 333724,
+      "sha256": "f2db776d44b292b42c4d9b99214edbcef45a5bfc1d4f76e65e3512267c0e8adb",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0093.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0093.gz",
-      "bytes": 249265,
-      "sha256": "c98c95c2914e825f141c703926cbc4e3ddfb854c2c89508bc8b681d185cf8531",
+      "bytes": 333537,
+      "sha256": "c38bde9bb3f7d3fda74df646fd0ad4b6258173d7f3872a504eb0f6500a3144fa",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0094.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0094.gz",
-      "bytes": 248546,
-      "sha256": "c8d1e7236bbaadec41b0e2805cbd6f980dea0a3344ed00e30c54d6653e31197c",
+      "bytes": 333317,
+      "sha256": "bd31e6a1e872eb757796cb6c9c41bc12fd43ea2f181a933b60d96dc86b7c4b4f",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0095.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0095.gz",
-      "bytes": 247922,
-      "sha256": "e0663df6b22a2e0624ab3df3ab3c56e1db2ae9f609f5cf48449adfefe3cb37f5",
+      "bytes": 333024,
+      "sha256": "94677cd5808374839283b7fa1fd1fa20840dec6a2c2fee9a79d8910a20a88457",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0096.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0096.gz",
-      "bytes": 247269,
-      "sha256": "5d98172138674cfdb979659b6fb6efa944499ef4f9066e2f634a85ae473f8cfe",
+      "bytes": 332846,
+      "sha256": "11557beed582ac16467adef6cdb72cb32143ee1b6f12f8e3129104c61446a2ea",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0097.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0097.gz",
-      "bytes": 246989,
-      "sha256": "a852c6c40fe87c41238a4eface184c3f0bb6f2a79a1c5ce18ff5a25eaf6bb56d",
+      "bytes": 332691,
+      "sha256": "5e4ebf3be9d86265da711e996cec21d8a5a0ac0cc302edcbfddd86694dac5c56",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0098.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0098.gz",
-      "bytes": 246301,
-      "sha256": "036adf3778f603d7d9bf4d2b0c1b6ee2331bd5634d6077eddf3f9f06b701e30c",
+      "bytes": 332547,
+      "sha256": "ee8408e54da5b7d80b25284be2b6512adbb7c5bc871623feb68fd5e3581f9ee0",
       "source_snapshot": "london-compact-20261122"
     },
     {
       "path": "physics/chunks/quantized8/flood/0099.gz",
       "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/quantized8/flood/0099.gz",
-      "bytes": 245668,
-      "sha256": "d6e90d52dafa97dc909b19d295e93c3fb4f7302e2f82eaa9ac22d3b867b0bab6",
+      "bytes": 332405,
+      "sha256": "df75fcaf78e1a66ee96a092a58d58107ccd5ed411897eeee6701d18d547c4924",
       "source_snapshot": "london-compact-20261122"
     },
     {

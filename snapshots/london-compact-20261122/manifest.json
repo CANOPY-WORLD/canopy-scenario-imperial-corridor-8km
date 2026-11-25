@@ -14,7 +14,7 @@
     ],
     "flood_update": "LISFLOOD-FP 4m native run pooled to 8m and replaced in place"
   },
-  "bytes": 235513224,
+  "bytes": 256895130,
   "files": [
     {
       "path": "actors/demo_rev02/actors/pigeon.glb.gz",
@@ -1775,568 +1775,1210 @@
       "sha256": "237a67ed8ce569d4bb98311c867054ba9393eb47568d6dbae43101cccdac4b25"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0026.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0026.gz",
-      "bytes": 106955,
-      "sha256": "8f438269b4683304e471cf813c703d08e877d0c3be9b626d271dc477c23058eb"
+      "path": "physics/chunks/solar_day/ghi_000.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_000.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0027.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0027.gz",
-      "bytes": 104874,
-      "sha256": "1780a3d8a2738a275a7419611713cbd118b2c9ff0af470ae47ea5bd8dc6b1fa6"
+      "path": "physics/chunks/solar_day/ghi_001.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_001.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0028.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0028.gz",
-      "bytes": 102405,
-      "sha256": "294ffbc86d10e81bb1fc1a170d490e435283491c47ed172693abc0cf6e457871"
+      "path": "physics/chunks/solar_day/ghi_002.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_002.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0029.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0029.gz",
-      "bytes": 98169,
-      "sha256": "3aff67b9d46efde770c38af60a8c99eb32c4bfb78860082c49b4c65e7da19233"
+      "path": "physics/chunks/solar_day/ghi_003.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_003.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0030.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0030.gz",
-      "bytes": 95930,
-      "sha256": "e2a3129178fa5fb461463fa64d6b45858fa4a22f27367ad0ce4314307865e198"
+      "path": "physics/chunks/solar_day/ghi_004.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_004.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0031.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0031.gz",
-      "bytes": 93596,
-      "sha256": "bd9b0d9c39104ac7286968e326c887cee79eb1b7b4d0bfe0c101585efc49fa2e"
+      "path": "physics/chunks/solar_day/ghi_005.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_005.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0032.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0032.gz",
-      "bytes": 91007,
-      "sha256": "f36f584d5dd5998dd3690f01c71e96b44659f61860e7e7bbd384ab0cfd1dbf44"
+      "path": "physics/chunks/solar_day/ghi_006.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_006.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0033.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0033.gz",
-      "bytes": 88445,
-      "sha256": "bbda67b3739eef4955e7cab482fac66d0d8f7e904f890e54cc7acfa48c3d3861"
+      "path": "physics/chunks/solar_day/ghi_007.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_007.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0034.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0034.gz",
-      "bytes": 85963,
-      "sha256": "a4c5903175a4b0e5948c93b2a6a3a071c906c33f651e7bf4ff0786c29da51ade"
+      "path": "physics/chunks/solar_day/ghi_008.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_008.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0035.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0035.gz",
-      "bytes": 76002,
-      "sha256": "6ff4fcbe8b82051f8c7c256dca82c0466771252addfaa66812cd333a8daf9df0"
+      "path": "physics/chunks/solar_day/ghi_009.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_009.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0036.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0036.gz",
-      "bytes": 71995,
-      "sha256": "9dc501d596d8eaf69b148f90eba1dc0a220dee6106e02c04577f4d0b8b82af24"
+      "path": "physics/chunks/solar_day/ghi_010.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_010.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0037.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0037.gz",
-      "bytes": 67938,
-      "sha256": "060b0ac442a3a4968d47f482665abc9957c57c5ab8530992a81a2c86a9750286"
+      "path": "physics/chunks/solar_day/ghi_011.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_011.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0038.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0038.gz",
-      "bytes": 59032,
-      "sha256": "1726dd289ce6314a28b93173145fa54d171bcc84292c78c87ff8ac82d19997b7"
+      "path": "physics/chunks/solar_day/ghi_012.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_012.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0039.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0039.gz",
-      "bytes": 55778,
-      "sha256": "c4ab9868cb206fc22db52b3b09ce0aea379b96ab439e1c4c6d92f01dcea4d7f4"
+      "path": "physics/chunks/solar_day/ghi_013.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_013.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0040.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0040.gz",
-      "bytes": 55691,
-      "sha256": "c6e9a7156a8d906bb700b76baef1ef7a44a219404797f4147eb8b4bbb14b8ee7"
+      "path": "physics/chunks/solar_day/ghi_014.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_014.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0041.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0041.gz",
-      "bytes": 53221,
-      "sha256": "995ec499b8083a5052717edb429550a354227375861d152832477ba37d882c30"
+      "path": "physics/chunks/solar_day/ghi_015.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_015.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0042.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0042.gz",
-      "bytes": 50614,
-      "sha256": "96b025b3112e18bccebe3ec20bb7af17d40ea602fc1648957f42f99e740f9824"
+      "path": "physics/chunks/solar_day/ghi_016.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_016.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0043.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0043.gz",
-      "bytes": 57519,
-      "sha256": "3255c024fce50c485e85316dcba5a2fd62e4ae23f4aa4920d9c39ed319e17e0b"
+      "path": "physics/chunks/solar_day/ghi_017.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_017.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0044.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0044.gz",
-      "bytes": 54451,
-      "sha256": "c697938d7053171021aa69213247384a8f482400bbbab6ea962e0ef1d659830a"
+      "path": "physics/chunks/solar_day/ghi_018.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_018.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0045.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0045.gz",
-      "bytes": 51750,
-      "sha256": "d7793d471e701b819d425fa73e28975d9747bc63b48a5cbea827b62bcd6a8bed"
+      "path": "physics/chunks/solar_day/ghi_019.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_019.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0046.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0046.gz",
-      "bytes": 49342,
-      "sha256": "2069260f3eec14daeafa2384c72d84b9f2f2e4fa59460d32b632eb783a2eb10a"
+      "path": "physics/chunks/solar_day/ghi_020.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_020.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0047.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0047.gz",
-      "bytes": 48270,
-      "sha256": "70c23de48b42eb1d0d8a394feb4d1c513dd3fe34782ec2ef3c22d5e71cb3720f"
+      "path": "physics/chunks/solar_day/ghi_021.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_021.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0048.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0048.gz",
-      "bytes": 46998,
-      "sha256": "562f9f8fba2d14b8942bbcf0ab0654d683850c781211d47bed98c29e77a6c663"
+      "path": "physics/chunks/solar_day/ghi_022.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_022.bin.gz",
+      "bytes": 182945,
+      "sha256": "afc715cdfa1ba979bdbe0cc0f15038d0e0ce298c32e8f899f30918a93396e052"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0049.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0049.gz",
-      "bytes": 46300,
-      "sha256": "c97087d590222bf989c32531b9694562ae9f4fc2ce4f07e04518210cac25070b"
+      "path": "physics/chunks/solar_day/ghi_023.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_023.bin.gz",
+      "bytes": 255287,
+      "sha256": "2bd4ba8a46f99802b7e3bb104b8dd0f2762c2b7bcd253c4845eb421e51e88608"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0050.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0050.gz",
-      "bytes": 46507,
-      "sha256": "13cc08c1c8c446f1bf21d802973ccb7c09db91b57aee163dca54fa97ab429ee4"
+      "path": "physics/chunks/solar_day/ghi_024.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_024.bin.gz",
+      "bytes": 305239,
+      "sha256": "a94de526a2a48585a369d90b00f850a6e4ae518a1ed275205a894ba6e382b886"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0051.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0051.gz",
-      "bytes": 47643,
-      "sha256": "b4b58c2baff56c370f291d13bcf81c5b84ebbb86022076952c0798c3fd707678"
+      "path": "physics/chunks/solar_day/ghi_025.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_025.bin.gz",
+      "bytes": 331618,
+      "sha256": "4b540d1f1b9800dda5dc56f4cab5fb2a5c9f92222297126736ae3004529946fc"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0052.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0052.gz",
-      "bytes": 49643,
-      "sha256": "0d94be634105031983fe4ba04d151f8ee04f0c2839bc14503084918ec86dc6e9"
+      "path": "physics/chunks/solar_day/ghi_026.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_026.bin.gz",
+      "bytes": 354270,
+      "sha256": "fe0eb5c3bdc9fa98e5bbd35eb49d3648f7ccdf196db06193044d51a8cfac1d7b"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0053.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0053.gz",
-      "bytes": 52226,
-      "sha256": "c51da52ba5f409d461f00ab2871648f7dc187e878f617dd94b2f7046d98648af"
+      "path": "physics/chunks/solar_day/ghi_027.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_027.bin.gz",
+      "bytes": 357098,
+      "sha256": "45378bee24a7f3989372cdf6d08a0643e9e94de65472d14587de78281eab418d"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0054.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0054.gz",
-      "bytes": 54706,
-      "sha256": "f36bbedf6113a867a52a24fd8620c06a6229701bc5e2e0402f6d0d489fb0186a"
+      "path": "physics/chunks/solar_day/ghi_028.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_028.bin.gz",
+      "bytes": 355308,
+      "sha256": "b39c7fb565dd909a2a1a4f107f50d2b54b462bb31203c95075c8c2c997a4c5a2"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0055.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0055.gz",
-      "bytes": 57447,
-      "sha256": "b29b285dc1f3f348003b933ec152fa1071999a44c5b390d8a68fae47506fe9d3"
+      "path": "physics/chunks/solar_day/ghi_029.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_029.bin.gz",
+      "bytes": 356877,
+      "sha256": "294954b6e7d284e8778da483f74a7e95761088fedea30d8abad32566e1023128"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0056.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0056.gz",
-      "bytes": 52718,
-      "sha256": "010ddb278c92929ffeb34df7cbdd1c3874d363c3d96d5e0c92c4fab37ec66854"
+      "path": "physics/chunks/solar_day/ghi_030.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_030.bin.gz",
+      "bytes": 337168,
+      "sha256": "179cd02057c466ddf6f65724abae4ed04612c02c2586841e9b70da7c1b3a91c0"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0057.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0057.gz",
-      "bytes": 54958,
-      "sha256": "76594b1afad6398f67710b31b4d21141b93a23f28b9c06a265fb450edb457fe7"
+      "path": "physics/chunks/solar_day/ghi_031.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_031.bin.gz",
+      "bytes": 331803,
+      "sha256": "41715b562393a1fc1536310f888a922f38afcb27c21701102f4363e077dab847"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0058.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0058.gz",
-      "bytes": 57385,
-      "sha256": "43fceebd5f283009d8a1fd9f03d6d7d9f600ef5d3c2b53443d995a327697e148"
+      "path": "physics/chunks/solar_day/ghi_032.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_032.bin.gz",
+      "bytes": 305770,
+      "sha256": "19e74f429d473b989bd7f495ea985654e4ebfc1bf6c887afac74567122d7cc34"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0059.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0059.gz",
-      "bytes": 56688,
-      "sha256": "75e356c35e440287a125e9f134d86d93b5a8b6447a203c4b87327f6647bf1831"
+      "path": "physics/chunks/solar_day/ghi_033.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_033.bin.gz",
+      "bytes": 295652,
+      "sha256": "c4dea2864f5d298d8ef6de076d5a3d09b357e4c331c1066ad36c9d2b8d71d376"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0060.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0060.gz",
-      "bytes": 59733,
-      "sha256": "ef75eb0c361f4759778e71f8d318690595b123f0d0cefb3dc65aa11c22511f84"
+      "path": "physics/chunks/solar_day/ghi_034.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_034.bin.gz",
+      "bytes": 276246,
+      "sha256": "ed983414b0147df0505953d4a6456760ff245fb08578548109db04eef8193a08"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0061.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0061.gz",
-      "bytes": 66988,
-      "sha256": "015c226beebc41283e3ecd15d7a84e84ec472d49fdb6f2a6ae3b82987c493ad6"
+      "path": "physics/chunks/solar_day/ghi_035.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_035.bin.gz",
+      "bytes": 246986,
+      "sha256": "aefc64c51ce187385821b47e1e79de723826942bb9708e46c28cc66975de2f6b"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0062.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0062.gz",
-      "bytes": 70418,
-      "sha256": "efb3ae3551831b01db1c30bdfae17d83de15b38f2cf851793315fd68c215fe4f"
+      "path": "physics/chunks/solar_day/ghi_036.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_036.bin.gz",
+      "bytes": 251659,
+      "sha256": "8483fa695bff434b3819a03a8a227ca8fc2380defec07b499e8569acb493e870"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0063.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0063.gz",
-      "bytes": 75720,
-      "sha256": "78733f8cdb94035114a2cea8be37e5fa45a77f7517122c61705c5d630cc0f024"
+      "path": "physics/chunks/solar_day/ghi_037.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_037.bin.gz",
+      "bytes": 287780,
+      "sha256": "128be189a373abc8efed3d201e1558fbd4b774f42cf6cb0e1dd1a11e34aa8e1a"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0064.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0064.gz",
-      "bytes": 78873,
-      "sha256": "4c1d900dbf94227930d9656b0db1c0d2f20259672e88aa7294c3d89cb6ba9720"
+      "path": "physics/chunks/solar_day/ghi_038.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_038.bin.gz",
+      "bytes": 312500,
+      "sha256": "872332efc77ee7755e18871161590ee5624f5878d7aef87ea6814fb3ebacb89f"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0065.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0065.gz",
-      "bytes": 85061,
-      "sha256": "f1cef736e665c46deb206174be4fa103ce912c24443a8794835a4adb78114a22"
+      "path": "physics/chunks/solar_day/ghi_039.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_039.bin.gz",
+      "bytes": 324872,
+      "sha256": "c0d4a075094b05e84815dee5837a58929a7aa338bee2e877392bdc66cbd2dcf9"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0066.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0066.gz",
-      "bytes": 87626,
-      "sha256": "b2c52747ed149505d57a1e965870696d7bfebc404ff8d00e7dfeabe3af2577f0"
+      "path": "physics/chunks/solar_day/ghi_040.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_040.bin.gz",
+      "bytes": 351423,
+      "sha256": "809022c7487cf0727bd9f4493c6e5419c8fed7f6628fd2b84c6170d560307123"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0067.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0067.gz",
-      "bytes": 89997,
-      "sha256": "34486959c0b2d8379f99a6ccbae97e65ec26aad3794e4b79c9c10f0408eb574c"
+      "path": "physics/chunks/solar_day/ghi_041.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_041.bin.gz",
+      "bytes": 363036,
+      "sha256": "6fe58323e856687e35c24a9d1e5c2e3403b5ec40b3d0cf55dc73bddc2d7818d4"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0068.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0068.gz",
-      "bytes": 92384,
-      "sha256": "8cb3556dff71c08487cfa532ba8e22cb7d7efca4f1b76d795cce4fdda50d1ad4"
+      "path": "physics/chunks/solar_day/ghi_042.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_042.bin.gz",
+      "bytes": 365794,
+      "sha256": "296ad233788af52b269d7a20cefb51dc508a109782e9dd600899216089a1c03e"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0069.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0069.gz",
-      "bytes": 94503,
-      "sha256": "4004ac48b4a7dd898b40b5afd2e21bdce07422043cd1e6ecd26853ee541ffdda"
+      "path": "physics/chunks/solar_day/ghi_043.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_043.bin.gz",
+      "bytes": 375464,
+      "sha256": "a035c24bfebded249823a1a010057b785c6d72a66f737ee0730afd8020bcf582"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0070.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0070.gz",
-      "bytes": 96637,
-      "sha256": "2f466879dbe3ccef3d77cd5295a72e0d518640b40e74fc9043adda62929cc6b0"
+      "path": "physics/chunks/solar_day/ghi_044.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_044.bin.gz",
+      "bytes": 389671,
+      "sha256": "d54d6836fca40c700dbd743fdb2533d04d32927f73052b0b009a4939d24af12c"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0071.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0071.gz",
-      "bytes": 102368,
-      "sha256": "ad8db658ddeb0c18bc68995cdf25a9a59ae6a0ce224a7ca4de2fd31cadc3501a"
+      "path": "physics/chunks/solar_day/ghi_045.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_045.bin.gz",
+      "bytes": 391975,
+      "sha256": "7ed81553d2d6b90551d170377b27d6e94a021181f92a4f51fe2f98a6e50a25d4"
     },
     {
-      "path": "physics/chunks/shadow_20260621_8m/0072.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20260621_8m/0072.gz",
-      "bytes": 104758,
-      "sha256": "e73f25febf04eae9f4bfe4425e97e86ad832c2f2143f3ff12f0bfa34b1f0bb7f"
+      "path": "physics/chunks/solar_day/ghi_046.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_046.bin.gz",
+      "bytes": 399115,
+      "sha256": "a44d5cde2abdf64c0e86b9ee5d0c21878ae2f55981a0eecb7f3901de703a7b07"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0000.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0000.gz",
-      "bytes": 35652,
-      "sha256": "6f1eebee879455ed39cb5c99bc3064e08d1028c0116661c9d1301ced8a5955df"
+      "path": "physics/chunks/solar_day/ghi_047.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_047.bin.gz",
+      "bytes": 399396,
+      "sha256": "856bae6cc0e75686a613afb806059e94d6a8f7176297796301b1682d7f33b2a8"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0001.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0001.gz",
-      "bytes": 77873,
-      "sha256": "86512215c16442f374ac6591601c32b2133992503330b742816db85ff22f508d"
+      "path": "physics/chunks/solar_day/ghi_048.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_048.bin.gz",
+      "bytes": 407096,
+      "sha256": "2ad51aa0803cfb0c65cc27e7895126607679193c09f142127845b716a32f9ad3"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0002.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0002.gz",
-      "bytes": 99770,
-      "sha256": "f60f5d4a0e6b4e748cbfabe840d836bb13c728fef5be775d8a415296569317c5"
+      "path": "physics/chunks/solar_day/ghi_049.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_049.bin.gz",
+      "bytes": 400124,
+      "sha256": "34ca1feb3b9d8d370b92cc86ea8e7ec44787f1409ad0e1b688352e6adcc4d2cd"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0003.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0003.gz",
-      "bytes": 113517,
-      "sha256": "34365d4a75ad830f5c70e6d0bd84fca4e4782a91a8cb856033f854ae0d4d744a"
+      "path": "physics/chunks/solar_day/ghi_050.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_050.bin.gz",
+      "bytes": 422173,
+      "sha256": "97c2805eecc5abe9c9fdac02e97834d90eb9af19ed64bf592ad50db2f2ed4911"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0004.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0004.gz",
-      "bytes": 119510,
-      "sha256": "59d359eb5d08282decabb7050b01596031bb20ea6373922311f5368bae63beb6"
+      "path": "physics/chunks/solar_day/ghi_051.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_051.bin.gz",
+      "bytes": 423927,
+      "sha256": "fffabc9d45f6d668236cb3c747bfd2a3e5ba23562ea26cddab1164ef61d8de48"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0005.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0005.gz",
-      "bytes": 123333,
-      "sha256": "a37be9dc60c8789376da764843224c04c692299eeb859431ab209d4894a8d64c"
+      "path": "physics/chunks/solar_day/ghi_052.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_052.bin.gz",
+      "bytes": 426236,
+      "sha256": "3184461c3027a497bb4b79c91cf0a2375b8536f73c7bbb94ef1afe98eba6268a"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0006.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0006.gz",
-      "bytes": 126561,
-      "sha256": "81b09e2af2881223ea7752b050f43d578b6fd611e535c3d0aca9f4c894a8c8c8"
+      "path": "physics/chunks/solar_day/ghi_053.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_053.bin.gz",
+      "bytes": 423441,
+      "sha256": "3fd727f058424c62b38aea23a8b1eb2087b111d3c3c01aefe890a45713d9d15f"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0007.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0007.gz",
-      "bytes": 128132,
-      "sha256": "b2c120cf5784edf946d3f6816aa3578cc0841b0801b51e9ef651a233e0815b3b"
+      "path": "physics/chunks/solar_day/ghi_054.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_054.bin.gz",
+      "bytes": 425304,
+      "sha256": "d5af8276a9320c320aeb0ca18b9e5a50ae4a7843028ba8dd59434603165b1956"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0008.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0008.gz",
-      "bytes": 129499,
-      "sha256": "ada060f699261694d8aa38f0ac2475c32560b2859a343f3b526cbe14b803c647"
+      "path": "physics/chunks/solar_day/ghi_055.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_055.bin.gz",
+      "bytes": 420820,
+      "sha256": "8fbd127df00031b88c2ba9a6f74bd496d3416961d6009edb98cebe45b354be26"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0009.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0009.gz",
-      "bytes": 130313,
-      "sha256": "3d0c65f86cfcfbd3fb011baf5f4b5e09f9eb09d499bfbb80a73703c0257ae3cb"
+      "path": "physics/chunks/solar_day/ghi_056.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_056.bin.gz",
+      "bytes": 421262,
+      "sha256": "873a4ac43c361d6b061d5d07efcfca52b0d377ce75521a6831f73acda5d49893"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0010.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0010.gz",
-      "bytes": 129933,
-      "sha256": "4340cb2fb621b813ab835d384e4675bcb4fb0762e04e6e6164c467221e901eaf"
+      "path": "physics/chunks/solar_day/ghi_057.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_057.bin.gz",
+      "bytes": 426396,
+      "sha256": "2551bf7e72152a60b6efe0a582df78898533081d6872ee20ba852eff28d628e2"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0011.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0011.gz",
-      "bytes": 130239,
-      "sha256": "c80b0adb7fd48edda70bda2c62d137af90ea7c5f4a6a9c9bb71be27198413a6f"
+      "path": "physics/chunks/solar_day/ghi_058.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_058.bin.gz",
+      "bytes": 422877,
+      "sha256": "5885df8d4a6d0ca6df2a13ec629e0ef718971818f8f63eccab2c8590a675057d"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0012.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0012.gz",
-      "bytes": 130083,
-      "sha256": "f3ce3456fb7a9b78a8ae3c5c642ed492b0c08258d99933940ded00fbb676ca36"
+      "path": "physics/chunks/solar_day/ghi_059.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_059.bin.gz",
+      "bytes": 401570,
+      "sha256": "14d4ed84527df759807d6b1a80bfc74c2102e479406f2e6526636060215a35d3"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0013.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0013.gz",
-      "bytes": 129815,
-      "sha256": "e188d284f569c0909484ef0b967d285b48512217bf14110c65d9d061d80cd423"
+      "path": "physics/chunks/solar_day/ghi_060.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_060.bin.gz",
+      "bytes": 398709,
+      "sha256": "c76135d75a45c51babfd0855b53c8f2d008209ba34f515a88ce7711f589be519"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0014.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0014.gz",
-      "bytes": 129552,
-      "sha256": "6d250498822c19c2584c33ec140f2168f31ae15b55a2eeb648f5e1da03a6bdc2"
+      "path": "physics/chunks/solar_day/ghi_061.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_061.bin.gz",
+      "bytes": 400495,
+      "sha256": "0ebd9ad2f816b880a212c1f3a97fc1b418cbeee26930811e5e342d599e7c9b1b"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0015.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0015.gz",
-      "bytes": 129254,
-      "sha256": "73e6269cec0f23123ad54ef68b060441ce90fab53751cd5fd03830fcd4dc6196"
+      "path": "physics/chunks/solar_day/ghi_062.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_062.bin.gz",
+      "bytes": 400636,
+      "sha256": "42ea3643dc2317c250bccf32552e53039948adf48d98db61c4f81348c62dde9d"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0016.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0016.gz",
-      "bytes": 128964,
-      "sha256": "786eb9138413104cc373a9e1af66a99c2af71246eec9cfa92ebd66954c25bed6"
+      "path": "physics/chunks/solar_day/ghi_063.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_063.bin.gz",
+      "bytes": 389708,
+      "sha256": "ebfad8df2c8e6ad7753b60077f527782511e8f14423e552f417345a57f6c5d13"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0017.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0017.gz",
-      "bytes": 128959,
-      "sha256": "9b69f0eb74004bf82fcba60775c3f5aba383e7c9bb717b770ea1ffc9bc2c2452"
+      "path": "physics/chunks/solar_day/ghi_064.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_064.bin.gz",
+      "bytes": 382745,
+      "sha256": "af81018d011cbb7da0b0bffa460b12be04d57f891a57dd6024937b8de73e02c0"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0018.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0018.gz",
-      "bytes": 128804,
-      "sha256": "c0b8e6b97955b30577f7584214119d245ebc154ee0809ad348658f547e34c82f"
+      "path": "physics/chunks/solar_day/ghi_065.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_065.bin.gz",
+      "bytes": 378842,
+      "sha256": "29ef232f109310a4c15492c06628b932612608d433b0b9713d22adb7c84c4443"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0019.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0019.gz",
-      "bytes": 128489,
-      "sha256": "62bf24a1896e2f4c27c133e72ea61e634070c1645423fbf79600d68b2b293918"
+      "path": "physics/chunks/solar_day/ghi_066.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_066.bin.gz",
+      "bytes": 365908,
+      "sha256": "a989350d7a2f1eefae5d301a8552fc3479f5f347f7210469fa95e7ee1e3ff45e"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0020.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0020.gz",
-      "bytes": 128228,
-      "sha256": "cf79da2d411897b9d53c4c25b69c1be43f7e60449d6cb5f2296da9ebf23857f1"
+      "path": "physics/chunks/solar_day/ghi_067.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_067.bin.gz",
+      "bytes": 358948,
+      "sha256": "3e7a337a5962700b7a9d838f4ecf5c5b760bf48071c59caa7ec761e8d80da22d"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0021.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0021.gz",
-      "bytes": 127853,
-      "sha256": "069040f5515ec73b4070a40704c5cecd681edf8deda4c61c061810b00ff74c6b"
+      "path": "physics/chunks/solar_day/ghi_068.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_068.bin.gz",
+      "bytes": 346087,
+      "sha256": "1d0535b1a431d0d02268cf5b65dbd5918804d6007cd3298e7abe4a707d55833c"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0022.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0022.gz",
-      "bytes": 127453,
-      "sha256": "f0176b30261e324351422e5148509d9ba562ddb5c35601bf011d048afb12239f"
+      "path": "physics/chunks/solar_day/ghi_069.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_069.bin.gz",
+      "bytes": 313164,
+      "sha256": "7d458d0f30717f61615a412fce162e96b15424370d1518e7740a841359d1f9ca"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0023.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0023.gz",
-      "bytes": 127438,
-      "sha256": "bbf67a2f4295b3fc87c116ecc0c75b78b77156cfcc47c73c2e074c21d4ad8521"
+      "path": "physics/chunks/solar_day/ghi_070.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_070.bin.gz",
+      "bytes": 291088,
+      "sha256": "47f58bf9c29c102f13fdad17998f430abf89557070f81eb3f904c701564a9e55"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0024.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0024.gz",
-      "bytes": 127296,
-      "sha256": "ebd33c0b221e774a00973110e6fa09e62a1ef8188857e503a33da8015e9dd522"
+      "path": "physics/chunks/solar_day/ghi_071.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_071.bin.gz",
+      "bytes": 259830,
+      "sha256": "1adb9bcb0eea2d6480c90adb59e9945e61126ab788fc525d60e03480e345a668"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0025.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0025.gz",
-      "bytes": 127613,
-      "sha256": "63438e59fbb514feb78b92e4e34fc9da5f9bdc74c1486926ae96d661bb93c046"
+      "path": "physics/chunks/solar_day/ghi_072.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_072.bin.gz",
+      "bytes": 242188,
+      "sha256": "4b258c100880bd57c34b0955657f7969c5814d5a796390198d6aeb9801f64b62"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0026.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0026.gz",
-      "bytes": 127978,
-      "sha256": "4294391e6efe87623d4a6f9f19a88a72aaf9284639c13b6a66b00e6133252f4b"
+      "path": "physics/chunks/solar_day/ghi_073.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_073.bin.gz",
+      "bytes": 263274,
+      "sha256": "98dccedfc7f9b9cd35ce279825ef383bfa6d90f6fd8bc90663a3b7de5fd61204"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0027.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0027.gz",
-      "bytes": 128130,
-      "sha256": "53ce34cec924edc779e18f871c56464a4f03678de3cbaf1025bcaef859762ca7"
+      "path": "physics/chunks/solar_day/ghi_074.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_074.bin.gz",
+      "bytes": 283793,
+      "sha256": "73e6ed7972380b84b5a0bae72d0e6b4c9c5d475bf1cdd107d5d4b3d66ed9b4a2"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0028.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0028.gz",
-      "bytes": 128424,
-      "sha256": "30e3ed128dea7659786679fa49ad75b8d907b74f8f9558574c3602438d3d3ccd"
+      "path": "physics/chunks/solar_day/ghi_075.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_075.bin.gz",
+      "bytes": 305787,
+      "sha256": "156b8e60edd288670b488ab9b0c2dbdf4b5079457236915101a7774a5c000037"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0029.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0029.gz",
-      "bytes": 128740,
-      "sha256": "a87347c7f77ca5ad5ffbd269f10fd9b07bdec5bea7f43526f8d391f55d08e928"
+      "path": "physics/chunks/solar_day/ghi_076.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_076.bin.gz",
+      "bytes": 315279,
+      "sha256": "97de2f78cac650c65810f3b3d85c2c85bb8c24e9638c61ea33216094ac47aa7c"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0030.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0030.gz",
-      "bytes": 128877,
-      "sha256": "12f9e749776fca5d1b30c720372bf70f2923a5cd6bebc9c7ed7908a8c57e3cbb"
+      "path": "physics/chunks/solar_day/ghi_077.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_077.bin.gz",
+      "bytes": 337653,
+      "sha256": "39bbb7003a9c4028e28e4b373f895cb1c31f8b264fce5ec81b56bd5072ffdb47"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0031.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0031.gz",
-      "bytes": 128653,
-      "sha256": "bf072b7464862cd72633b3df4cf0d30d94ed21cabeda6bd7b446148beaa9d9b5"
+      "path": "physics/chunks/solar_day/ghi_078.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_078.bin.gz",
+      "bytes": 340373,
+      "sha256": "d67a9ee0d139a9a07247f6b33f359a7127a9eb799fa3c1c6c96443df6c6048bc"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0032.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0032.gz",
-      "bytes": 128837,
-      "sha256": "5fbd208a0a5bba2db2b633306c8d0dbb2794b34ea3a7630f6b084b51a3c23cff"
+      "path": "physics/chunks/solar_day/ghi_079.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_079.bin.gz",
+      "bytes": 353814,
+      "sha256": "2d191a469888550f55834f766f0a433238fe9af548407882fc07c062e54677fa"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0033.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0033.gz",
-      "bytes": 128827,
-      "sha256": "c81d1240de8c25b2e632e748070829e35ed1d94d2961a57ba641bbdbad19e65b"
+      "path": "physics/chunks/solar_day/ghi_080.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_080.bin.gz",
+      "bytes": 347658,
+      "sha256": "0b46e64aa355f44d92c198b3c7a124563331972300f9223587221c46a5f2db88"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0034.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0034.gz",
-      "bytes": 128594,
-      "sha256": "c110a517f173eaf4373f7e0021577e2e0fc69ab574aa70f4c47cba45eee87985"
+      "path": "physics/chunks/solar_day/ghi_081.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_081.bin.gz",
+      "bytes": 345798,
+      "sha256": "94a3321836c3ea01928eb3c5dcef30e251f99971f84f33fa411c837c3a69d1f6"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0035.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0035.gz",
-      "bytes": 128802,
-      "sha256": "dd15818696ecd0981f226c89b81fb8f801ed75a4de640f25385ea782415e4ec3"
+      "path": "physics/chunks/solar_day/ghi_082.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_082.bin.gz",
+      "bytes": 336583,
+      "sha256": "242b037445d51b0fca5ae48c3d6edda5b082dd7c6048f29aab0e10f8751d5234"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0036.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0036.gz",
-      "bytes": 129463,
-      "sha256": "47002fd61fb0132d1c1fb28525169d473042273a961c36bd1d96321c0d438ce2"
+      "path": "physics/chunks/solar_day/ghi_083.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_083.bin.gz",
+      "bytes": 309987,
+      "sha256": "36d048df9070d921c994371e83116f3aaa1316ed59b7bf6993cd55a36db6c5a5"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0037.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0037.gz",
-      "bytes": 129084,
-      "sha256": "6cca8cd73b292ed7bf00ba820f4b6cd6414783d9fc479f89ef50536d50885cee"
+      "path": "physics/chunks/solar_day/ghi_084.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_084.bin.gz",
+      "bytes": 276747,
+      "sha256": "7e1593c72fac69ee189963283ec7803ab04512545839247fd04b862e6856facd"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0038.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0038.gz",
-      "bytes": 128054,
-      "sha256": "27d8f6b424c260f50a0520ca47398726456cdcd308bfa644102a8a531b184233"
+      "path": "physics/chunks/solar_day/ghi_085.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_085.bin.gz",
+      "bytes": 214011,
+      "sha256": "c47300718f8027ffacc054809416deb4be6be46055b48dfffc5fb32d0e233885"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0039.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0039.gz",
-      "bytes": 126739,
-      "sha256": "89f479fcecfae47dc02a020d401b510e518fccba2a97eb373b55d5f76eb192f5"
+      "path": "physics/chunks/solar_day/ghi_086.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_086.bin.gz",
+      "bytes": 106741,
+      "sha256": "5aadfbbee7be51598500230bce28d206b88a54f2e16936b2662173c123ec71da"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0040.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0040.gz",
-      "bytes": 125113,
-      "sha256": "04aac0d596832708ac4898da54e0e6b267c6ae1d09076bddddac8b23878401ba"
+      "path": "physics/chunks/solar_day/ghi_087.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_087.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0041.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0041.gz",
-      "bytes": 121849,
-      "sha256": "187ba7c4b766273b88dc1ef3f16e21c7bad1842d3ef401e113f81cdf2b00d9b3"
+      "path": "physics/chunks/solar_day/ghi_088.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_088.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0042.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0042.gz",
-      "bytes": 117602,
-      "sha256": "cf7526e4056838c2b7c723274ffc44f9ecca9edf6afd9d0c17ad7ed514bd0ac8"
+      "path": "physics/chunks/solar_day/ghi_089.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_089.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0043.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0043.gz",
-      "bytes": 112023,
-      "sha256": "84b381570fd4457bd27d0d1a6a97cab9317dbaea7e3c2a4d4acaa9971f9f9c49"
+      "path": "physics/chunks/solar_day/ghi_090.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_090.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0044.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0044.gz",
-      "bytes": 97477,
-      "sha256": "ce26d2d59a7fe19247bc249f039b0994c7b8f67eafb8d61a0ce3d521601a02b6"
+      "path": "physics/chunks/solar_day/ghi_091.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_091.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0045.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0045.gz",
-      "bytes": 72388,
-      "sha256": "5e8ef100f8a93611fd8f2165aed3de884448993e85872c1d31a2dd553a101580"
+      "path": "physics/chunks/solar_day/ghi_092.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_092.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
     },
     {
-      "path": "physics/chunks/shadow_20261221_8m/0046.gz",
-      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/shadow_20261221_8m/0046.gz",
-      "bytes": 29167,
-      "sha256": "6a1449ccdc5fa120f1929eb561efb47b899c2fbef9f6f5d4e7260bb38d9d8572"
+      "path": "physics/chunks/solar_day/ghi_093.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_093.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
+    },
+    {
+      "path": "physics/chunks/solar_day/ghi_094.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_094.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
+    },
+    {
+      "path": "physics/chunks/solar_day/ghi_095.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_095.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
+    },
+    {
+      "path": "physics/chunks/solar_day/ghi_096.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_096.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
+    },
+    {
+      "path": "physics/chunks/solar_day/ghi_097.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_097.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
+    },
+    {
+      "path": "physics/chunks/solar_day/ghi_098.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_098.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
+    },
+    {
+      "path": "physics/chunks/solar_day/ghi_099.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/ghi_099.bin.gz",
+      "bytes": 1051,
+      "sha256": "aee609df863ee6dbfd7e535f7a94ef7a2f3c1d4278ad808e38e094ea3ccfda79"
+    },
+    {
+      "path": "physics/chunks/solar_day/invalid.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/invalid.bin.gz",
+      "bytes": 98682,
+      "sha256": "8bf21e71f4fcfd886035ae407a962d99a955cc8dc089bce54c8dd3bf97d1463f"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_000.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_000.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_001.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_001.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_002.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_002.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_003.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_003.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_004.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_004.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_005.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_005.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_006.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_006.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_007.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_007.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_008.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_008.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_009.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_009.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_010.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_010.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_011.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_011.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_012.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_012.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_013.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_013.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_014.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_014.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_015.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_015.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_016.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_016.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_017.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_017.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_018.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_018.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_019.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_019.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_020.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_020.bin.gz",
+      "bytes": 85678,
+      "sha256": "bdca98d44888f55d2fa95ed01a4b8a2eb1ec9086298800346892e28ad82635d6"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_021.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_021.bin.gz",
+      "bytes": 95688,
+      "sha256": "970092837dd7954af3fda06f330d95f193f06a51601c286f0c5400ce35b9d591"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_022.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_022.bin.gz",
+      "bytes": 98229,
+      "sha256": "3ba605ab97105bad97e6a22b67e5897504375cbb36b5a9d369bc7402a527ef24"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_023.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_023.bin.gz",
+      "bytes": 98476,
+      "sha256": "4a36edb764a80484d345b7bb8266a0e5ffc771a6462dd5753863bd2cee9dfdff"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_024.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_024.bin.gz",
+      "bytes": 99793,
+      "sha256": "a74b8c54afed7c98789ccf75b46aef947bec5ea08258a0794f3220a233aef686"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_025.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_025.bin.gz",
+      "bytes": 99143,
+      "sha256": "74e6b0dec5de93e54a4a1579d61ebb7bf21c85a0ccc3a53c2c2be8237e4d6c2f"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_026.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_026.bin.gz",
+      "bytes": 98319,
+      "sha256": "b6dd3dbc7d691c02e775f435e8093ebe300a71199f03dc18ab688b849059502e"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_027.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_027.bin.gz",
+      "bytes": 97079,
+      "sha256": "47cf032e5dd74cc673f3509626c8d2ac377bcbd24ddad6a25266f43037021a9d"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_028.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_028.bin.gz",
+      "bytes": 96269,
+      "sha256": "7783ac28e5c285a1892f3d9c8eb763d031cc40495b2163ddfb61daa7328c37be"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_029.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_029.bin.gz",
+      "bytes": 95335,
+      "sha256": "fd8d8ff865caceabe06d961f78473f037499f09b8ff87857ee66bf45399fd86d"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_030.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_030.bin.gz",
+      "bytes": 93778,
+      "sha256": "a7559b44719dce8ec476a9a6079c47c19e911ead61a7129734dbf61b05d23afb"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_031.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_031.bin.gz",
+      "bytes": 92651,
+      "sha256": "0b627aed76a4cf3379a75413e3b04ba9c14b1c10c268e255125aab19b8ee2997"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_032.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_032.bin.gz",
+      "bytes": 90837,
+      "sha256": "3bbdc7abb7d495bc4f5df38e74abcefdf36024a870409e02b49b8c4a2b53fb34"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_033.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_033.bin.gz",
+      "bytes": 89213,
+      "sha256": "89f95ac5e0a87507c6e270ea5a73507eb0e261cf018b7c9d48925f65da689f6c"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_034.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_034.bin.gz",
+      "bytes": 88076,
+      "sha256": "6d4d299b2ef469c90bb6b05d907c735680c9b359a86f9127d1fddaa13d78f7f1"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_035.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_035.bin.gz",
+      "bytes": 87055,
+      "sha256": "6c91988e3fb533da3b4b208b09ab7136618b7b51b63466a102475083513e40ac"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_036.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_036.bin.gz",
+      "bytes": 85994,
+      "sha256": "df7c8d5fa6468504abf8df3a08263ce8321e2bdd8c2172b117ae00c6caf194d2"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_037.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_037.bin.gz",
+      "bytes": 85079,
+      "sha256": "4f8a61f14499d7fbb6371248fb2170372398998e0dc7752071f70189a866e2b8"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_038.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_038.bin.gz",
+      "bytes": 84217,
+      "sha256": "a60d962fe7b5fda3de144e5af5e0737d0241cb669f44e67ec4493875375d17ab"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_039.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_039.bin.gz",
+      "bytes": 82264,
+      "sha256": "a36e7a9db04393aed4776f09c4b6609050990e490e585162bb49d92a98b3a29e"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_040.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_040.bin.gz",
+      "bytes": 80852,
+      "sha256": "9bec50a514e936178312bc9a51591a9768ed536eda06c578d43b77dad308de20"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_041.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_041.bin.gz",
+      "bytes": 79122,
+      "sha256": "e6172d702789eb33fd80a1692d52d9e5d98fafca67e9597524e438fdeca5b2b5"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_042.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_042.bin.gz",
+      "bytes": 77083,
+      "sha256": "7375482863ff5ea8e852276626a31da87229683c4a82a4bbe4b9832d9abd1170"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_043.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_043.bin.gz",
+      "bytes": 74962,
+      "sha256": "b462b1fa15cde30342e3e4558bba0fb5a570e9ea4e9a8e2199ed43d47167c21b"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_044.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_044.bin.gz",
+      "bytes": 65425,
+      "sha256": "53304c8d8e26cc263d951bec28a6c3be9b7270342308941139f83eeb6c13eb11"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_045.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_045.bin.gz",
+      "bytes": 60340,
+      "sha256": "076281ca9afaeb29c9aa116072417ce8711c1efa70a60a18054760fe97586b93"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_046.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_046.bin.gz",
+      "bytes": 53650,
+      "sha256": "23b268857e317c3cd179147a8c93d468beccaac47042961596dfa554aff51c0d"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_047.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_047.bin.gz",
+      "bytes": 50018,
+      "sha256": "cf8611c175bdb67a75c4117bc5f3158eb0c7e076ae937d7ffdd0cd9551ef57cb"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_048.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_048.bin.gz",
+      "bytes": 48955,
+      "sha256": "8b39432e4597c74f9d63c89cc390f8c0039efca73d773901cd078a7d1f4c7566"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_049.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_049.bin.gz",
+      "bytes": 46475,
+      "sha256": "5e7fe205e9d7d5877ff9be555877c05b80041b21fafdec7cf7048bb33768e997"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_050.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_050.bin.gz",
+      "bytes": 56749,
+      "sha256": "fdcc48ebe05866526a47df717161479f2f6107eed83d0a1cc9545d159c3db4a5"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_051.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_051.bin.gz",
+      "bytes": 53526,
+      "sha256": "488ae3006aa176962bb6606405652b842934204e0eff302e680178ca7cc6446b"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_052.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_052.bin.gz",
+      "bytes": 50284,
+      "sha256": "d1fc2464c9b8627251eb5fab4efb370c7020e24d5cb5ba3b24397735a404d3b1"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_053.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_053.bin.gz",
+      "bytes": 48237,
+      "sha256": "825c226f39d815303a54f4d1453575b7ba2573167286ab1a7e5df666acd8170b"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_054.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_054.bin.gz",
+      "bytes": 47817,
+      "sha256": "639ec1dfcac92726f31d45993851d5e50d1149a68c4ea1d8d6e74e9a34bf7f3b"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_055.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_055.bin.gz",
+      "bytes": 48820,
+      "sha256": "b62ba327461089a6bc653050bfcd0c06f9c6a91a1d02f286de7dca0ddd904613"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_056.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_056.bin.gz",
+      "bytes": 52119,
+      "sha256": "1f923c515a665847ec48dfe0e5ef495189040b4fac04eda84950097549e63053"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_057.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_057.bin.gz",
+      "bytes": 55419,
+      "sha256": "6fd1a315ce7132a46b3d930a032fddc1d71803023139a603a91ea4ad0ae4eb43"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_058.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_058.bin.gz",
+      "bytes": 58721,
+      "sha256": "9c48b11af4b89652173bd549ad5140a3c18f1c9e6807088826a99a686a9b4fe3"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_059.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_059.bin.gz",
+      "bytes": 48702,
+      "sha256": "c358d64e9a419004d9253eeb77b183d6b0cbbb8f72f87fae2ee1460d82a9cb85"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_060.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_060.bin.gz",
+      "bytes": 51322,
+      "sha256": "5b9a03f25281e98a298e1b5c978ba0585e49a9a02fe0ad1ee87392fb02b65e0f"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_061.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_061.bin.gz",
+      "bytes": 52360,
+      "sha256": "8dcf8396ad1c8068bc89e643b21d089f27e14ba61cdbc3221b8017ff346091b9"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_062.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_062.bin.gz",
+      "bytes": 58486,
+      "sha256": "13455fd0318e4fafeb81979bd3a35d81fc6218e3f676adedfc1438ed93bd9db6"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_063.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_063.bin.gz",
+      "bytes": 63246,
+      "sha256": "49f259af9439e0d228e61df758a69421a379071f239525ed47ee506244350ada"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_064.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_064.bin.gz",
+      "bytes": 67574,
+      "sha256": "396bd0a102c00fed6857288b23642d11af0867bb53f14285c7fe3c2addd55e52"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_065.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_065.bin.gz",
+      "bytes": 75392,
+      "sha256": "980cbaac5bd03c6aff59d59a29391ea9757af872015ac809a9bde9b22377d1ba"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_066.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_066.bin.gz",
+      "bytes": 77493,
+      "sha256": "da4dff9b0a0fbf09246861c9fec99b0221edef89b8a25167c79f875eed8b80e9"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_067.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_067.bin.gz",
+      "bytes": 79307,
+      "sha256": "12e627ef1fe08cea8f0aff0b11ed23cb87c4b043c2997b93a29ff28b55dd50d9"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_068.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_068.bin.gz",
+      "bytes": 81097,
+      "sha256": "63e685c0cfe731c59d34ceb59564baca40d02f21a4986eebca4a9884f55ef987"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_069.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_069.bin.gz",
+      "bytes": 82665,
+      "sha256": "48cbadfa2b38f21302339ba46d350ab1fb44ec350317a5936e9b043c4a9e9a95"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_070.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_070.bin.gz",
+      "bytes": 84158,
+      "sha256": "22c8de8e975762e6251301257824df2356d00f59cc755b4faf9489d332cfa058"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_071.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_071.bin.gz",
+      "bytes": 85418,
+      "sha256": "d0a936c573320b81b4618a1ffcf4d627671e1920618214a50e24dadf1d10c1ad"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_072.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_072.bin.gz",
+      "bytes": 86344,
+      "sha256": "0b2a93abb81b2007e795e75db516931701b87ec0fbbe3869fcc40a70696b5d59"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_073.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_073.bin.gz",
+      "bytes": 87415,
+      "sha256": "97cb1d1543d57894db847dc1beb87dfa4ed4f4e96be334f539ea44a4ba328f16"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_074.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_074.bin.gz",
+      "bytes": 88447,
+      "sha256": "08f77ba38c3bbb387b80eb3bfee70975dee383b5f10b3259ad2ec973820c90cf"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_075.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_075.bin.gz",
+      "bytes": 89892,
+      "sha256": "98b2d5e210473c1601ba5c8b15bb3563ef1e9c52f3f29d7ac107add13b58bb0b"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_076.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_076.bin.gz",
+      "bytes": 91819,
+      "sha256": "2e4694f574fa48ba4a3b0a5e9a648d445dce0e7ab78da5381f1be0962842a976"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_077.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_077.bin.gz",
+      "bytes": 93319,
+      "sha256": "edc9851f1cc83a001c3e0bbf13243f5963b968681916980eabaa823d749557e4"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_078.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_078.bin.gz",
+      "bytes": 94192,
+      "sha256": "51a042b92a9a91c72d0755105fe6f4b589466509fdfb0356f27b4069ad2534f4"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_079.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_079.bin.gz",
+      "bytes": 94784,
+      "sha256": "2c6c7a65f020b7a3299780e4e5b018e06fc05e744cba0cc732637a101daa78f6"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_080.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_080.bin.gz",
+      "bytes": 95577,
+      "sha256": "f0c1ba1224ba4cd53ba2b4bc8cd05d7086a0a0c0ff8dc8f62dce3a9c86bbebb9"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_081.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_081.bin.gz",
+      "bytes": 96131,
+      "sha256": "76f69b332c3bd6a7e3b91f259212034acc8e6289a9df9509958c0c44cd6fcf9b"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_082.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_082.bin.gz",
+      "bytes": 97189,
+      "sha256": "5b82a134f1476b1a7e49e0e738e86080b0e4d8df464210fd21622731ca4488d9"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_083.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_083.bin.gz",
+      "bytes": 97786,
+      "sha256": "b1b25ff96cbc2dbcadb5764f79eaf5e11d6109f8d8ad25c80acbeaf7e6f008b9"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_084.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_084.bin.gz",
+      "bytes": 98063,
+      "sha256": "2947be25f4d8d652e9e86341c66976274f6b1f235c7799be72c31ed1507a380d"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_085.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_085.bin.gz",
+      "bytes": 97552,
+      "sha256": "c9c57077bcdd674afe7f9fec2f3e1bb0b71412c19f13d76140cae75541309678"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_086.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_086.bin.gz",
+      "bytes": 97209,
+      "sha256": "bb2a89f4e8851d80c0c71ce8078b7dfd38fd5706555f9250ac3e2a03f763d705"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_087.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_087.bin.gz",
+      "bytes": 92476,
+      "sha256": "bfb3b7f12433112d29cf9dafb128a5ba589aa969ddc4c9b7a53d0b59ec735459"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_088.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_088.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_089.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_089.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_090.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_090.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_091.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_091.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_092.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_092.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_093.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_093.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_094.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_094.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_095.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_095.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_096.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_096.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_097.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_097.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_098.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_098.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
+    },
+    {
+      "path": "physics/chunks/solar_day/shadow_099.bin.gz",
+      "viewer_path": "scenes/imperial_corridor_8km/physics/chunks/solar_day/shadow_099.bin.gz",
+      "bytes": 82375,
+      "sha256": "b31abfdeb0b0ddbd1a17a6c16f75870df5717ce63b9f6eb6011f7e97b6cf4516"
     },
     {
       "path": "physics/chunks/temp/0000.gz",
@@ -2413,8 +3055,8 @@
     {
       "path": "physics/manifest.json",
       "viewer_path": "scenes/imperial_corridor_8km/physics/manifest.json",
-      "bytes": 32364,
-      "sha256": "9bd5d064b5ef79f52dcf51f8121110630573e1fd853bbb5d51ba7668fc49f0a0"
+      "bytes": 44820,
+      "sha256": "a91a4b08912d44f05c78d6c47558b0a3ab4f131edc02c65cbe6ea2ec6b1f4d04"
     },
     {
       "path": "physics/web/index.json",
@@ -2425,8 +3067,8 @@
     {
       "path": "scene.json",
       "viewer_path": "scenes/imperial_corridor_8km/scene.json",
-      "bytes": 103633,
-      "sha256": "9956921bc91b97d09676ae2b3b4e96cd1180261ae9c20e4c8555fe4cb6f1dd3b"
+      "bytes": 118616,
+      "sha256": "94ba4125644ee613beb9ee22de62665a14f546fe1698339f15b9d3c70d0b12da"
     },
     {
       "path": "tiles/detail_tiles_enu_20261030/index.json",
