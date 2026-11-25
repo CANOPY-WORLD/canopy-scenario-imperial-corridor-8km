@@ -13,8 +13,6 @@
       "bytes": 564896066,
       "files": 1478,
       "retired_paths": [
-        "physics/chunks/masks_shadow_invalid_8m/0000.gz",
-        "physics/chunks/masks_solar_invalid_8m/0000.gz",
         "physics/chunks/quantized8/solar_20260621/0000.gz",
         "physics/chunks/quantized8/solar_20260621/0001.gz",
         "physics/chunks/quantized8/solar_20260621/0002.gz",
@@ -317,8 +315,6 @@
       "bytes": 235513224,
       "files": 1298,
       "retired_paths": [
-        "physics/chunks/masks_shadow_invalid_8m/0000.gz",
-        "physics/chunks/masks_solar_invalid_8m/0000.gz",
         "physics/chunks/shadow_20260621_8m/0026.gz",
         "physics/chunks/shadow_20260621_8m/0027.gz",
         "physics/chunks/shadow_20260621_8m/0028.gz",
