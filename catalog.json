@@ -58,6 +58,13 @@
       "sha256": "c0303b583b03baea2e7582811fc1d80cf74edc66d7c8791d7a290967cca2a5ac",
       "bytes": 283898863,
       "files": 1488
+    },
+    {
+      "id": "london-complete-daylight-20261125",
+      "manifest": "snapshots/london-complete-daylight-20261125/manifest.json",
+      "sha256": "5979fb771f8c82b428249c9d8e309e79ae5db38b3d17ddb7040a5527122571a2",
+      "bytes": 283898895,
+      "files": 1488
     }
   ]
 }
