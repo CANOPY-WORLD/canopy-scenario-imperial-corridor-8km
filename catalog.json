@@ -65,6 +65,13 @@
       "sha256": "5979fb771f8c82b428249c9d8e309e79ae5db38b3d17ddb7040a5527122571a2",
       "bytes": 283898895,
       "files": 1488
+    },
+    {
+      "id": "london-complete-tube53-20261125",
+      "manifest": "snapshots/london-complete-tube53-20261125/manifest.json",
+      "sha256": "a51b797d186edc975e1f68ab46414687fbf7f4c4dea873575ec3e0d1cb535e57",
+      "bytes": 298269504,
+      "files": 1494
     }
   ]
 }
