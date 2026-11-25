@@ -4,7 +4,7 @@ from pathlib import Path
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1] / 'snapshots'
-SNAPSHOT = 'london-complete-20261125'
+SNAPSHOT = 'london-complete-daylight-20261125'
 
 class CompletePublicationTests(unittest.TestCase):
     def test_scene_keeps_latest_features_and_matching_field_decoders(self):
@@ -22,7 +22,9 @@ class CompletePublicationTests(unittest.TestCase):
         self.assertEqual(physics['poll.npy']['shape'], [100, 1000, 1000])
         current = json.loads((ROOT / 'london-compact-20261122' / 'scene.json').read_text())
         for layer in ('solar', 'flood'):
-            self.assertEqual(scene['layers'][layer], current['layers'][layer])
+            expected = dict(current['layers'][layer])
+            if layer == 'solar': expected['daylight_default'] = True
+            self.assertEqual(scene['layers'][layer], expected)
             self.assertEqual(scene['layers'][layer]['frames'], 100)
         for name, transport in scene['protocol_display']['npy_transport'].items():
             for part in transport.get('parts', []):
