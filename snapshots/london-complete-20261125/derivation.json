@@ -1,0 +1,15 @@
+{
+  "operation": "Compose existing approved presentation assets; no numerical rerun or resampling",
+  "base_snapshot": "london-ihub-interior-20261122",
+  "updated_fields_snapshot": "london-compact-20261122",
+  "preserved": [
+    "I-HUB v10 interior",
+    "native traffic replay",
+    "100-frame coupled pollution",
+    "London Tube viewer integration"
+  ],
+  "updated": [
+    "LISFLOOD flood metadata and quantization",
+    "100-frame summer-solstice irradiance and packed shadows"
+  ]
+}
