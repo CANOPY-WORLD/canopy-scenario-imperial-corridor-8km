@@ -1,0 +1,89 @@
+{
+  "kind": "retained-concept-interior-addition",
+  "source_snapshot": "london-pollution-log8-20261122",
+  "source_manifest_sha256": "5d9547eb2ed5176c9d9203e1b3597f817a91bb2c77854c7470ad6d31507f1302",
+  "source_run": "ihub_office_journey_20261117_v10",
+  "aligned_manifest_sha256": "402f192ac27b517f9e9a86416526a97207f6f4395a619b129f4685ee63e16159",
+  "alignment": {
+    "source_run": "ihub_office_journey_20261117_v10",
+    "source_origin": {
+      "longitude": -0.22405,
+      "latitude": 51.5145,
+      "height_m": 0,
+      "vertical_datum": "GLB ground mesh, near planar and not surveyed elevation; uncovered cells at local zero"
+    },
+    "source_fit": {
+      "method": "similarity fit of 939 named OSM buildings (Overpass, way/relation centres) to GLB node bounding-box centres, local equirectangular projection around (51.5145, -0.2240)",
+      "lat0": 51.5145,
+      "lon0": -0.224,
+      "scale": 1.0008788503780741,
+      "rotation_deg": 2.172568408231244,
+      "R": [
+        [
+          0.9992811808758809,
+          -0.03790938600538592
+        ],
+        [
+          0.037909386005385876,
+          0.9992811808758807
+        ]
+      ],
+      "t": [
+        37.25427774346866,
+        -53.01966644353104
+      ],
+      "formula": "east,north = equirect(lon,lat; lat0,lon0); [x, -z] = scale * R @ [east, north] + t  (glTF x, z)",
+      "median_residual_m": 1.5835285253818723,
+      "n_pairs": 939,
+      "origin_lonlat": [
+        -0.22450791978298382,
+        51.51498819913951
+      ],
+      "grid_sw_corner_lonlat": [
+        -0.24740369215094551,
+        51.49264331096372
+      ],
+      "grid_ne_corner_lonlat": [
+        -0.19379163422492843,
+        51.52356809348451
+      ]
+    },
+    "gltf_root_matrix": [
+      0.9985806687251433,
+      0.0,
+      0.037876098581827305,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      -0.03788281091718047,
+      0.0,
+      0.9984037333773315,
+      0.0,
+      -1665.3372789019083,
+      0.0,
+      -953.0283287897008,
+      1.0
+    ],
+    "vertex_buffers_unchanged": true,
+    "concept_only": true,
+    "source_datum_correction": "The original manifest labels the authored GLB as ENU. Its retained georef.json records a 2.17 degree rotation and translation. This export applies that inverse fit before changing geographic origin; no additional office-local origin is applied.",
+    "placement_accuracy": "Recorded georeference fit median residual 1.58 m; not a surveyed building alignment.",
+    "floor_elevation_m": 32.267796516331146,
+    "vertical_policy": "Unchanged authored relative height; not absolute ODN.",
+    "inherited_layout_limit": "office_03 retains the accepted 0.2791 m2 corner discrepancy (up to 0.1801 m outside source slab)."
+  },
+  "meshes": {
+    "building": {
+      "aligned_sha256": "be96245c31c35971969b99f59a28751e11ac967bdbf9689295fd31fe46044a71",
+      "gzip_sha256": "37511b5bbee057da6651c5448a30ad8882b6403545a569c4c3054eef9fc1bf29",
+      "gzip_bytes": 684724
+    },
+    "office": {
+      "aligned_sha256": "65a28a79a10a2e8332072f008fe12a698526507de2aa82eb59726132e71ae351",
+      "gzip_sha256": "26ad1b7df71de7f101a8f49b6fea600398289f0f07e4b4606dddaab32ca25dd5",
+      "gzip_bytes": 2801428
+    }
+  }
+}
