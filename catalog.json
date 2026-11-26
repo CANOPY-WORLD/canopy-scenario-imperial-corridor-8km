@@ -86,6 +86,13 @@
       "sha256": "772800c00794473f60a1372e7d93bfda9f7d9ab35baa9d6b447fb8fc23dfded4",
       "bytes": 342273323,
       "files": 1509
+    },
+    {
+      "id": "london-noise-traffic-20261127",
+      "manifest": "snapshots/london-noise-traffic-20261127/manifest.json",
+      "sha256": "6a807455cfc195f0a30085e89afb0e8ded27eb70efd39f522ee86ceb86b6c508",
+      "bytes": 346905282,
+      "files": 1521
     }
   ]
 }

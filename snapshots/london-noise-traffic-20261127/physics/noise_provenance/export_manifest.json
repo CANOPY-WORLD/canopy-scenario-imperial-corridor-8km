@@ -1,0 +1,214 @@
+{
+ "export_version": "1.0.0",
+ "label": "full",
+ "created_utc": "2026-11-26T21:19:25+00:00",
+ "settings": {
+  "domain": {
+   "origin": [
+    -4000.0,
+    -4000.0
+   ],
+   "size": [
+    8000.0,
+    8000.0
+   ]
+  },
+  "tile": 256.0,
+  "halo": 128.0,
+  "map": {
+   "cell": 8.0,
+   "z": 4.0,
+   "dz": 2.0
+  },
+  "temperature_c": 20.0,
+  "humidity_pct": 70.0,
+  "materials": {
+   "wall_alpha": [
+    0.02,
+    0.03,
+    0.03,
+    0.04,
+    0.05,
+    0.07,
+    0.07,
+    0.07
+   ],
+   "wall_scattering": [
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.3,
+    0.3,
+    0.3,
+    0.3
+   ],
+   "ground_alpha": [
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.02,
+    0.02
+   ],
+   "ground_scattering": [
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1
+   ]
+  },
+  "wave": {
+   "band": 63,
+   "t_average": 2.5,
+   "padding": 10.0,
+   "max_lid": 60.0,
+   "lid_wavelengths": 2.0,
+   "points_per_wavelength": 7.5,
+   "seed": 0
+  },
+  "rays": {
+   "n_rays": 20000,
+   "spacing": 32.0,
+   "per_road": true,
+   "edge_rays": false
+  },
+  "far": {
+   "radius": 300.0,
+   "spacing": 64.0,
+   "n_rays": 5000,
+   "per_road": false,
+   "merge_roads": true
+  },
+  "stitch": {
+   "far_scale": "none",
+   "far_scale_cap_db": 20.0,
+   "far_open": "openfield",
+   "open_radius_m": 64.0,
+   "open_built_zero": 0.3
+  }
+ },
+ "stage_hash": {
+  "wave": "78b501f3855a90cc",
+  "rays": "0878b0671daaddc8",
+  "far": "2c41dc164729df82"
+ },
+ "common_hash": [
+  "a4c998efd7720b89"
+ ],
+ "compute": {
+  "gpu_hours_wave": 13.956430867645476,
+  "core_hours": {
+   "rays": 235.09795792049832,
+   "far": 74.28799848079682
+  }
+ },
+ "code_sha256": {
+  "urban_sound/__init__.py": "adf3f42894733604d7d589568bee0e8b4d39eeaf5d7dcf5936ea1673bec94a6e",
+  "urban_sound/corridor.py": "976c763a631db7819524780982b4f530d88608d0a262db7d9e6d31d3d2b0d406",
+  "urban_sound/diffraction.py": "39ced709e63f8e245b00eb73cfbba0d31868ec7a4fe58aa8e70fe206ae0a567c",
+  "urban_sound/edge_rays.py": "3eaf37f1c75dcec8cf8792628a6bc3e923cbb3204e1d8b714d7259e7922644d0",
+  "urban_sound/exact_edge.py": "c3265fc2139a9aa67a7cdc4f27f131715b8d9e73719256dfd6c8a78b4373225a",
+  "urban_sound/geometry.py": "349b53322fbdaa4fa502475346395e9c927c3d419b8967cae79de4920c350159",
+  "urban_sound/ground.py": "16c8b9294c781880f3042f7e9f0e93b5ec3b02cf14a7ea43039751536c7314cb",
+  "urban_sound/hybrid.py": "3d239922af02b89e0d694f706c465808e5f743836d3d3f255a84625842fa9a2f",
+  "urban_sound/physics.py": "bb5a9c619837b19000f66c9bfc156a8cdfff0aea9338cd1868e1aac876cb5b13",
+  "urban_sound/rays.py": "f8a8343f0609b21d5833c4601342a7b02083de5d8ab6aa1f9cf300856b9a2db0",
+  "urban_sound/road_sources.py": "ddc12cb80084376f0bcf6bc1c0ba26d2c8f65a6112080e0aec7608364dc63b5f",
+  "urban_sound/scene.py": "a0a5fe5eca4a127df26e5d91a0835a9034392eb960e50e5e73986c5788991ff3",
+  "urban_sound/sumo_roads.py": "0db8eebfa3ca590176947059acebfb7239fd15a0d247f2f54aa0fe8af177decf",
+  "urban_sound/traffic.py": "f395d6bd91aa9901235310d6e0ae2696cd1903dd06ea567e6b6d9c61e0657e87",
+  "urban_sound/utd.py": "85040b8df369a9a52729ee007d84bf2a6b69a0a987408be34f1d3ce5e8c9983a",
+  "urban_sound/wave.py": "d00e495f85eec85434c30651413345aaf9a000fa8bfd8229f2069ce41a22b647",
+  "corridor/compare.py": "3c1b310e8abdab6ea467c6cd2a99f11ab1f13c88eca2c813c329aa0c971e1e27",
+  "corridor/compare_far.py": "02530664ab359037eb02e45bd508547040dc7e339c672712b963d4d34c5941de",
+  "corridor/compare_runs.py": "369e0e000b7d59e7aff38122c35efa85b2ff0e26a52caba04bea7be585262961",
+  "corridor/diagnose_pilot.py": "5221afa608efee44a43cff0f789d0bc3fae9ddd26b8a84696bb6532d3164aad6",
+  "corridor/export_map.py": "46416ca67c03e3b8106e259d4b8847630f6fb04c4740cba6af162fb12949f4ca",
+  "corridor/make_synthetic_roads.py": "bd3a2438d05b69a6827d324afbfc546250c249dbbc382ff3e2fd882ef0d46d17",
+  "corridor/make_variant.py": "12c97699f417baf75de60a8191284172046166a28b365b439dae15100115b9ce",
+  "corridor/prepare_traffic_noise.py": "49f78d335452415eed4ba8ba8ce443a7b9ca9dbb88b0142ba5250bec8f2327f4",
+  "corridor/run_tile.py": "0044214198648592cd70d5b1d8eceea9256e45a32651a64ba2ebf1c004b29c94",
+  "corridor/sanity.py": "afec58158bc6814e91f49dc13b8866cd9e1c0ef8abf3f276ca644b122ad2760a",
+  "corridor/stitch.py": "4e2e4026fa9cf322249cc86937f13ea9960a409465cef1c1d0fcd70ca2b38b21"
+ },
+ "inputs": {
+  "roads": {
+   "sha256": "6210ebbb43f93031810dbc43510b275e25721e117f0fcabe928a702edbb6bfb2"
+  },
+  "geometry": {
+   "sha256": "82e34f3978e9408a749a4b4d1aa2a8822f889263c691fbf9722e910792fa0723"
+  }
+ },
+ "roads_report": {
+  "window_s": [
+   600.0,
+   1200.0
+  ],
+  "level": "cnossos",
+  "vehicle_types": {
+   "bus": {
+    "vclass": "bus",
+    "eclass": "HBEFA4/UBus_Std_gt15-18t_Euro-VI_A-C",
+    "cnossos": "2",
+    "vehicles": 77,
+    "vehicle_seconds": 32133.100000007304
+   },
+   "car": {
+    "vclass": "passenger",
+    "eclass": "HBEFA4/PC_petrol_Euro-4",
+    "cnossos": "1",
+    "vehicles": 549,
+    "vehicle_seconds": 237866.5000000541
+   },
+   "hgv": {
+    "vclass": "truck",
+    "eclass": "HBEFA4/RT_le7.5t_Euro-VI_A-C",
+    "cnossos": "2",
+    "vehicles": 49,
+    "vehicle_seconds": 23402.90000000532
+   },
+   "lgv": {
+    "vclass": "delivery",
+    "eclass": "HBEFA4/LCV_diesel_N1-III_Euro-6ab",
+    "cnossos": "1",
+    "vehicles": 136,
+    "vehicle_seconds": 55555.00000001263
+   },
+   "motorcycle": {
+    "vclass": "motorcycle",
+    "eclass": "HBEFA4/MC_4S_gt250cc_preEuro",
+    "cnossos": "4b",
+    "vehicles": 18,
+    "vehicle_seconds": 7924.400000001802
+   },
+   "taxi": {
+    "vclass": "taxi",
+    "eclass": "HBEFA4/PC_petrol_Euro-4",
+    "cnossos": "1",
+    "vehicles": 90,
+    "vehicle_seconds": 35791.900000008136
+   }
+  }
+ },
+ "source_files_sha256": {
+  "layers/noise_laeq.npy": "19179e0dede4d1ae5e1b7b1161ce056f4e98b96985e15a00f7bc9f93dfc91ed7",
+  "layers/noise_lp_63hz.npy": "f7fbd2830ec57f3ecca191f4f0ae9d299f609b24e2cc8c98dc4710eaa6babd52",
+  "layers/noise_lp_125hz.npy": "01551f697491d279c9e9b41d3e2a0902c0e6622a247bc3d35af08e8f97ac8858",
+  "layers/noise_lp_250hz.npy": "fdff78248aebd46a70cae766416e7f14f4e104b5a0f9fabb019774b19ccc0dca",
+  "layers/noise_lp_500hz.npy": "da1b6f6cb76433a391800275657db3930a46a68f36fe827ac548dddafb60a702",
+  "layers/noise_lp_1000hz.npy": "c6b35c37858198dfdf2ab9f8290154868200be90844cb9b92a41e17ca2a547d2",
+  "layers/noise_lp_2000hz.npy": "2b92091b9cccd1aefe1a06be8d4d939d3a8fd067b44933eb169a20e30088f3d0",
+  "layers/noise_lp_4000hz.npy": "ebc5c2d30f5d8bb6cf95659d5ffca7a0ca206769cd314209eacc80a14b1ce9e2",
+  "layers/noise_lp_8000hz.npy": "e14372280ff54ae616397c03092d2813772902739e148c7f920ccd51934907af",
+  "invalid.npy": "f1a69f88911315f1c9a31f8fd5acf0d08bd38ab947cb8b3bd6b56d60c83adca8",
+  "invalid_reason.npy": "f1a69f88911315f1c9a31f8fd5acf0d08bd38ab947cb8b3bd6b56d60c83adca8"
+ },
+ "tiles": 1024
+}

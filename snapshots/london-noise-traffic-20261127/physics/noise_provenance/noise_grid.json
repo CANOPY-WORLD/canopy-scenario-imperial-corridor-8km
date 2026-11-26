@@ -1,0 +1,175 @@
+{
+ "frame": {
+  "type": "ENU, true north",
+  "origin_lon_lat": [
+   -0.200473,
+   51.506427
+  ],
+  "axis_order": "south-to-north y, west-to-east x"
+ },
+ "x0_m": -4000.0,
+ "y0_m": -4000.0,
+ "cell_m": 8.0,
+ "shape_yx": [
+  1000,
+  1000
+ ],
+ "cell_centres": "x0 + (i + 0.5) cell, y0 + (j + 0.5) cell",
+ "height": {
+  "centre_above_ground_m": 4.0,
+  "layer_m": [
+   3.0,
+   5.0
+  ],
+  "note": "mean over the layer; CANOPY pollution 'slice 0' is a 0-8 m voxel mean centred at 4 m"
+ },
+ "layers": {
+  "noise_laeq": {
+   "unit": "dB(A) re 20 uPa",
+   "band_hz": null,
+   "file": "layers/noise_laeq.npy"
+  },
+  "noise_lp_63hz": {
+   "unit": "dB re 20 uPa",
+   "band_hz": 63,
+   "file": "layers/noise_lp_63hz.npy"
+  },
+  "noise_lp_125hz": {
+   "unit": "dB re 20 uPa",
+   "band_hz": 125,
+   "file": "layers/noise_lp_125hz.npy"
+  },
+  "noise_lp_250hz": {
+   "unit": "dB re 20 uPa",
+   "band_hz": 250,
+   "file": "layers/noise_lp_250hz.npy"
+  },
+  "noise_lp_500hz": {
+   "unit": "dB re 20 uPa",
+   "band_hz": 500,
+   "file": "layers/noise_lp_500hz.npy"
+  },
+  "noise_lp_1000hz": {
+   "unit": "dB re 20 uPa",
+   "band_hz": 1000,
+   "file": "layers/noise_lp_1000hz.npy"
+  },
+  "noise_lp_2000hz": {
+   "unit": "dB re 20 uPa",
+   "band_hz": 2000,
+   "file": "layers/noise_lp_2000hz.npy"
+  },
+  "noise_lp_4000hz": {
+   "unit": "dB re 20 uPa",
+   "band_hz": 4000,
+   "file": "layers/noise_lp_4000hz.npy"
+  },
+  "noise_lp_8000hz": {
+   "unit": "dB re 20 uPa",
+   "band_hz": 8000,
+   "file": "layers/noise_lp_8000hz.npy"
+  }
+ },
+ "quantity": "time-averaged sound pressure level of road traffic (vehicles only), steady sources",
+ "time_window_sumo_s": [
+  600.0,
+  1200.0
+ ],
+ "method": "63 Hz FVTD wave per 256 m tile (128 m halo) x UTD ray ratios for 125 Hz-8 kHz, roads beyond the halo by rays only; CNOSSOS-EU emission from SUMO (urban_sound corridor, option B)",
+ "quality": {
+  "synthetic_sources": false,
+  "synthetic_traffic_demand": "CANOPY light-load scenario (1,000 synthetic vehicles); absolute levels are lower than real London traffic noise",
+  "label": "full",
+  "coverage_tiles": 1024,
+  "tiles_total": 1024,
+  "valid_cells": 679773,
+  "cells": 1000000,
+  "laeq_db": {
+   "p10": 33.25707592256545,
+   "median": 46.60163394434903,
+   "p90": 59.615901429071954
+  }
+ },
+ "invalid_reason_codes": {
+  "0": "valid",
+  "1": "building",
+  "2": "not computed",
+  "3": "no sound"
+ },
+ "published_as": {
+  "file": "noise.npy",
+  "frames": [
+   "noise_laeq",
+   "noise_lp_63hz",
+   "noise_lp_125hz",
+   "noise_lp_250hz",
+   "noise_lp_500hz",
+   "noise_lp_1000hz",
+   "noise_lp_2000hz",
+   "noise_lp_4000hz",
+   "noise_lp_8000hz"
+  ],
+  "quantization": {
+   "offset_db": -20.0,
+   "step_db": 0.5,
+   "invalid_code": 255
+  },
+  "note": "values below -20 dB are stored as -20 dB"
+ },
+ "layer_stats_db": {
+  "noise_laeq": {
+   "p10": 33.26,
+   "median": 46.6,
+   "p90": 59.62,
+   "below_offset_cells": 517
+  },
+  "noise_lp_63hz": {
+   "p10": 45.91,
+   "median": 56.06,
+   "p90": 66.08,
+   "below_offset_cells": 19
+  },
+  "noise_lp_125hz": {
+   "p10": 35.03,
+   "median": 46.49,
+   "p90": 57.01,
+   "below_offset_cells": 181
+  },
+  "noise_lp_250hz": {
+   "p10": 31.78,
+   "median": 44.12,
+   "p90": 55.38,
+   "below_offset_cells": 482
+  },
+  "noise_lp_500hz": {
+   "p10": 29.69,
+   "median": 42.61,
+   "p90": 54.89,
+   "below_offset_cells": 821
+  },
+  "noise_lp_1000hz": {
+   "p10": 28.9,
+   "median": 43.2,
+   "p90": 56.34,
+   "below_offset_cells": 1193
+  },
+  "noise_lp_2000hz": {
+   "p10": 23.51,
+   "median": 38.15,
+   "p90": 52.21,
+   "below_offset_cells": 2890
+  },
+  "noise_lp_4000hz": {
+   "p10": 10.77,
+   "median": 27.93,
+   "p90": 44.8,
+   "below_offset_cells": 8959
+  },
+  "noise_lp_8000hz": {
+   "p10": -17.86,
+   "median": 11.58,
+   "p90": 35.62,
+   "below_offset_cells": 59170
+  }
+ }
+}
