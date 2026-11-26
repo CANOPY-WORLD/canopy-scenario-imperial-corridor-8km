@@ -72,6 +72,13 @@
       "sha256": "a51b797d186edc975e1f68ab46414687fbf7f4c4dea873575ec3e0d1cb535e57",
       "bytes": 298269504,
       "files": 1494
+    },
+    {
+      "id": "london-health-replay-20261126",
+      "manifest": "snapshots/london-health-replay-20261126/manifest.json",
+      "sha256": "023cdbea1de7e2d87916f548329e7959f64cc952da35b186884b54bf1cd19ada",
+      "bytes": 298443490,
+      "files": 1497
     }
   ]
 }

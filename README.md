@@ -86,3 +86,7 @@ The field uses frozen recorded 3D wind and new SUMO emissions; it is not observe
 `london-ihub-interior-20261122` extends the latest pollution snapshot with the retained I-HUB v10 building and concept office. The two aligned GLBs add 3,486,152 bytes using lossless gzip, with unchanged mesh buffers and a recorded geographic root transform. Existing pollution, sunlight, traffic and city payloads are reused by exact checksum. The full selected data download is 277,076,014 bytes.
 
 `scene.interior` declares the indoor widget, intact building shell, restored authored ceiling and 30-second camera journey (arrival indoors at 4 seconds). This is a concept office rather than a surveyed as-built model; the retained geographic fit has a 1.58 m median residual. `interiors/ihub-v10/provenance.json` records source mesh hashes, aligned hashes, placement, vertical-datum policy and inherited layout limits. The original source and scientific Asset remain retained privately.
+
+### Synthetic city Health replay (26 November 2026)
+
+`london-health-replay-20261126` adds a losslessly compressed, explicitly synthetic South Kensington Health recording (668 retained samples), presentation settings and provenance. The shared scene declares the recording; other city resources reuse their exact existing snapshot hashes. The route, modelled crossing waits and native missing values are unchanged. This is a recorded experimental illustration, not participant data or a clinically validated result. Route calculation is not hosted.
