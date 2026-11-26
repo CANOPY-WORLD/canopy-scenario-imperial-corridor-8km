@@ -1,0 +1,17 @@
+{
+  "pedestrian_signals": {
+    "head_width_m": 0.6,
+    "head_height_m": 1.2,
+    "head_bottom_m": 2.1,
+    "pole_diameter_m": 0.06,
+    "round_lamps": true,
+    "roadside_offset_m": 3,
+    "roadside_setback_m": 5,
+    "active_highlight": {
+      "head_height_px": 96,
+      "label_width_px": 190,
+      "label_height_px": 64
+    },
+    "assumption": "Modelled pedestrian poles are fixed beside the crossing approaches: 3 m perpendicular to the crossing line and 5 m back from each end, away from the crossing interior. They do not follow the walker. The source endpoint height is retained at the offset location (local level-ground display assumption). These are illustrative roadside positions, not surveyed hardware or verified kerbs. Heads are 0.60 m wide by 1.20 m high, with the bottom 2.10 m above that ground estimate. Ordinary heads shrink with distance. Only the current crossing receives an enlarged inspection highlight; its pixel size is not a physical dimension. Source trajectories, crossing times and health results are unchanged."
+  }
+}

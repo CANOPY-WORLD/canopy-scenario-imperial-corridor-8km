@@ -1,0 +1,18 @@
+{
+  "model_source": "https://github.com/CANOPY-WORLD/canopy",
+  "model_commit": "281da4dfc8032e30333f6619ab198d2bf97f777b",
+  "result": {
+    "asset": "20261126T110633Z_73e7c367f4_physics@1",
+    "derived_from": [
+      "city_connections_b55040fc1a85_b320c988_geometry@1",
+      "city_connections_b55040fc1a85_b320c988_physics@1",
+      "health_physiology_5854ec9657c54226_physics@1"
+    ],
+    "manifest_sha256": "897616baafab1f005080161e268f8678bffa0f5d05668198970d6b23135f69d6"
+  },
+  "source_snapshot": "london-complete-tube53-20261125",
+  "input_kind": "synthetic",
+  "route_duration_s": 340.0749751720392,
+  "transformation": "Lossless JSON whitespace compaction and gzip. All samples, coordinates, masks and timestamps unchanged. API result includes retained Asset identity.",
+  "limitations": "Synthetic covariate template and assumed reference; no participant data. Packaged recurrent CVAE and explicitly supplied reference; 300-second updates. City PMx plus assumed background is a PM2.5 input proxy; bounded nearby cells estimate masked inputs. Supplied humidity/activity is a counterfactual template, not synchronized city observations. Score and thermal proxy are heuristic; latent spread is not calibrated total uncertainty. Pollution and temperature use the declared smooth periodic Health replay. This is an extended scenario, not additional measured city data or a forecast; model state and sunlight clocks do not loop with those fields."
+}
