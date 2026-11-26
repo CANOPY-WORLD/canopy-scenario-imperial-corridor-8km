@@ -1,0 +1,620 @@
+{
+ "hubs": "london_hubs.json",
+ "dem": {
+  "x0": -4100.0,
+  "y0": -4100.0,
+  "dx": 10.0,
+  "nx": 821,
+  "ny": 821,
+  "source": {
+   "dem_sha256": "ef2297190379759bd5c2506012a27ac24bb37cfafb5f0fe40dde7154395d7c57",
+   "dem_dx_m": 5.0,
+   "name": "AWS Terrain Tiles (Tilezen Joerd) terrarium",
+   "zoom": 15,
+   "imagery_sources": [
+    "uk_lidar"
+   ],
+   "attribution": [
+    "United Kingdom terrain data \u00a9 Environment Agency copyright and/or database right 2015. All rights reserved."
+   ],
+   "license": "https://github.com/tilezen/joerd/blob/master/docs/attribution.md"
+  }
+ },
+ "flocks": [
+  {
+   "id": 1,
+   "box_xy": [
+    714.0,
+    -676.0,
+    4000.0,
+    736.0
+   ],
+   "shape_zyx": [
+    42,
+    706,
+    1643
+   ],
+   "origin_xyz_m": [
+    714.0,
+    -676.0,
+    -4.0
+   ],
+   "cell_m": 2.0,
+   "cell_z_m": 4.0,
+   "solid_fraction": 0.1583474204607901,
+   "buildings": 3172,
+   "tallest_m": 101.0,
+   "sites": [
+    {
+     "role": "roost",
+     "center": [
+      2665.0,
+      435.0,
+      25.129998207092285
+     ],
+     "size": [
+      30.0,
+      30.0
+     ],
+     "moved_m": 76.2,
+     "hub": [
+      2595.0,
+      405.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      25.03,
+      25.29
+     ]
+    },
+    {
+     "role": "forage",
+     "center": [
+      3835.0,
+      -375.0,
+      8.5
+     ],
+     "size": [
+      40.0,
+      40.0
+     ],
+     "moved_m": 64.0,
+     "hub": [
+      3785.0,
+      -335.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      6.68,
+      8.09
+     ],
+     "dem_z": 7.232499837875366
+    },
+    {
+     "role": "forage",
+     "center": [
+      1015.0,
+      155.0,
+      28.5
+     ],
+     "size": [
+      40.0,
+      40.0
+     ],
+     "moved_m": 0.0,
+     "hub": [
+      1015.0,
+      155.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      27.28,
+      27.6
+     ],
+     "dem_z": 27.434998512268066
+    },
+    {
+     "role": "forage",
+     "center": [
+      1195.0,
+      -365.0,
+      20.5
+     ],
+     "size": [
+      40.0,
+      40.0
+     ],
+     "moved_m": 0.0,
+     "hub": [
+      1195.0,
+      -365.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      18.24,
+      19.92
+     ],
+     "dem_z": 19.219998359680176
+    }
+   ],
+   "geometry": "geometry_1.npz",
+   "seconds": 0.8
+  },
+  {
+   "id": 2,
+   "box_xy": [
+    2314.0,
+    1864.0,
+    3966.0,
+    4000.0
+   ],
+   "shape_zyx": [
+    33,
+    1068,
+    826
+   ],
+   "origin_xyz_m": [
+    2314.0,
+    1864.0,
+    16.0
+   ],
+   "cell_m": 2.0,
+   "cell_z_m": 4.0,
+   "solid_fraction": 0.16083245189605883,
+   "buildings": 2593,
+   "tallest_m": 52.0,
+   "sites": [
+    {
+     "role": "roost",
+     "center": [
+      2865.0,
+      3085.0,
+      36.464999198913574
+     ],
+     "size": [
+      30.0,
+      30.0
+     ],
+     "moved_m": 58.3,
+     "hub": [
+      2895.0,
+      3035.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      36.23,
+      36.54
+     ]
+    },
+    {
+     "role": "forage",
+     "center": [
+      3525.0,
+      2165.0,
+      32.5
+     ],
+     "size": [
+      40.0,
+      40.0
+     ],
+     "moved_m": 0.0,
+     "hub": [
+      3525.0,
+      2165.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      32.47,
+      33.4
+     ],
+     "dem_z": 32.98999881744385
+    },
+    {
+     "role": "forage",
+     "center": [
+      3665.0,
+      2585.0,
+      36.5
+     ],
+     "size": [
+      40.0,
+      40.0
+     ],
+     "moved_m": 0.0,
+     "hub": [
+      3665.0,
+      2585.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      33.93,
+      35.07
+     ],
+     "dem_z": 34.497498512268066
+    },
+    {
+     "role": "forage",
+     "center": [
+      2615.0,
+      3725.0,
+      60.5
+     ],
+     "size": [
+      40.0,
+      40.0
+     ],
+     "moved_m": 0.0,
+     "hub": [
+      2615.0,
+      3725.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      57.97,
+      61.65
+     ],
+     "dem_z": 59.96249771118164
+    }
+   ],
+   "geometry": "geometry_2.npz",
+   "seconds": 0.7
+  },
+  {
+   "id": 3,
+   "box_xy": [
+    -2446.0,
+    144.0,
+    -1284.0,
+    3796.0
+   ],
+   "shape_zyx": [
+    41,
+    1826,
+    581
+   ],
+   "origin_xyz_m": [
+    -2446.0,
+    144.0,
+    0.0
+   ],
+   "cell_m": 2.0,
+   "cell_z_m": 4.0,
+   "solid_fraction": 0.1799211378144212,
+   "buildings": 5461,
+   "tallest_m": 112.80000305175781,
+   "sites": [
+    {
+     "role": "roost",
+     "center": [
+      -1975.0,
+      1905.0,
+      19.849998950958252
+     ],
+     "size": [
+      30.0,
+      30.0
+     ],
+     "moved_m": 0.0,
+     "hub": [
+      -1975.0,
+      1905.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      19.4,
+      20.53
+     ]
+    },
+    {
+     "role": "forage",
+     "center": [
+      -1585.0,
+      2445.0,
+      32.5
+     ],
+     "size": [
+      40.0,
+      40.0
+     ],
+     "moved_m": 0.0,
+     "hub": [
+      -1585.0,
+      2445.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      32.86,
+      34.19
+     ],
+     "dem_z": 33.54249858856201
+    },
+    {
+     "role": "forage",
+     "center": [
+      -2145.0,
+      3495.0,
+      52.5
+     ],
+     "size": [
+      40.0,
+      40.0
+     ],
+     "moved_m": 0.0,
+     "hub": [
+      -2145.0,
+      3495.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      50.43,
+      50.94
+     ],
+     "dem_z": 50.68499755859375
+    },
+    {
+     "role": "forage",
+     "center": [
+      -1945.0,
+      445.0,
+      8.5
+     ],
+     "size": [
+      40.0,
+      40.0
+     ],
+     "moved_m": 0.0,
+     "hub": [
+      -1945.0,
+      445.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      7.37,
+      7.74
+     ],
+     "dem_z": 7.542499780654907
+    }
+   ],
+   "geometry": "geometry_3.npz",
+   "seconds": 0.8
+  },
+  {
+   "id": 4,
+   "box_xy": [
+    -3306.0,
+    -4000.0,
+    -624.0,
+    -2444.0
+   ],
+   "shape_zyx": [
+    25,
+    778,
+    1341
+   ],
+   "origin_xyz_m": [
+    -3306.0,
+    -4000.0,
+    -8.0
+   ],
+   "cell_m": 2.0,
+   "cell_z_m": 4.0,
+   "solid_fraction": 0.13604400660214053,
+   "buildings": 5525,
+   "tallest_m": 25.700000762939453,
+   "sites": [
+    {
+     "role": "roost",
+     "center": [
+      -1935.0,
+      -3565.0,
+      4.129999876022339
+     ],
+     "size": [
+      30.0,
+      30.0
+     ],
+     "moved_m": 0.0,
+     "hub": [
+      -1935.0,
+      -3565.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      4.06,
+      4.15
+     ]
+    },
+    {
+     "role": "forage",
+     "center": [
+      -3005.0,
+      -2745.0,
+      4.5
+     ],
+     "size": [
+      40.0,
+      40.0
+     ],
+     "moved_m": 0.0,
+     "hub": [
+      -3005.0,
+      -2745.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      3.74,
+      4.31
+     ],
+     "dem_z": 3.8524997234344482
+    },
+    {
+     "role": "forage",
+     "center": [
+      -1105.0,
+      -2895.0,
+      4.5
+     ],
+     "size": [
+      40.0,
+      40.0
+     ],
+     "moved_m": 0.0,
+     "hub": [
+      -1105.0,
+      -2895.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      5.38,
+      5.74
+     ],
+     "dem_z": 5.639999866485596
+    },
+    {
+     "role": "forage",
+     "center": [
+      -925.0,
+      -3815.0,
+      4.5
+     ],
+     "size": [
+      40.0,
+      40.0
+     ],
+     "moved_m": 20.0,
+     "hub": [
+      -925.0,
+      -3795.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      3.6,
+      4.09
+     ],
+     "dem_z": 3.9599998593330383
+    }
+   ],
+   "geometry": "geometry_4.npz",
+   "seconds": 0.7
+  },
+  {
+   "id": 5,
+   "box_xy": [
+    2264.0,
+    -3566.0,
+    3716.0,
+    -1904.0
+   ],
+   "shape_zyx": [
+    30,
+    831,
+    726
+   ],
+   "origin_xyz_m": [
+    2264.0,
+    -3566.0,
+    -8.0
+   ],
+   "cell_m": 2.0,
+   "cell_z_m": 4.0,
+   "solid_fraction": 0.11627432845023918,
+   "buildings": 1140,
+   "tallest_m": 55.20000076293945,
+   "sites": [
+    {
+     "role": "roost",
+     "center": [
+      2735.0,
+      -3265.0,
+      2.3849997520446777
+     ],
+     "size": [
+      30.0,
+      30.0
+     ],
+     "moved_m": 60.0,
+     "hub": [
+      2795.0,
+      -3265.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      2.31,
+      2.45
+     ]
+    },
+    {
+     "role": "forage",
+     "center": [
+      3215.0,
+      -2205.0,
+      4.5
+     ],
+     "size": [
+      40.0,
+      40.0
+     ],
+     "moved_m": 0.0,
+     "hub": [
+      3215.0,
+      -2205.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      2.74,
+      4.32
+     ],
+     "dem_z": 4.059999644756317
+    },
+    {
+     "role": "forage",
+     "center": [
+      3415.0,
+      -2705.0,
+      4.5
+     ],
+     "size": [
+      40.0,
+      40.0
+     ],
+     "moved_m": 0.0,
+     "hub": [
+      3415.0,
+      -2705.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      2.58,
+      5.17
+     ],
+     "dem_z": 2.722499966621399
+    },
+    {
+     "role": "forage",
+     "center": [
+      2565.0,
+      -3015.0,
+      4.5
+     ],
+     "size": [
+      40.0,
+      40.0
+     ],
+     "moved_m": 0.0,
+     "hub": [
+      2565.0,
+      -3015.0
+     ],
+     "building_cells_in_footprint": 0,
+     "ground_range_m": [
+      2.66,
+      3.23
+     ],
+     "dem_z": 2.974999785423279
+    }
+   ],
+   "geometry": "geometry_5.npz",
+   "seconds": 0.6
+  }
+ ]
+}

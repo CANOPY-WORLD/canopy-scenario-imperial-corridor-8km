@@ -79,6 +79,13 @@
       "sha256": "023cdbea1de7e2d87916f548329e7959f64cc952da35b186884b54bf1cd19ada",
       "bytes": 298443490,
       "files": 1497
+    },
+    {
+      "id": "london-birds-auspex-20261126",
+      "manifest": "snapshots/london-birds-auspex-20261126/manifest.json",
+      "sha256": "772800c00794473f60a1372e7d93bfda9f7d9ab35baa9d6b447fb8fc23dfded4",
+      "bytes": 342273323,
+      "files": 1509
     }
   ]
 }

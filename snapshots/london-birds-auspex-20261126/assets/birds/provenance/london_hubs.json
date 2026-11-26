@@ -1,0 +1,193 @@
+{
+ "frame": "local ENU metres, x east, y north, origin lon/lat {\"longitude\": -0.200473, \"latitude\": 51.506427}",
+ "source": "canopy-scenario-imperial-corridor-8km snapshots/london-public-20261118 vector_landscape/source",
+ "rules": {
+  "cell_m": 10.0,
+  "min_roost_separation_m": 1800.0,
+  "forage_ring_m": [
+   300.0,
+   1600.0
+  ],
+  "min_forage_patch_ha": 5.0,
+  "big_park_ha": 150.0,
+  "edge_margin_m": 400,
+  "roost_kinds": [
+   "cemetery",
+   "grave_yard",
+   "park",
+   "scrub",
+   "wood"
+  ],
+  "forage_kinds": [
+   "allotments",
+   "cemetery",
+   "grass",
+   "grave_yard",
+   "park",
+   "pitch",
+   "wetland"
+  ]
+ },
+ "flocks": [
+  {
+   "id": 1,
+   "green_area_ha": 240.6,
+   "roost": [
+    2595.0,
+    405.0
+   ],
+   "forage_sites": [
+    [
+     3785.0,
+     -335.0
+    ],
+    [
+     1015.0,
+     155.0
+    ],
+    [
+     1195.0,
+     -365.0
+    ]
+   ],
+   "forage_in_roost_park": [
+    false,
+    true,
+    true
+   ],
+   "forage_park_ha": [
+    27.3,
+    240.6,
+    240.6
+   ]
+  },
+  {
+   "id": 2,
+   "green_area_ha": 171.9,
+   "roost": [
+    2895.0,
+    3035.0
+   ],
+   "forage_sites": [
+    [
+     3525.0,
+     2165.0
+    ],
+    [
+     3665.0,
+     2585.0
+    ],
+    [
+     2615.0,
+     3725.0
+    ]
+   ],
+   "forage_in_roost_park": [
+    true,
+    true,
+    true
+   ],
+   "forage_park_ha": [
+    171.9,
+    171.9,
+    171.9
+   ]
+  },
+  {
+   "id": 3,
+   "green_area_ha": 109.0,
+   "roost": [
+    -1975.0,
+    1905.0
+   ],
+   "forage_sites": [
+    [
+     -1585.0,
+     2445.0
+    ],
+    [
+     -2145.0,
+     3495.0
+    ],
+    [
+     -1945.0,
+     445.0
+    ]
+   ],
+   "forage_in_roost_park": [
+    false,
+    false,
+    false
+   ],
+   "forage_park_ha": [
+    43.1,
+    9.9,
+    5.9
+   ]
+  },
+  {
+   "id": 4,
+   "green_area_ha": 76.0,
+   "roost": [
+    -1935.0,
+    -3565.0
+   ],
+   "forage_sites": [
+    [
+     -3005.0,
+     -2745.0
+    ],
+    [
+     -1105.0,
+     -2895.0
+    ],
+    [
+     -925.0,
+     -3795.0
+    ]
+   ],
+   "forage_in_roost_park": [
+    false,
+    false,
+    false
+   ],
+   "forage_park_ha": [
+    30.3,
+    8.9,
+    14.0
+   ]
+  },
+  {
+   "id": 5,
+   "green_area_ha": 69.8,
+   "roost": [
+    2795.0,
+    -3265.0
+   ],
+   "forage_sites": [
+    [
+     3215.0,
+     -2205.0
+    ],
+    [
+     3415.0,
+     -2705.0
+    ],
+    [
+     2565.0,
+     -3015.0
+    ]
+   ],
+   "forage_in_roost_park": [
+    false,
+    true,
+    true
+   ],
+   "forage_park_ha": [
+    21.2,
+    69.8,
+    69.8
+   ]
+  }
+ ]
+}
